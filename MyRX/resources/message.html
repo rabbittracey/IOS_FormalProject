@@ -1,0 +1,46 @@
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        <style>
+            body {
+                margin: 30px 10px 30px 10px;
+            }
+        div#title {
+            font-size : 27px;
+            vertical-align : middle;
+        }
+        div#content {
+        
+        }
+        img#split {
+            margin: 20px 0px 20px 0px;
+        }
+        div#tail {
+            margin-bottom : 30px;
+        }
+        </style>
+        <script>
+            function bodyHeight() {
+                var body = document.body,
+                html = document.documentElement;
+                
+                return Math.max( body.scrollHeight, body.offsetHeight,
+                                      html.clientHeight, html.scrollHeight, html.offsetHeight );
+            }
+            document.addEventListener('DOMContentLoaded', fn, false);
+            function setContent(title,body) {
+                document.getElementById("title").innerHTML=title;
+                document.getElementById("content").innerHTML=body;
+            }
+        </script>
+    </head>
+    <body>
+        <div id="title" align="center">
+        </div>
+        <img src="mline@2x.png" width="100%" height="2px" id="split"/>
+        <div id="content">
+        </div>
+        <img src="mline@2x.png" width="100%" height="2px" id="split"/>
+    </body>
+</html>

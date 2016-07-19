@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "HomeTableViewCell.layoutSubviews() -&gt; ():HomeViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "viewController?.view">
+            </PersistentString>
+            <PersistentString
+               value = "contentView.bounds">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "MyRxTableViewCell.updateWithData(Reminder!) -&gt; ():MyRxTableViewCell.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "frame.size.width">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "FeelingTodayViewController.onFaceClick(AnyObject) -&gt; ():FeelingTodayViewController.swift">
+      </ContextState>
+      <ContextState
+         contextName = "MDScrollView.addContentView(UIView, height : Float) -&gt; ():MDScrollView.swift">
+      </ContextState>
+      <ContextState
+         contextName = "(DrugNames).(variable initialization expression).(closure #1):TestDatas.swift">
+      </ContextState>
+      <ContextState
+         contextName = "HomeViewController.tableView(UITableView, cellForRowAtIndexPath : NSIndexPath) -&gt; UITableViewCell:HomeViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "cview!.view">
+            </PersistentString>
+            <PersistentString
+               value = "cell!.contentView">
+            </PersistentString>
+            <PersistentString
+               value = "indexPath.row">
+            </PersistentString>
+            <PersistentString
+               value = "viewCells[1]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "DrugNames.getter:TestDatas.swift">
+      </ContextState>
+      <ContextState
+         contextName = "AddDrugViewController.setSelectItem(NSIndexPath?) -&gt; ():AddDrugViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "frequency.count">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "HomeTableViewCell.addContent(HomeTableViewCellViewController) -&gt; ():HomeViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "contentView.subviews">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "MDScrollView.addSubview(UIView) -&gt; ():MDScrollView.swift">
+      </ContextState>
+      <ContextState
+         contextName = "HomeViewController.tableView(UITableView, heightForRowAtIndexPath : NSIndexPath) -&gt; CGFloat:HomeViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "indexPath.row">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ScheduleViewController.(itemWithIndex in _0B2F9347021F0689AB1F9866C141CEC9)(Int) -&gt; ScheduleItemViewController?:ScheduleViewController.swift">
+      </ContextState>
+      <ContextState
+         contextName = "HomeTableViewCellViewController.updateTableViewCell() -&gt; ():HomeViewController.swift">
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

@@ -1,0 +1,5644 @@
+Quetiapine
+Theophylline
+Risperidone
+Dasatinib
+Sunitinib
+Sorafenib
+Dexamethasone
+Eletriptan
+Isotretinoin
+Mirtazapine
+Isoniazid
+Disulfiram
+Dipyridamole
+Cyclosporine
+L-Glutamic Acid
+Norepinephrine
+Dextropropoxyphene
+Vasopressin
+Pramipexole
+Leuprolide
+Diazepam
+Olanzapine
+Goserelin
+Methylphenidate
+Pindolol
+Flupenthixol
+Mecamylamine
+Becaplermin
+Clozapine
+Bosentan
+Buspirone
+Tetracycline
+Mitotane
+Trifluoperazine
+Trichlormethiazide
+Neomycin
+Glibenclamide
+Labetalol
+Lamotrigine
+Verapamil
+Carmustine
+Nefazodone
+Furosemide
+Dutasteride
+Finasteride
+Amsacrine
+Bethanidine
+Pentoxifylline
+Pemetrexed
+Idarubicin
+Sertraline
+Bupropion
+Orlistat
+Venlafaxine
+Ethambutol
+Foscarnet
+Mitoxantrone
+Terlipressin
+Guanadrel Sulfate
+Adefovir Dipivoxil
+Phenobarbital
+Oxaliplatin
+Frovatriptan
+Lofexidine
+Carteolol
+Epinephrine
+Ropinirole
+Pergolide
+Ramelteon
+Morphine
+Fentanyl
+Buprenorphine
+Desmopressin
+Aripiprazole
+Zolmitriptan
+Dihydroergotamine
+Ziprasidone
+Isoproterenol
+Tranylcypromine
+Liothyronine
+Levothyroxine
+Chlordiazepoxide
+Eplerenone
+Tamsulosin
+Yohimbine
+Timolol
+Propranolol
+Mifepristone
+Zafirlukast
+Bicalutamide
+Felbamate
+Abarelix
+Anakinra
+Cetrorelix
+Naloxone
+Conivaptan
+Caffeine
+Perphenazine
+Loratadine
+Terfenadine
+Cyproheptadine
+Trazodone
+Atracurium
+Etanercept
+Infliximab
+Tamoxifen
+Telithromycin
+Tobramycin
+Erythromycin
+Zolpidem
+Filgrastim
+Vincristine
+Adapalene
+Gentamicin
+Aztreonam
+Citalopram
+Acetyldigitoxin
+Digitoxin
+Lidocaine
+Nadolol
+Pancuronium
+Guanethidine
+Debrisoquin
+Sodium bicarbonate
+Carbamazepine
+Phenytoin
+Chloroprocaine
+Glimepiride
+Repaglinide
+Isradipine
+Carvedilol
+Tolbutamide
+Topiramate
+Clotrimazole
+Amlodipine
+Tramadol
+Ergotamine
+Flunarizine
+Minoxidil
+Streptomycin
+Ceftriaxone
+Cefotaxime
+Mercaptopurine
+Trilostane
+Rivastigmine
+Milrinone
+Drotrecogin alfa
+Diflunisal
+Sulfasalazine
+Miconazole
+Cefalotin
+Atovaquone
+Enfuvirtide
+Moxifloxacin
+Gatifloxacin
+Levofloxacin
+Sparfloxacin
+Tacrolimus
+Ethchlorvynol
+Tiagabine
+Chloroquine
+Lithium
+Lamivudine
+Indinavir
+Ritonavir
+Amprenavir
+Saquinavir
+Stavudine
+Ribavirin
+Acarbose
+Nicotine
+Sibutramine
+Doxepin
+Clopidogrel
+Imatinib
+Omeprazole
+Piroxicam
+Alendronate
+Delavirdine
+Nevirapine
+Aprotinin
+Fluoxetine
+Amiloride
+Bendroflumethiazide
+Heparin
+Ciprofloxacin
+Cilostazol
+Doxorubicin
+Epirubicin
+Thioguanine
+Pseudoephedrine
+Cisatracurium Besylate
+Rifampin
+L-Proline
+Tranexamic Acid
+Aminocaproic Acid
+Magnesium Sulfate
+Epoetin alfa
+Alteplase
+Tenecteplase
+Metformin
+Phenformin
+Marinol
+Lubiprostone
+Levodopa
+Gemfibrozil
+Paricalcitol
+Dopamine
+Codeine
+Butorphanol
+Cisplatin
+Primaquine
+Almotriptan
+Sumatriptan
+Rizatriptan
+Ondansetron
+Cisapride
+Adenosine
+Phenylephrine
+Metaraminol
+Methyldopa
+Ergonovine
+Ephedrine
+Midodrine
+Meperidine
+Clonidine
+Guanabenz
+Dexmedetomidine
+Tizanidine
+Oxymetazoline
+Lorazepam
+Temazepam
+Alprazolam
+Clorazepate
+Midazolam
+Flurazepam
+Oxazepam
+Triazolam
+Dobutamine
+Terbutaline
+Formoterol
+Salbutamol
+Pirbuterol
+Bambuterol
+Cabergoline
+Mesoridazine
+Hydrocodone
+Fenoldopam
+Lisuride
+Cinacalcet
+Baclofen
+Progabide
+Clonazepam
+Ivermectin
+Clofibrate
+Bethanechol
+Remifentanil
+Zaleplon
+Methadone
+Levorphanol
+Carbetocin
+Fenofibrate
+Rosiglitazone
+Pioglitazone
+Iloprost
+Travoprost
+Alitretinoin
+Bexarotene
+Dextromethorphan
+Imiquimod
+Ibutilide
+Brimonidine
+Apomorphine
+Bromocriptine
+Oxycodone
+Cosyntropin
+Eptifibatide
+Pegvisomant
+Mecasermin
+Glycine
+Calcitriol
+Calcidiol
+Ergocalciferol
+Calcipotriol
+Mianserin
+Triflupromazine
+Granisetron
+Procaine
+Spironolactone
+Dapiprazole
+Prazosin
+Flutamide
+Nilutamide
+Levobunolol
+Esmolol
+Betaxolol
+Nimodipine
+Rimonabant
+Maraviroc
+Montelukast
+Sulpiride
+Loxapine
+Remoxipride
+Haloperidol
+Aminolevulinic acid
+Thiethylperazine
+Pimozide
+Domperidone
+Thiothixene
+Fulvestrant
+Budesonide
+Amlexanox
+Clemastine
+Cetirizine
+Hydroxyzine
+Cinnarizine
+Astemizole
+Propiomazine
+Tripelennamine
+Ketotifen
+Fexofenadine
+Desloratadine
+Azelastine
+Dimenhydrinate
+Promethazine
+Levocabastine
+Chlorpheniramine
+Cyclizine
+Cimetidine
+Nizatidine
+Ranitidine
+Famotidine
+Trospium
+Scopolamine
+Tiotropium
+Tropicamide
+Metixene
+Carbachol
+Levallorphan
+Rocuronium
+Doxacurium chloride
+Tubocurarine
+Metocurine
+Pipecuronium
+Vecuronium
+Doxacurium
+Pentazocine
+Sufentanil
+Misoprostol
+Alprostadil
+Dinoprostone
+Bumetanide
+Aprepitant
+Valsartan
+Irbesartan
+Dihydrotachysterol
+Methysergide
+Palonosetron
+Dolasetron
+Alosetron
+Alfuzosin
+Terazosin
+Sotalol
+Prochlorperazine
+Chlorpromazine
+Fluphenazine
+Tolterodine
+Atropine
+Naltrexone
+Nalbuphine
+Doxazosin
+Rituximab
+Ibritumomab
+Tositumomab
+Alemtuzumab
+Palivizumab
+Omalizumab
+Basiliximab
+Daclizumab
+Gemtuzumab ozogamicin
+Trastuzumab
+Adalimumab
+Bevacizumab
+Cetuximab
+Pegfilgrastim
+Teriparatide
+Octreotide
+Linezolid
+Amikacin
+Oxytetracycline
+Demeclocycline
+Spectinomycin
+Netilmicin
+Minocycline
+Kanamycin
+Paromomycin
+Azithromycin
+Clindamycin
+Clarithromycin
+Troleandomycin
+Droperidol
+Propericiazine
+Vardenafil
+Alclometasone
+Beclomethasone
+Triamcinolone
+Flurandrenolide
+Prednisolone
+Rimexolone
+Fluocinonide
+Paramethasone
+Ciclesonide
+Metyrapone
+Loperamide
+Rifapentine
+Zopiclone
+Ardeparin
+Melatonin
+Promazine
+Ertapenem
+Ampicillin
+Ceftazidime
+Loracarbef
+Dicloxacillin
+Cefdinir
+Cephalexin
+Carbenicillin
+Cefixime
+Oxacillin
+Meropenem
+Cefaclor
+Amoxicillin
+Cefditoren
+Cefuroxime
+Cefadroxil
+Cefprozil
+Cefamandole
+Cefazolin
+Cefoperazone
+Cefotetan
+Cefoxitin
+Ceftizoxime
+Cefradine
+Cefepime
+Ceftibuten
+Cefpodoxime
+Ticarcillin
+Imipenem
+Chloramphenicol
+Tamibarotene
+Tazarotene
+Paroxetine
+Deslanoside
+Ouabain
+Ciclopirox
+Aluminium
+Almitrine
+Ridogrel
+Paclitaxel
+Metyrosine
+Hydromorphone
+Abciximab
+Adenosine triphosphate
+Minaprine
+Thioridazine
+Tolazoline
+Phenoxybenzamine
+Cryptenamine
+Metipranolol
+Metoprolol
+Atenolol
+Bisoprolol
+Acebutolol
+Oxprenolol
+Nicardipine
+Felodipine
+Penciclovir
+Famciclovir
+Diphenhydramine
+Quinine
+Pirenzepine
+Memantine
+Duloxetine
+Dofetilide
+Amiodarone
+Propafenone
+Indapamide
+Dantrolene
+Zonisamide
+Phenacemide
+Levetiracetam
+Indecainide
+Disopyramide
+Mexiletine
+Hexylcaine
+Dibucaine
+Mephenytoin
+Dyclonine
+Moricizine
+Prilocaine
+Ethotoin
+Proparacaine
+Benzonatate
+Quinidine
+Procainamide
+Tocainide
+Flecainide
+Encainide
+Fosphenytoin
+Chlorthalidone
+Gliclazide
+Losartan
+Candesartan
+Bepridil
+Ethosuximide
+Riluzole
+Oxcarbazepine
+Nifedipine
+Metoclopramide
+Bleomycin
+Cyclophosphamide
+Dacarbazine
+Metronidazole
+Carboplatin
+Dactinomycin
+Ifosfamide
+Tetrahydrobiopterin
+Griseofulvin
+Alefacept
+Lepirudin
+Bivalirudin
+Pyruvic acid
+Menadione
+Succinic acid
+Anidulafungin
+Caspofungin
+Micafungin
+Progesterone
+Pravastatin
+Lovastatin
+Simvastatin
+Atorvastatin
+Fluvastatin
+Rosuvastatin
+Divalproex sodium
+Vigabatrin
+Tacrine
+Galantamine
+Donepezil
+Physostigmine
+Edrophonium
+Neostigmine
+Clodronate
+Cladribine
+Pentostatin
+Fludarabine
+Fomepizole
+Sulindac
+Levamisole
+Lisdexamfetamine
+Dextroamphetamine
+Methamphetamine
+Phendimetrazine
+Triamterene
+Moclobemide
+Isocarboxazid
+Phenelzine
+Selegiline
+Pargyline
+Ramipril
+Fosinopril
+Trandolapril
+Benazepril
+Enalapril
+Moexipril
+Lisinopril
+Quinapril
+Captopril
+Docetaxel
+Zileuton
+Carbidopa
+Dipivefrin
+Pimecrolimus
+Nisoldipine
+Dyphylline
+Enprofylline
+Ethoxzolamide
+Methazolamide
+Acetazolamide
+Dichlorphenamide
+Brinzolamide
+Benzthiazide
+Cyclothiazide
+Chlorothiazide
+Ethinamate
+Tolcapone
+Entacapone
+Miglustat
+Amrinone
+Enoximone
+Anagrelide
+Aminophylline
+Sildenafil
+Tadalafil
+Enoxaparin
+Indomethacin
+Ketorolac
+Fenoprofen
+Diclofenac
+Flurbiprofen
+Oxaprozin
+Ketoprofen
+Testolactone
+Exemestane
+Letrozole
+Anastrozole
+Fluconazole
+Terconazole
+Ketoconazole
+Itraconazole
+Cilastatin
+Pyrimethamine
+Proguanil
+Trimetrexate
+Leflunomide
+Dapsone
+Sulfadoxine
+Sitagliptin
+Azacitidine
+Decitabine
+Vidarabine
+Valaciclovir
+Cytarabine
+Ganciclovir
+Valganciclovir
+Irinotecan
+Topotecan
+Dexrazoxane
+Valrubicin
+Teniposide
+Trovafloxacin
+Lomefloxacin
+Norfloxacin
+Ofloxacin
+Rifabutin
+Gefitinib
+Risedronate
+Cerulenin
+Pyrazinamide
+Thiopental
+Propofol
+Sirolimus
+Gabapentin
+Piperazine
+Butabarbital
+Butalbital
+Etomidate
+Talbutal
+Pentobarbital
+Clobazam
+Meprobamate
+Secobarbital
+Metharbital
+Picrotoxin
+Methohexital
+Primidone
+Halazepam
+Methylphenobarbital
+Ethanol
+Methoxyflurane
+Methyprylon
+Thiamylal
+Flumazenil
+Amobarbital
+Butethal
+Hexobarbital
+Prazepam
+Quazepam
+Nitrazepam
+Halothane
+Desflurane
+Sevoflurane
+Praziquantel
+Tirofiban
+Entecavir
+Telbivudine
+Amodiaquine
+Tenofovir
+Zidovudine
+Didanosine
+Zalcitabine
+Abacavir
+Nelfinavir
+Atazanavir
+Fosamprenavir
+Lopinavir
+Efavirenz
+Bacitracin
+Mupirocin
+Miglitol
+Benzquinamide
+Oseltamivir
+Zanamivir
+Mivacurium
+Ezetimibe
+Hydrocortisone
+Phentermine
+Reboxetine
+Atomoxetine
+Mazindol
+Ticlopidine
+Pantoprazole
+Lansoprazole
+Esomeprazole
+Rabeprazole
+Hydralazine
+Mesalazine
+Suprofen
+Salicyclic acid
+Bromfenac
+Balsalazide
+Salsalate
+Nabumetone
+Tenoxicam
+Celecoxib
+Etoricoxib
+Hydroxyurea
+Fluvoxamine
+Escitalopram
+Clomipramine
+Acitretin
+Digoxin
+Torasemide
+Methyclothiazide
+Hydroflumethiazide
+Ethacrynic acid
+Metolazone
+Hydrochlorothiazide
+Polythiazide
+Naftifine
+Terbinafine
+Reserpine
+Tetrabenazine
+Auranofin
+Argatroban
+Raltitrexed
+Trifluridine
+Capecitabine
+Carbimazole
+Methimazole
+Pentamidine
+Vinorelbine
+Telmisartan
+Fosfomycin
+Dicumarol
+Phenindione
+Warfarin
+Phenprocoumon
+Acenocoumarol
+Allopurinol
+Nitisinone
+Dorzolamide
+Acetaminophen
+Tolmetin
+Etodolac
+Mefenamic acid
+Ibuprofen
+Amantadine
+Azathioprine
+Mycophenolate mofetil
+Mycophenolic acid
+Vinblastine
+Etoposide
+Chlorambucil
+Daunorubicin
+Clofazimine
+Mechlorethamine
+Melphalan
+Raloxifene
+Toremifene
+Sulfinpyrazone
+Meclizine
+Methoxamine
+Levosimendan
+Dihydroxyaluminium
+Enflurane
+Darbepoetin alfa
+"Interferon Alfa-2a, Recombinant"
+Insulin recombinant
+Insulin Lyspro recombinant
+Pyridoxal Phosphate
+L-Alanine
+Gamma-Homolinolenic acid
+L-Phenylalanine
+L-Tyrosine
+Pyridostigmine
+Perindopril
+Orciprenaline
+Fondaparinux sodium
+Fluocinolone Acetonide
+Flumethasone Pivalate
+Meclofenamic acid
+Aciclovir
+Nalidixic Acid
+Conjugated Estrogens
+Cromoglicate
+Penicillamine
+Insulin-lispro
+Homatropine Methylbromide
+Metocurine Iodide
+Quinacrine
+Dinoprost Tromethamine
+Etidronic acid
+Potassium Chloride
+Fluorouracil
+Monobenzone
+Valproic Acid
+Sertindole
+Chlorprothixene
+Cocaine
+Oxyphencyclimine
+Tridihexethyl
+Anisotropine Methylbromide
+Framycetin
+Lincomycin
+Dromostanolone
+Testosterone
+Aminoglutethimide
+Aspirin
+Acetophenazine
+Zuclopenthixol
+Carphenazine
+Paliperidone
+Amisulpride
+Clofarabine
+Hydroxystilbamidine Isethionate
+Gemifloxacin
+Dihydroergotoxine
+Lapatinib
+Estradiol
+Acamprosate
+Orphenadrine
+Doxylamine
+Phenmetrazine
+Megestrol
+Diethylpropion
+Protriptyline
+Amitriptyline
+Thalidomide
+Sulodexide
+Abatacept
+Oxtriphylline
+Vitamin B6
+Vitamin B1
+N-Acetyl-D-glucosamine
+Ursodeoxycholic acid
+Mannitol
+Ranolazine
+Menthol
+Bifonazole
+Hydroxychloroquine
+Nystatin
+Tigecycline
+Lymecycline
+Clomocycline
+Methacycline
+Rolitetracycline
+Roxithromycin
+Retapamulin
+Josamycin
+Dirithromycin
+Azelaic Acid
+Naratriptan
+Cyclobenzaprine
+Capreomycin
+Ambenonium
+Demecarium bromide
+Malathion
+Isoflurophate
+Bevantolol
+Mephentermine
+Phenylpropanolamine
+Guanfacine
+Ergoloid mesylate
+Nicergoline
+Nandrolone
+Fluoxymesterone
+Oxandrolone
+Cyproterone
+Olmesartan
+Eprosartan
+Deserpidine
+Rescinnamine
+Spirapril
+Cilazapril
+Masoprocol
+Diethylcarbamazine
+Quinidine barbiturate
+Probucol
+Mitiglinide
+Nateglinide
+Tolazamide
+Glipizide
+Glycodiazine
+Acetohexamide
+Chlorpropamide
+Gliquidone
+Glisoxepide
+Tazobactam
+Trimethoprim
+Fleroxacin
+Rosoxacin
+Estazolam
+Flunitrazepam
+Clotiazepam
+Eszopiclone
+Fludiazepam
+Isoetharine
+Arbutamine
+Ritodrine
+Penbutolol
+Bretylium
+Practolol
+Alprenolol
+Nebivolol
+Arformoterol
+Procaterol
+Clenbuterol
+Fenoterol
+Salmeterol
+Clavulanate
+Vindesine
+Mebendazole
+Albendazole
+Chlorzoxazone
+Halofantrine
+Aprindine
+Quinethazone
+Diazoxide
+Perhexiline
+L-Carnitine
+Papaverine
+Udenafil
+Ceruletide
+Echothiophate Iodide
+Hexafluronium bromide
+Coagulation Factor IX
+Collagenase
+Vitamin C
+Eculizumab
+Naproxen
+Icosapent
+Lumiracoxib
+Meloxicam
+Niflumic Acid
+Tiaprofenic acid
+Phenylbutazone
+Carprofen
+Cinalukast
+Pranlukast
+Methylergonovine
+Molindone
+Fluspirilene
+Dornase Alfa
+Adenine
+Busulfan
+Streptozocin
+Nelarabine
+Procarbazine
+Temozolomide
+Pipobroman
+Altretamine
+Uracil mustard
+Lomustine
+Oxamniquine
+Furazolidone
+Mitomycin
+Proflavine
+Methoxsalen
+Idoxuridine
+Nitrofurantoin
+Cinoxacin
+Enoxacin
+Pefloxacin
+Novobiocin
+Lucanthone
+Grepafloxacin
+Rifaximin
+Fencamfamine
+Fusidic Acid
+Panitumumab
+Erlotinib
+Diethylstilbestrol
+Chlorotrianisene
+Clomifene
+Dienestrol
+Quinestrol
+Danazol
+Ethinyl Estradiol
+Estriol
+Estrone
+Pamidronate
+Ibandronate
+Zoledronate
+Methyl aminolevulinate
+Pentosan Polysulfate
+Palifermin
+Menotropins
+Follitropin beta
+Urofollitropin
+Choriogonadotropin alfa
+Suramin
+Heptabarbital
+Isoflurane
+Aprobarbital
+Bromazepam
+Lindane
+Glucagon recombinant
+Exenatide
+Fluticasone Propionate
+Methylprednisolone
+Prednisone
+Mometasone
+Betamethasone
+Amcinonide
+Loteprednol Etabonate
+Flunisolide
+Fluorometholone
+Medrysone
+Capromab
+Hexachlorophene
+Nafarelin
+Gonadorelin
+Sargramostim
+Somatropin recombinant
+Sermorelin
+Nitric Oxide
+Isosorbide Dinitrate
+Isosorbide Mononitrate
+Nitroglycerin
+Erythrityl Tetranitrate
+Bepotastine
+Olopatadine
+Pheniramine
+Pemirolast
+Triprolidine
+Brompheniramine
+Emedastine
+Dexbrompheniramine
+Carbinoxamine
+Methdilazine
+Diphenylpyraline
+Bromodiphenhydramine
+Phenindamine
+Epinastine
+Aceprometazine
+Buclizine
+Trimeprazine
+Mequitazine
+Azatadine
+Chlophedianol
+Betazole
+Vorinostat
+Cidofovir
+Emtricitabine
+Tipranavir
+Darunavir
+Rimantadine
+Insulin Glargine recombinant
+"Insulin, porcine"
+Insulin-detemir
+Insulin-glargine
+Insulin-aspart
+Insulin-glulisine
+Natalizumab
+Efalizumab
+Gallium nitrate
+Glucosamine
+Denileukin diftitox
+Aldesleukin
+Dezocine
+Posaconazole
+Alpha-1-proteinase inhibitor
+Lutropin alfa
+Voglibose
+Desoxycorticosterone Pivalate
+Rasagiline
+Hyoscyamine
+Methantheline
+Procyclidine
+Ipratropium
+Pilocarpine
+Mepenzolate
+Glycopyrrolate
+Clidinium
+Dicyclomine
+Ethopropazine
+Cycrimine
+Benztropine
+Trihexyphenidyl
+Propantheline
+Oxyphenonium
+Biperiden
+Methylscopolamine
+Oxybutynin
+Solifenacin
+Diphemanil Methylsulfate
+Darifenacin
+Succinylcholine
+Diphenidol
+Alfentanil
+Anileridine
+Diphenoxylate
+Methadyl Acetate
+Oxymorphone
+Levomethadyl Acetate
+Alvimopan
+Ethionamide
+Prothionamide
+Trimethaphan
+Pentolinium
+Candoxatril
+Amphetamine
+Benzphetamine
+Ketamine
+Amoxapine
+Maprotiline
+Desipramine
+Nortriptyline
+Trimipramine
+Imipramine
+Milnacipran
+Cefpiramide
+Cephaloglycin
+Cyclacillin
+Cephapirin
+Cloxacillin
+Bacampicillin
+Flucloxacillin
+Piperacillin
+Penicillin V
+Nafcillin
+Hetacillin
+Penicillin G
+Azlocillin
+Meticillin
+Pivampicillin
+Cefacetrile
+Cefonicid
+Pivmecillinam
+Ceforanide
+Amdinocillin
+Cefotiam
+Cefmenoxime
+Cefmetazole
+Mezlocillin
+Latamoxef
+Bezafibrate
+Clobetasol
+Diflorasone
+Desoximetasone
+Halobetasol Propionate
+Hydrocortamate
+Desonide
+Prednicarbate
+Sulfacetamide
+Sulfoxone
+Sulfanilamide
+Urokinase
+Reteplase
+Anistreplase
+Streptokinase
+Sulfametopyrazine
+Sulfapyridine
+Sulfacytine
+Sulfamethizole
+Sulfisoxazole
+Oxiconazole
+Dydrogesterone
+Epoprostenol
+Treprostinil
+Carboprost Tromethamine
+Latanoprost
+Bimatoprost
+Aliskiren
+Remikiren
+Tretinoin
+Temsirolimus
+Everolimus
+Dexfenfluramine
+Gadobenate Dimeglumine
+Iodipamide
+Sodium lauryl sulfate
+Bismuth
+Bupivacaine
+Ropivacaine
+Oxybuprocaine
+Mepivacaine
+Levobupivacaine
+Benzocaine
+Permethrin
+Butenafine
+Tolnaftate
+Sulfadiazine
+Sulfamethoxazole
+Sulfamerazine
+Sulfamethazine
+Alseroxylon
+Leucovorin/5-fluorouracil
+Floxuridine/5-fluorouracil
+Gemcitabine
+Propylthiouracil
+Thyrotropin Alfa
+Docosanol
+Adinazolam
+Chlormezanone
+Methsuximide
+Colchicine
+Lenalidomide
+Forasartan
+Saprisartan
+Tasosartan
+Pegaptanib
+Ranibizumab
+Lercanidipine
+Diltiazem
+Nitrendipine
+Pregabalin
+Trimethadione
+Paramethadione
+Butoconazole
+Tioconazole
+Econazole
+Sertaconazole
+Voriconazole
+Botulinum Toxin Type B
+Cholecalciferol
+Phytonadione
+Sodium Tetradecyl Sulfate
+Acetohydroxamic Acid
+Peginterferon alfa-2a
+Peginterferon alfa-2b
+Interferon alfa-n1
+Interferon alfa-n3
+Interferon beta-1a
+Interferon beta-1b
+Interferon alfacon-1
+"Interferon Alfa-2b, Recombinant"
+Interferon gamma-1b
+Oprelvekin
+Quinupristin
+Alglucosidase alfa
+Galsulfase
+NADH
+Probenecid
+Nitazoxanide
+Dalfopristin
+Doxapram
+Secretin
+Cysteamine
+Botulinum Toxin Type A
+Satumomab Pendetide
+Antithymocyte globulin
+Muromonab
+Salmon Calcitonin
+Arcitumomab
+Glutethimide
+Hesperetin
+Estramustine
+Tetrahydrofolic acid
+Folic Acid
+Mefloquine
+Gamma Hydroxybutyric Acid
+Iron Dextran
+Iron
+Glatiramer Acetate
+L-Tryptophan
+Nitroprusside
+Bortezomib
+Adenosine monophosphate
+Nesiritide
+Silver sulfadiazine
+Amphotericin B
+Polymyxin B Sulfate
+Colistin
+Candicidin
+Chlorhexidine
+Gramicidin D
+Daptomycin
+Colistimethate
+Vancomycin
+Natamycin
+Haloprogin
+Arsenic trioxide
+OspA lipoprotein
+Cycloserine
+Hydroxocobalamin
+Troglitazone
+Rofecoxib
+(+)-Irinotecan
+(S)-(+)-Dimethindene maleate
+Aclarubicin
+Acrivastine
+Aldosterone
+Almogran
+Aminopterin
+Antazoline
+Dhaq diacetate
+Eflornithine
+Barbital
+Barbituric acid
+Biricodar
+Buprenex
+Cephalosporin
+Charybdotoxin
+Chlornitromycin
+Chloroquinium
+Ciprofibrate
+Clorgyline
+Connexyn
+Danaparoid
+Dapotum D
+Antazoline hydrochloride
+Dimethindene
+Eprosartan mesylate
+Domperidone maleate
+Ebselen
+Antazoline phosphate
+Enalaprilat
+Enprofylline paradox
+Epalrestat
+Dimethindene maleate
+Ergotidine
+Fluticasone
+Foscavir
+Fosmidomycin
+Gaboxadol
+Ganirelix
+Gentamicine sulfate
+Guggulsterone
+Herbimycin A
+Hydroxyflutamide
+Inamrinone
+Isovanillin
+Ketanserin
+Lestaurtinib
+Levobetaxolol
+Levocetirizine dihydrochloride
+Meclocycline
+Mepyramine
+Mepyramine maleate
+Mitomycin A
+Mitomycin C
+Mizolastine
+Mizoribine
+Morantel tartrate
+Motexafin gadolinium
+Nalmefene
+Naphazoline
+Nicorandil
+Olmesartan medoxomil
+Oxantel pamoate
+Oxatomide
+Pamidronate disodium
+Pinacidil
+Prolixin decanoate
+Quercetin
+Quinagolide
+Quinagolide hydrochloride
+Retigabine
+Salbutamol sulphate
+Salmeterol xinafoate
+Sarpogrelate
+Seroxat
+Sulindac sulfide
+Tenofovir disoproxil
+Tetracaine
+Tetrodotoxin
+Tiazofurin
+Tinzaparin
+Triclosan
+Ultracet
+Vinpocetine
+Zemaira
+AD-4833
+Ambrisentan
+Candesartan cilexetil
+Dexlansoprazole
+Febuxostat
+Lasofoxifene
+Leuprorelin acetate
+Revolade/Promacta
+Tocilizumab
+Topetecan
+Treximet
+Tyverb/Tykerb
+Amfepramone
+Artemether
+Artemisinin
+Artemisinin SP
+Artesunate
+Asasantin
+Balofloxacin
+Barbiturate
+Benztropine mesylate
+B-Lactams
+Bromocryptine mesylate
+Cefozopran
+Chlorproguanil
+Ciprofloxacin XR
+CT-102
+D-cycloserine
+Desvenalfaxine succinate
+Dexamfetamine
+Dihydroartemisinin
+DWP-401
+Etravirine
+Faropenem
+Fenfluramine
+Fluoroquinolone
+GMA-161
+Guanfacine extended release
+HEGF
+Ibutamoren
+Indiplon
+Isoxyl
+Ispaghula
+Lanreotide Autogel
+Levetriacetam
+Lipo-alprostadil
+Lumefantrine
+Macrolides
+MCB-3837
+Mebeverine
+Meglitinides
+Methamfetamine
+Nemonapride
+Nitrous oxide
+Novobiocine
+OZ277
+PD-172760
+Piperaquine
+Pravigard
+Proquanil
+Pyronaridine
+Quinolones
+Raltegravir
+Rifampicin
+Ropinirole HCl
+Rufinamide
+Simvistatin
+Sitaxsentan
+SM-101
+Sodium oxybate
+Sulfonamides
+Sulphadoxine
+TC-5280
+Tegaserod
+Tetracyclines
+Tianeptine
+Tolvaptan
+Tranilast
+Trihexyphenidyl HCl
+Tropisetron
+Varenicline tartrate
+Ximelegatran
+Fomivirsen sodium
+Zoledronic acid
+Ziconotide
+Valdecoxib
+Flucytosine
+Vitamin A
+Vildagliptin
+Cinryze
+Vitamin B3
+Milnacipran HCl
+Prasugrel
+Pralatrexate
+Pazopanib HCl
+Dalfampridine
+Carglumic acid
+Alcaftadine
+Dabigatran
+Tesamorelin
+Eribulin
+Pneumococcal 13-valent conjugate vaccine
+Alpha1-proteinase inhibitor
+Ipilimumab
+Ixabepilone
+Doxycycline
+Sodium stibogluconate
+PG-530742
+BMS 275291
+Prinomastat
+Marimastat
+SNS-314
+SNS-032
+Neovastat
+XL418
+CYC116
+XL999
+JSM 6427
+R1295
+BB-3644
+Curaxin CBLC102
+UCN-01
+XL844
+CAP-232
+Dermolastin
+CPG 52364
+PRLX 93936
+GSK 659032
+SB681323
+GSK 796406
+A-425619
+A-993610
+ABT-102
+ABT-239
+ABT-869
+ACCLAIM
+ADX10059
+ADX-48621
+Aerovant
+Almorexant
+Alvespimycin hydrochloride
+ALX-0081
+AM103
+AM-111
+AM803
+AMD-070
+AMD-3100
+Amelubant
+AMG 076
+AMG-517
+AMG-8562
+AMG-8563
+AN0128
+Anacetrapib
+Anamorelin
+Anatibant
+APD668
+ARQ 197
+ARRY-520
+ARRY-797
+AS1409
+AT-101
+AT13387
+AT7519
+AT9283
+AVT-02 UE
+AZD3409
+AZD-9684
+BCTC
+BCX-34
+BCX-4208
+BF-Derm1
+BI 2536
+BI 6727
+Bimosiamose
+Biomed 101
+BIRB 796
+BMS-201038
+BMS214662
+Bremelanotide
+C1-INH
+C326
+CC-10004
+CC-401
+CCX915
+CD-NP
+Celgosivir
+CGP71683A
+CGX-1160
+CHR-2797
+CI-1033
+Cilansetron
+Cipralisant
+CNF1010
+COR100140
+"CP-609,754"
+"CP-690,550"
+CRA-028129
+CRF-1 antagonist
+CRx-191
+CT-322
+CTS-21166
+CYC-800
+CYT 99007
+DAP-81
+Dapagliflozin
+Darapladib
+Dexloxiglumide
+DG031
+DG041
+DG051
+E2012
+Ecallantide
+Enzastaurin
+Exherin
+FG-2216
+FG-4592
+FGF-1
+Fibrostat
+FK-228
+Flavopiridol
+Forodesine
+GHRH analog
+GI 181771
+GMX1777
+GRC-6211
+GRN163L
+GSK461364
+GSK-923295
+Guanilib
+GW 468816
+HIF-1alpha
+HMN-214
+HspE7 (TLR3 agonist adjuvant)
+ICA-105665
+Icatibant
+Ilepatril
+Implitapide
+INCB13739
+INCB3284
+INO-1001
+IPI-504
+Isofagomine tartrate
+Ispinesib
+KAI-9803
+KC706
+KD3010
+KOS-2187
+KU-0059436
+Labradimil
+Lapaquistat acetate
+LC-445
+Lintitript
+L-NAME
+L-NMMA
+Lonafarnib
+Lonidamine
+LR3001
+LTB 019
+LY293111
+LY335979
+LY354740
+LY404039
+M-100240
+MB07803
+MBX-8025
+Meclinertant
+Medusa IL-2
+Midostaurin
+Migalastat
+Mitemcinal
+MIV-701
+MLN8054
+MLN8237
+MP470
+MS-275
+MSX-122
+NBI-34041
+NBI-37582
+ND1251
+NGD-4715
+NGD-8243
+NM-702
+NMS-1
+NV-52
+NXN-188
+Octopamine
+Odanacatib
+OGX-011
+Olcegepant
+Omapatrilat
+ON 019190.Na
+ONO-4819
+Osanetant
+Ostabolin-C
+Pasireotide
+Perifosine
+PG-490-88
+Phenoxodiol
+PI-88
+Prolarix
+PRX-321
+PS-938285
+PSN-101
+PSN357
+PTC299
+PTH 1-34
+PX-12
+PX-478
+PXD101
+R343
+R411
+R763
+R788
+RB-006
+RDP58
+Relacatib
+Resiquimod
+RhuDex
+RTA 402
+RX-0201
+SAR3419
+Saredutant
+SB222200
+SB-559448
+SB-705498
+SB-743921
+SCH-530348
+SCIO-469
+Seliciclib
+SF1126
+SGX523
+SLV 306
+SNX-5422
+SR 144190
+SR-123781A
+SRT501
+STA-5326
+STA-9090
+Stannsoporfin
+STX 64
+T487
+T-5224
+Talnetant
+Tanespimycin
+Tanomastat
+Tarazepide
+Telcagepant
+TG100-115
+Thrombopoietin
+TKI258
+TLR9 agonist
+TM30338
+TM30339
+Torcetrapib
+TTP889
+Tyloxapol
+TZP-101
+Urocortin 2
+Varespladib
+VX-680
+VX-702
+VX-745
+XL147
+XL647
+XL765
+XL880
+Zarnestra
+ZK-thiazolidinone
+Talsaclidine isomer
+Linazolast
+Sorbinil
+Arbidol
+Brequinar sodium
+Lonapalene
+Vicriviroc
+Ifetroban sodium
+ICA-17043
+LG100268
+Viramidine
+Sabcomeline hydrochloride
+Evernimicin
+Sch-351125
+E2101
+Zenarestat
+RPR 200765A
+CVT-124
+Peramivir
+ATL-146e
+Cilnidipine
+Plevitrexed (R)-isomer
+TOP-53
+T-705
+SU5614
+Xanthine
+Cetilistat
+Tariquidar
+Atrasentan
+CS-8958
+Valspodar
+PS433540
+INCB9471
+Linetastine
+Licofelone
+Talsaclidine fumarate
+Metoprine
+GW873140
+Benzbromarone
+MK-591
+Lobucavir
+Glucobay
+TAK-491
+Fidarestat
+KW-6002
+Tecadenoson
+Teriflunomide
+ABT-761
+BIBV 308
+Romidepsin
+Ramatroban
+Hematide
+LY231514
+Brasofensine
+GT-389255
+Isatoribine
+LY-156735
+Geldanamycin
+Seratrodast
+Taranabant
+Xanomeline tartrate
+VEC-162
+Genistein
+Cilofungin
+Salvicine
+Tasidotin hydrochloride
+Garenoxacin
+Agomelatine
+AR-C69931 MX
+Plevitrexed
+Benoxaprofen
+Nomifensine
+Amineptine
+Mibefradil
+SU-6668
+BMS-599626
+Tykerb
+CP-724714
+HKI-272
+TAK165
+PTK787/ZK 222584
+CP-547632
+Vandetanib
+Pazopanib
+OSI-930
+Axitinib
+Cediranib
+KRN633
+BAY-57-9352
+SU-14813
+BMS-582664
+CP-868596
+Nilotinib
+AEE-788
+CEP-7055
+PD-0325901
+AEW-541
+PD-332991
+Ro 31-7453
+Tandutinib
+AZD0530
+Bosutinib
+GSK159802
+GSK163090
+GSK184072
+GSK239512
+GSK256066
+GSK256073
+GSK424887
+GSK561679
+GSK573719
+GSK586529
+GSK598809
+GSK618334
+GW642444
+SB-649868
+SB-656933
+GW685698X
+GSK729327
+SB-742457
+SB-756050
+GSK835726
+GW870086X
+GSK923295
+GSK945237
+GSK961081
+GSK962040
+GSK1004723
+GSK1014802
+GSK1018921
+GSK1034702
+GSK1120212
+GSK1144814
+GSK1265744
+GSK1278863
+GSK1292263
+GSK1349572
+GSK1482160
+GSK1521498
+GSK1614235
+GSK2190915
+GSK2245840
+ABT-263
+AG-14699
+Agatolimod
+Albiglutide
+Aleglitazar
+Alicaforsen
+Alogliptin
+Alvocidib
+AMG 108
+AMG 317
+AMG 386
+AMG 479
+AMG 761
+Anti-Abeta
+Anti-CD4
+Anti-cMet
+Anti-EGFL7
+Anti-IFN alfa
+Anti-IL13
+Anti-Mek
+Anti-NRP1
+Anti-oxLDL
+Apaziquone
+Apixaban
+Apomab
+Ataciguat
+ATL/TV1102
+ATL1103
+Avastin+/-Tarceva
+AVE0010
+AVE0118
+AVE0675
+AVE0897
+AVE1625
+AVE5026
+AZD0328
+AZD0837
+AZD1152
+AZD1175
+AZD1236
+AZD1386
+AZD1446
+AZD1656
+AZD1704
+AZD1940
+AZD1981
+AZD2066
+AZD2207
+AZD2516
+AZD2624
+AZD3241
+AZD3355
+AZD4017
+AZD4769
+AZD4818
+AZD5672
+AZD5904
+AZD5985
+AZD6244
+AZD6280
+AZD6370
+AZD6482
+AZD6765
+AZD6918
+AZD7325
+AZD7762
+AZD8055
+AZD8075
+AZD8330
+AZD8529
+AZD8566
+AZD8931
+AZD9056
+AZD9639
+AZD9668
+Azilsartan
+Azilsartan medoxomil
+Azithromycin/chloroquine
+Belimumab
+Beta-Lapachone
+Bevacizumab+Erlotinib
+Bevacizumab+Rituximab
+Bevacizumab+Trastuzumab
+BIBW 2992
+Brilinta
+BSI-201
+Budesonide & formoterol fumarate dihydrate
+Cabazitaxel
+CAT-354
+Conatumumab
+CP-533536
+CP-675206
+CP-800569
+CP-945598
+Crestor/TriLipix
+CytoFab
+Dacetuzumab
+Dalbavancin
+Dalcetrapib
+Darotropium
+Darotropium + 642444
+Denosumab
+Dilmapimod
+Dulanermin
+Dutasteride & tamsulosin
+DwLIP-GCGRrx
+Elsamitrucin
+Erlotinib+Bevacizumab
+Esomeprazole magnesium
+Esomeprazole magnesium+Aspirin
+Esreboxetine
+Figitumumab
+Firategrast
+GA101
+Gabapentin enacarbil
+GSK610677
+HuMAb OX40L
+IAP Antagonist
+Iboctadekin & rituximab
+Iboctadekin + Doxil
+Idraparinux
+IDX136
+IDX375
+IDX899
+INCB15050
+INCB18424
+INCB19602
+INCB24360
+INCB28050
+INCB8696
+IPI-493
+ISIS 113715
+ISIS-5GLT2rx
+ISIS-CRP
+Ispronicline
+Larotaxel
+Linagliptin
+Losmapimod
+Lu AA21004
+LY2275796
+MEDI-528
+MEDI-561
+MEDI-563
+Mepolizumab
+MetMAb
+Milveterol
+Mitemcinal fumarate
+MK-0524B
+MK-0646
+MK-0752
+MK-0822
+MK-1775
+MK-2206
+MK-4827
+MK-5108
+MK-7418
+MK-8033
+MLN0415
+MLN4924
+Motavizumab
+Motesanib
+Motesanib diphosphate
+Nerispirdine
+Ocrelizumab
+Ofatumumab
+Lynpara(Olaparib)
+Ortataxel
+Orvepitant
+Otamixaban
+Otelixizumab
+Ozarelix
+Pazopanib + Tyverb/Tykerb
+PD-200390
+PD-348292
+Pertuzumab
+PF-1228305
+PF-1913539
+PF-217830
+PF-299804
+PF-3185043
+PF-4383119
+PF-4523655
+LY294002
+PI3K alpha
+R1450
+R1507
+R1678
+R3477
+R3487
+R4733
+R4930
+R4996
+R7112
+R7128
+R7159
+R7201
+R7204
+R7227
+R7232
+R7334
+Remogliflozin etabonate
+Resatorvid
+RhApo2L/TRAIL
+RhuMAb Beta7
+RhuMAb IFN alpha
+Ridaforolimus
+Rilapladib
+Rilotumumab
+Rituxan Hemotalogy/oncology
+Rituxan Immunology
+Romiplostim
+Ronacaleret
+Rosiglitazone & metformin
+Rosiglitazone & simvastatin
+Rosiglitazone XR
+SAR110894
+SAR153191
+SAR164877
+SAR351034
+SAR407899
+Saxagliptin
+Sifalimumab
+SSR125543
+SSR411298
+Sulopenem
+Sulopenem IV
+Sunitinib malate
+SYR-472
+TAK-100
+TAK-285
+TAK-385
+TAK-442
+TAK-448
+TAK-591
+TAK-593
+TAK-683
+TAK-701
+TAK-901
+TC-5619
+Totrombopag
+Trastuzumab-DM1
+UK-369003
+Vedolizmab
+Xaliproden
+Zibotentan
+Zunrisa/Rezonic
+GSK 679769
+"(-)-3PPP, Maryland"
+2-Methoxyestradiol
+4-Aminopyridine
+5-HT4/D2 antagonists
+Abaperidone hydrochloride
+Abetimus sodium
+ABT-089
+ABT-874
+Aclidinium bromide
+ACV-1
+AD-337
+Adatanserin
+AdPEDR
+AEB07
+Aflibercept
+AGN-199981
+AIN457
+AKR-501
+Albuterol sulfate
+Alfa-interferon
+Alphagen
+ALX-5407
+Amediplase
+AMG 623
+AMG108
+AMG-714
+Amibegron
+Amitriptyline+ketamine
+AOD-9604
+Aplindore fumarate
+Apremilast
+Arofylline
+ART621
+Arverapamil
+Asenapine
+Asimadoline
+Asoprisnil
+Atacicept
+Atiprimod
+AVE1701
+AVE-5997EF
+Avosentan
+Axovan-3
+AZD-9272
+Azimilide
+Balicatib
+Becampanel
+Belatacept
+Benzydamine
+Benzylamine derivative
+Bepotastine besilate
+Bertilimumab??
+Beta3-adrenoceptor agonist
+BG-9928
+Bicifadine
+Bifeprunox
+BIIB014
+BIM23A760
+Blonanserin
+BP4.879a
+BR3-Fc
+Brivaracetam
+BSF-78438
+BTS-79018
+Bupropion+naltrexone
+Buproprion+zonisamide
+Canakinumab
+Cand 5
+Capsaicin
+Carebastine
+Carisbamate
+Carmoterol
+Casopitant
+CBD cannabis derivative
+CDP323
+Ceftobiprole
+Certolizumab
+Certolizumab pegol
+Cethrin
+Cethromycin
+CF101
+CHF 5407
+CHF-3381
+Cilomilast
+Cizolirtine
+CJ-13610
+CNS-5161
+CNTF
+"CP-316,311"
+CRF-R2 antagonists
+CS-003
+CX-516
+CX717
+Cyclosporin A
+DA-5018
+DA-7101
+Dapivirine
+DDP-225
+Deforolimus
+Desvenlafaxine
+Desvenlafaxine SR
+Dexanabinol
+Dexefaroxan
+Dextofisopam
+Dextromethorphan+quinidine
+Diquafosol
+Divers drug
+DNK-333
+Dopamine antags
+Doripenem
+DOV 21947
+DOV-216303
+DOV-21947
+Doxercalciferol
+Dronedarone
+D-serine
+DU-127090
+E 7080
+E 7974
+E-2007
+E-5842
+EAA-090
+Eslicarbazepine acetate
+Eltrombopag
+Elzasonan hydrochloride
+Emapunil
+Entacapone+levodopa+carbidopa
+EP-51216
+EP-51389
+Epothilon
+Epratuzumab
+Ezlopitant
+Farampator
+Farletuzumab
+FG-3019
+Fingolimod
+Flibanserin
+Fluphenazine Decanoate
+Fontolizumab
+FTY720
+Fumaric acid
+Gabapentin ER
+Ganaxolone
+GC-1008
+Gepirone ER
+GI-181771
+Gliatech
+Glufosfamide
+GMC-283
+Golimumab
+GPI-1485
+GPI-16072
+GRN163
+GSK-159797
+GSK233705
+GSK372475
+GSK642444
+GSK-644784
+GSK-677954
+GSK-681323
+GTP-010
+GW-406381
+GW-427353
+GW-493838
+GW842470X
+GW876008
+HCV-796
+HMR-2934
+HP-184
+Ibudilast
+IC-485
+Iclaprim
+Idazoxan
+IL-18BP
+Iloperidone
+INCB018424
+INCB-3284
+Indacaterol
+Inolimomab
+INS-37217
+IP-751
+Ipamorelin
+ISIS 301012
+ITF2357
+K-832
+KB-6806
+KDS-2000
+KW-3902
+L-759274
+Lacosamide
+Lamectacin
+Laquinamod
+LAS-34273
+LE-300
+Leptin
+Lerisetron
+Leukotriene antagonist
+LGD-4665
+Licarbazepine
+Linaclotide
+Liraglutide
+Lixivaptan
+LJP-1082
+Lorcaserin
+Lurasidone hydrochloride
+LY-293111
+LymphoStat B
+Magnesium
+MCI-186
+MD-1100
+MEM-1003
+MEM-3454
+Methylnaltrexone
+Milveterol+Fluticasone
+MLN1202
+MLN3897
+MN-305
+MRE-0094
+MS-377
+N-0923
+N-5984
+NCX-4016
+NE-100
+Nepadutant
+Neramexane
+NERI IV
+Netoglitazone
+NGD 94-1
+NS 1209
+NS 2359
+NVA237
+NVP-LAQ824
+Oblimersen
+Ocaperidone
+ONO-2506
+ONO-6126
+OPC-14523
+Oravescent fentanyl
+Orexin-1 antagonist
+ORG 34517/34850
+Org-23366
+Oritavancin
+OrM3
+Panobinostat
+Pardoprunox
+PD-157533
+PD-157695
+PD-158771
+PD-165167
+PegCNTF
+Plerixafor
+Pexacerfont
+PF-00547659
+Pfizer 10
+Pfizer 4
+PG-116800
+Phentermine+topiramate
+Phenylbutyrate
+Pimavanserin
+Pinaverium bromide
+Pirfenidone
+Pitavastatin
+PNU-177864
+PNU-282987
+Pramlintide
+PRX-00023
+PRX-08066
+Pumosetrag
+PYY3-36
+Quetiapine SR
+QVA-149
+R 673
+R1503
+R348
+R-788
+Radafaxine
+Radaxafine HCl
+Ralfinamide
+Rambazole
+RDEA 594
+RDP-58
+Recombinant human C1 inhibitor
+Renzapride
+Reparixin
+Resiniferatoxin
+Revatropate
+RGH-896
+Rho-kinase inhibitor
+RhTPO
+Rilonacept
+Rimonbant
+Risperidone Consta
+Roflumilast
+Rolofylline
+Rotigotine patch
+RPSGL-Ig
+R-sibutramine metabolite
+RTI-336
+Ruboxistaurin
+S-777469
+Safinamide
+Sarizotan
+Satavaptan
+SB-265610
+SB-277011
+SB-683699
+SCH 420814
+SCH-527123
+SDZ-MAR-327
+Seletracetam
+Sibenadet
+Sigma antagonist
+Siplizumab
+Sivelestat sodium hydrate
+SLV-308
+SLV-310
+SLV-313
+SLV-317
+SLV-319
+SLV320
+SLV-323
+SNDX-275
+SNS-595
+Sotrastaurin acetate
+SPI-376
+SPI-860
+SR46349B
+SSR-125047
+SSR149415
+SSR-181507
+Statins
+SU5416
+Sulfasalizine
+Sumanirole
+SUN-11031
+SUN13834
+T-62
+TA-2005
+TAK-637
+Talactoferrin Alfa
+Talampanel
+TC-1698
+Tebipenem
+Telbermin
+TG101348
+TgAAC-94
+TGBA01AD
+Trafermin
+Tramadol ER
+Traxoprodil
+Trazodone CR
+TRIDMAC
+TRO-19622
+TRX4
+TV-4710
+U-99194A
+U-99363E
+Ustekinumab
+Valproate
+Vanoxerine
+Vasoactive intestinal peptide
+VEGF Trap
+Vestipitant
+Vilazodone
+Voclosporin
+XL019
+XL784
+XTL-2125
+Y-931
+ZD-3638
+ABT-894
+ISIS 104838
+OGX-427
+MBI 1121
+TPI ASM8
+HGTV43
+AVI-4065
+Merck drug
+Mipomersen
+VRX496
+Antisense TAR and RevM10
+ISIS 14803
+AVI4126
+AP12009
+iCo-007
+TV-1102
+LY2181308
+ISIS 325568
+Affinitak
+7-hydroxystaurosporine
+AEG35156
+AGN211745
+ALN-RSV01
+AT-9283
+Bevasiranib
+CYC-116
+ENMD-2076
+GSK1070916
+P1446A-05
+P276-00
+PD-0332991
+PF-03814735
+PF-477736
+PHA-739358
+R547
+R-roscovitine
+SCH 727965
+Terameprocol
+VX-689
+ZK 304709
+BEZ235
+BGT226
+BKM120
+GDC0941
+GSK1059615
+PX-866
+CAL-101
+MK2206
+VQD-002
+OSI-027
+SCH-D
+PRO 140
+SGS-742
+LY293558
+Sodium butyrate
+ABT-279
+AG140699
+AN-9
+Besonprodil
+BMS-488043
+CBT-1
+Curcumin I
+ELB-139
+EVT-101
+IDDBCP161883
+LAQ824
+LY-544344
+Melogliptin
+MGCD-0103
+NVP-AUY922
+Ocinaplon
+PDX-101
+Pro 542
+Pyroxamide
+S-18986
+SSR-162369
+Tacedinaline
+TNX-355
+"CB1954/EP-0152R, NQO2 prodrug therapy"
+V85546
+Gilenia
+4SC-203
+4SC-205
+ABT-072
+ABT-333
+ABT-450
+ACE-011
+ACE-041
+ACH-1625
+ADX415
+ALB-127158(a)
+ALN-TTR01
+ALN-VSP
+ANA773
+ANAVEX 2-73
+Anti-CD22
+Anti-Factor D
+Anti-FGFR3
+Anti-HER3/EGFR DAF
+Anti-LT alpha
+Anti-M1 prime
+APC-100
+ARI-3037MO
+ASG-22ME
+ASG-5ME
+AT001/r84
+ATL1102
+AZD5658
+AZD7687
+AZD8329
+BI 201335
+BI 207127
+BIT225
+BMS 650032
+BMS 790052
+BMS 791325
+BMS-824383
+BMS-830216
+BMS-833923
+BMS-908662
+BNC105
+Cabozantinib
+Canagliflozin
+Cenderitide
+CF102
+Clemizole
+Clevudine
+CM2489
+CVX-060
+Danoprevir
+Debio 025
+Debio 0827
+Debio 0932
+DPX-Survivac
+EXC 001
+EZN-2968
+EZN-3042
+EZN-4176
+Filibuvir
+GDC-0068
+GDC-0623
+GDC-0973
+GDC-0980
+GS-9256
+GSK2118436
+HPP404
+IDX-189
+IMO-2055
+IMO-2125
+IMO-3100
+INK128
+ISIS-APOCIII
+ISIS-EIF4E
+ISIS-FXI
+ISIS-SGLT2
+ISIS-SOD1
+ISIS-TTR
+LB80380
+LFA102
+Mavrilimumab
+MEDI3617
+MEDI-551
+MEDI-573
+MEDI-575
+MEDI-578
+Miravirsen
+MIV-210
+MK-3281
+MK-5172
+Moxetumomab Pasudotox
+OPI-1002
+Ospemifene
+PF-03882845
+PF-04620110
+PPI-461
+PRX00933
+PSI-7977
+PSI-938
+PSN821
+Resminostat
+RG3039
+RG7128
+Rontalizumab
+S-222611
+S-234462
+S-265744 LAP
+S-297995
+S-349572
+S-474474
+S-555739
+SCY-635
+SelG1
+Setrobuvir
+SGN-70
+SGN-75
+SPC4955
+SPC5001
+Tegobuvir
+TM38837
+TMC435
+TMC649128
+TTP435
+Vaniprevir
+Velneperit
+Vidofludimus
+VX-222
+VX-500
+VX-759
+VX-916
+XL550
+XL652/XL014
+ZGN-433
+ZY01
+ZYOG1
+Vismodegib
+Peginesatide acetate 
+Tafluprost 
+Lucinactant 
+Pasireotide diaspartate 
+Carfilzomib
+Omacetaxine mepesuccinate 
+Ingenol mebutate
+Crofelemer 
+Ziv-aflibercept 
+Tbo-Filgrastim 
+Ocriplasmin
+Teduglutide 
+Raxibacumab
+Fidaxomicin
+Asparaginase Erwinia chrysanthemi 
+Brentuximab vedotin
+Ceftaroline fosamil 
+Mifamurtide
+Vinflunine
+Zucapsacin
+Pegloticase 
+"Immune globulin subcutaneous, 20% liquid "
+Catumaxomab
+Methylnaltrexone bromide 
+Difluprednate 
+Dienogest
+Trabectedin; Ecteinascidin; Ecteinascidin-743; Et-743
+Lisdexamfetamine dimesylate
+Rexin-G
+131i-chtnt
+Anecortave acetate
+Rhpth
+Nimotuzumab
+Triproamylin acetate
+Conjugated estrogens b
+Ach-02
+Factor 8
+Oral insulin
+Belotecan hydrocholoride
+Talaporfin sodium
+Hexyl aminolevulinate
+Vapreotide acetate
+H-101
+Desirudin
+Hemoglobin glutamer
+Iv human immunoglobulin
+Pulmonary insulin
+Rec-antihemophilic factor
+Temoporfin
+Amrubicin hcl
+Amrubicin hydrochloride; Sm-5887
+Gusperimus trihydrochloride; 15-deoxyspergualin
+Agalsidase alfa
+Insulin determir
+Rasburicase
+Agalsidase beta 
+Trimegestone
+Arteether; Beta arteether
+Melevodopa; Chf-1301; L-dopa-methyester
+Conjugated estrogens a
+Colforsin daropate hci
+Moroctocog alfa
+Mobenakin
+Human neutral insulin
+Human insulin zinc suspension
+Tasonermin
+Cefoselis
+Porcine neutral insulin
+Flurithromycin ethylsuccinate
+Thymalfasin
+Factor viia
+Lanreotide acetate
+Tirilazad mesylate
+Carperitide
+Mab17-1a
+Temocapril hydrochloride
+Unoprostone isopropyl ester
+Trimetrexate glucuronate
+Betamethasone butyrate propion
+Pegaspargase
+Mecasermin rinfabate
+Imidapril hci
+Sorivudine
+Cytarabine ocfosfate
+Histrelin
+Recombinant factor viii
+Cefetamet pivoxil hcl
+Cefpirome sulfate
+Factor vlll
+Factor ix
+Teceleukin
+Ha-1a
+Celmoleukin
+Interferon gamma-1a
+Fludarabine phosphate
+Cefotiam hexetil hydrochloride
+Arteflene; Ro 42?611
+Pegademase bovine
+Cefodizime sodium
+Arbekacin
+Factor ix human
+Droxidopa
+Delapril
+Cefmetazole sodium
+Tiopronin
+Deslorelin
+Rv-11
+Interferon gamma
+Human factor viii
+Alacepril
+Epervudine
+Hydrocortisone aceponate
+Pirarubicin
+Limaprost
+Isepamicin
+Flomoxef sodium
+Erythromycin acistrate; Cas 96128-89-1
+Fosfomycin trometamol
+Gamolenic acid
+Alpha-1 antitrypsin
+Doxifluridine
+Hidrosmin
+Sultamicillin tosilate
+Cefteram pivoxil
+Teriparatide acetate
+Cefminox sodium
+Metergolin
+Bucillamine
+Factor viii
+Nedocromil sodium
+Rokitamycin
+Triptorelin
+Deflazacort
+Gonadoreline-6-d-trp acetate
+Idebenone
+Schizophyllan
+Lentinan
+Soluble insulin
+Muromonab-cd3
+Alclometasone dipropionate
+Thymopentin
+Rosaprostol
+Beta-acetyldigoxin
+Haem arginate
+Enprostil
+Doxofylline
+Cimetropium bromide
+Miokamycin; Miocamycin; Mom
+Porcine isophane insulin
+Enalapril maleate
+Buserelin acetate
+Enocitabine
+Befunolol hci
+Promegestone
+Halometasone
+Oxitropium bromide
+Gemeprost
+Micronomicin sulfate
+Extract of serenoa repens
+Isophane insulin
+Carmofur
+Inosine pranobex
+Testosterone undecanoate
+Cefotiam hcl
+Ceftiofur
+Peplomycin
+Alpha-acetyldigoxin
+Salicin
+Aescin
+Kawain
+Lanatoside c
+Lanatoside b
+Lanatoside a
+Gitalin
+Digitalin
+Convallatoxin
+Adoniside
+Sennoside b
+Sennoside a
+Demecolcine
+Colchiceine amide
+Monocrotaline
+(+-)-tetrahydropalmatine; Rotundine
+Fibrinogen
+Somatropin
+Betamethasone dipropionate
+"Pseudoephedrine, nor-"
+Eupatilin
+Methyltestosterone
+Betamethasone sodium phosphate
+Fosfestrol
+Pristinamycin; Pristinamycine
+Floxuridine
+Megesterol acetate
+Plicamycin
+Asparaginase
+Viomycin sulfate
+Hydroxyprogesterone
+Cefroxadine
+Ceftezole; Ceftezol
+Tranylcypromine sulfate
+Mithramycin
+Nadrolone phenylpropionate
+Nandrolone phenpropionate
+Medroxyprogesterone acetate
+Sarkomycin
+Heroin; Diacetylmorphine
+Noscapine (narcotine)
+Fesoterodine fumarate 
+Ponatinib 
+Crizotinib
+Enzalutamide
+Besifloxacin 
+Florbetapir F-18 
+Vemurafenib
+Ivacaftor 
+Bendamustine hydrochloride 
+Rivaroxaban
+Fospropofol disodium 
+Tofacitinib 
+Clevidipine butyrate 
+Bedaquiline
+Avanafil 
+Regorafenib
+Mirabegron 
+Tapentadol hydrochloride
+Choline C-11
+Deferiprone 
+Sipuleucel-T
+Iobenguane I-123 
+YM443
+Elvitegravir/cobicistat/emtricitabine/tenofovir disoproxil fumarate
+Sofosbuvir
+MenHibrix 
+Nimenrix 
+Flu vaccine
+Combo with MEKi
+Feraheme/ Rienso
+Omega-3-acid ethyl esters 90 
+"5,8-Dihydroxy-1,4-naphthoquinone"
+5-Fluoroorotate
+ACEA-1328
+ACHP
+AG490
+Alovudine
+AM336
+Amdoxovir
+AMSH
+Ankinara
+Antalarmin
+Anti-D
+Apicidin
+Apricitabine
+Aptiganel HCl
+AS602868
+AS-8112
+AS-9705
+AVE-0118
+Axokine
+AZD-4282
+Batimastat
+Bay x3702
+BAY11-7082
+Benzimidazole 5-carboxamide
+Benzothiadiazines
+BIBF100
+BMS-204352
+BN82451
+Buthionine sulfoximine
+BVT 933
+"C-101,606"
+C75
+CBR-2092
+CEP-1347
+CGP-44532
+CHAP1
+CHAP31
+Ciglitazone
+Ciprofloxacin+dexamethasone
+Clavulanate+Amoxicillin
+Clomethiazole
+C-myb
+CP-100263
+"CP-101,606"
+CP-122721
+"CP154,526"
+CR-3124
+CRA1000
+CRA1001
+Cycloguanil
+Cyprodine
+DBO-11
+DBO-17
+Dextrorphan
+DFU
+Dicaffeoylquinic acids
+Dicaffeoyltartaric acids
+Difluoromethylornithine
+Dihydropyrone
+DMP-695/696
+DPP-4 inhibitor
+DuP-697
+E-2070
+Elvitegravir
+Elvucitabine
+EpiCept
+Epothilone B
+Eslicarbazepine
+Estrogen receptor B agonist
+Ethylene diamine
+Fibrates
+Fipamezole
+Gabapentin GR
+Gavestinel
+Glucose analogue
+Glyphosate
+Gossypol
+HKI-9924129
+Human PFT inhibitor
+Huperzine A
+Hydroxamates
+Hyoscyamine sulfate
+Ia Quinidine
+Ic Flecainide
+Ifenprodil
+IFN-alpha
+Immucillin-H
+Indole N -acetamide
+JB-1
+JTC-801
+JZP-4
+L-054852
+LBH539
+Leupeptin
+Licostinel
+Lisuride patch
+Melanocortin-4 Receptor antagonist
+Microxine
+MK-869
+Morphine-6-glucuronide
+MSI-1956
+MTII Melanotan-II
+Mu O-conotoxin
+Mutated growth hormone
+Naproxene
+NAX-5055
+NB-3040
+NB3178
+NB3322
+NBI-27914
+NC1153
+NEP inhibitor
+NIP-142
+NPY-1 antagonist
+NPY-5 receptor antagonist
+NS398
+NS-398
+NSAIDs
+NVP-ADW742
+O-3-hexose derivatives
+Ofloxacin otic
+Otilonium bromide
+Oxindole derivative
+PA-824
+PCG1
+PDGF gene therapy
+Penicillin
+Pepstatin
+PNU156804
+PS-1145
+Pumiliotoxin 251D
+Pyridobenzimidazole
+R121919
+Rapamycin
+REC2615
+Rifalazil
+Rilpivirine
+Ro-23-9424
+RO-25-6981
+Ropinirole CR
+Rotigitine
+Rotigotine
+RS-100302
+RWJ-140998
+RWJ-3981
+RWJ-49815
+RWJ-67657
+S-19528
+S-20951
+S-25585
+S-9947
+Sant7
+Satavaptan Lixivaptan
+SB 202190
+SB 239063
+SB-225002
+SB-332235
+Selective inhibitors of PTP1B
+Selfotel
+Somatoprim
+SSR125543A
+SU10991
+SU5402
+Sulphameth oxazole
+SWR-0342SA
+TD-1792
+Telaprevir
+Telavancin
+Telomestatin
+TGF-beta receptor kinase inhibitor
+Thiolactomycin
+Thioperamide
+Thiophene sulfonamide
+TMPyP4
+Toll-like receptor 4 inhibition
+Trichostatin A
+Tricyclics
+Tubacin
+UCL-1390
+"UK-279,276"
+Vinylsulphones
+WL-1001
+Wortmannin
+YM872
+Zydis selegiline
+OGX-427 + Paclitaxel
+ISIS 2922 + Ganciclovir
+ISIS 2922 + foscarnet 3'' -azido-3''-deoxythymidine 2''-3''-dideoxycytidine
+RBI034 (2-5A antisense compound) + Ribavirin
+G3139 + Paclitaxel
+G3139 + Fludarabine
+G3139 + cytarabine (ARA-C)
+G3139 + G-CSF
+G3139 + Dacarbazine
+G3139 + Thalidomide
+G3139 + Dexamethasone
+G3139 + Irinotecan
+Cantide + Cisplatin
+Cantide + 5-FU
+Cantide + adriamycin
+TS antisense + 5-FU
+TS antisense + raltitrexed
+MCL-1-specific antisense oligonucleotide + Imatinib (STI571)
+MCL-1-specific antisense oligonucleotide + midostaurin(PKC412)
+MCL-1-specific antisense oligonucleotide + nilotinib (AMN107)
+Affinitak + Gemcitabine
+Affinitak + Cisplatin
+QPI-1002
+PF-04523655
+PcTx1
+APETX2
+A-803467
+"CJ 11,974-01"
+DUP 697
+Bimetopyrole
+QX-314
+E-2050
+SB-221420-A
+NMED-160
+NS-7
+PD173212
+PD176078
+Ajinomoto 1
+Ajinomoto 2
+Ajinomoto 3
+Euro-Celtique 1
+Euro-Celtique 2
+Euro-Celtique 3
+Euro-Celtique 4
+Neuromed 2
+Neuromed 5
+Ono 1
+Ono 2
+Ono 3
+Parke-Davis 1
+Parke-Davis 9
+SU6668
+NOX 2149
+NOX 2137a/b
+LD201t1
+IGEL1.2
+D17.4
+2''-NH2-30-ligand
+CD4 specific aptamer 14
+Ligand 1.1
+ADR58
+DD7
+ED1
+ED45
+Del 60 tetramer
+SE RNA
+CGP77675
+Epostane
+SL125
+Platensimycin
+RWJ-49968
+RWJ-61907
+ISIS 13920
+ISIS 15770
+ISIS 18078
+ISIS 16507
+ISIS 16518
+A-317920
+A-331440
+Asperlicin
+BAG956
+Ciproxifan
+Devazepide
+DR2313
+GSK189254A
+GSK690693
+JNJ-10181457
+KOSN1559
+Lactoquinomycin
+LY433221
+LY433222
+Macbecin
+PI-103
+PU24S
+PU3
+PU-H58
+S33005
+Thieno-phenanthridin-6-one
+VER 50589
+ZSTK474
+BILN-2061
+"1,3-bis(1,3-benzothiazol-2-ylthio)acetone"
+3-benzofuran-2-yl-2-benzothiazol-2-yl-3-oxo-propanenitrile
+5-fluoro-1H-indole-2-carboxylic acid
+AntiÂ¨CmiR-191 2Â¡Ã_-MOEÂ¨Cmodified oligonucleotide AGCTGCTTTTGGGATTCCGTTG
+Anti-p32 human monoclonal antibody 2.15
+AVP-13546
+AVP-13748
+Biaryl thiophenes
+BMS-488516
+BMS-509744
+BMS-863233 
+BPKDi
+Calcineurin
+CGP37157
+CID755673
+CRT0066101
+DSM1
+DSM2
+G?6976
+HAd5-vectored E1 vaccine Ad5-E1
+ISO-1
+K252a
+L-erythro-3-hydroxyaspartate 
+Lobeline
+Malonic acid
+NAPQI
+Narciclasine
+NMS-1116354
+PF-4957325-00
+PYZD-4409
+Staurosporine
+WRR605
+Y-90 Clivatuzumab
+Veltuzumab
+Sc Veltuzumab
+Milatuzumab-Dox
+Milatuzumab
+Vmab + Y-90 Emab
+Pretargeting TF2
+Labetuzumab-SN-38
+Gevokizumab
+Interferon-alpha lozenge
+ACE-031
+Ataluren
+Eteplirsen
+GSK2402968
+Muscular dystrophy gene therapy
+Fibroblast growth factor-18
+Tissue repair stem cell therapy implant
+Secukinumab
+Chondrocyte tissue grafts
+Fulranumab
+Oxycodone/ naloxone controlled release
+ZX002
+AMG 785
+A-0001
+Collagenase injection
+CG-100649
+Chondroitinase
+Oral human gammaglobulin
+CK-2017357
+Arbaclofen placarbil
+Nabiximols
+AMG 745
+GTx-024
+LY2495655
+ABT-652
+Diclofenac transdermal second-generation
+FX005
+JNJ-39439335 
+SAR114137
+SAR292833
+Ilaris canakinumab 
+Prednisone/ dipyridamole
+Ampion
+BI 113823
+IP-880
+IP-889
+LT-NS001
+Osteoarthritis compound
+SAR113945
+SD-6010
+TG-C
+AMG 167
+BA-058
+AUS-131
+DP-001
+MK-5442
+Osteoporosis compound
+Teriparatide intranasal
+Teriparatide transdermal
+PF-04840082 
+IBU-PC
+GSK768974
+Bazedoxifene/ conjugated estrogens
+Calcitonin oral
+RG4934
+RO5310074
+PF-00489791
+SLX-2101
+BAFF antibody
+CNTO-136
+Olokizumab
+PF-04236921
+SBI-087
+RG7416
+BIIB 023
+ARG301
+ASP2408
+AVL-292
+BG-12
+BMS-817399
+BMS-945429
+CCX354
+Cenplacel-L
+CH-4051
+EVT 401
+Fezakinumabx
+Fostamatinib
+GSK315234
+HE3286
+IL-17 antibody
+NULL
+JNJ-40346527
+KB002/003
+LX2931
+Methotrexate subcutaneous auto-injection
+NN8209
+NN8226
+NN8555
+NN8828
+Ozoralizumab
+PF-04171327
+PF-05230905
+PLX3397
+PLX5622
+PMI-001
+PRO-515
+PRTX-100
+RPI-78
+RX-10001
+SAN-300
+SCH-900117
+VGX-1027
+VX-509
+MEDI-546 
+Mesenchymal stem cell therapy
+ARG201
+CC-10015
+AGN-XX/YY
+Flupirtine
+TNX-102
+Lesinurad
+MBX-102
+Pegadricase
+A-623
+AGS-009
+AMG 557
+AMG 811
+CDP-7657
+DV-1179
+Forigerimod
+Laquinimod
+MEDI-545
+MEDI-570
+KRN23
+AMG 145
+Adenosine triphosphate injection
+CCX140
+Adult stem cell therapy
+Cell therapy
+RVX-208
+VIA-2291
+Aspirin/lisinopril/ lovastatin fixed-dose combination
+AMT-011
+ETC-1002
+Neu2000
+PLX-PAD
+TS-011
+VM-202 
+APN01
+Epicardial angiogenesis patch
+AMR-001
+BMS-394136
+BMS-914392
+VTP-27999
+Stem cell therapy
+SDF-1
+ALO 212
+Thymosin beta-4
+Myoblast cell transplantation therapy
+K-604
+HPP-593
+NA-1 neuroprotectant
+INT0001/2004
+TKM-ApoB
+NX-CP-105
+Angiotensin inhibitor therapeutic vaccine
+TRV120027
+CSL112
+Cardiac PET imaging agent
+ANGX-1039
+Cardiovascular therapeutic
+Hydralazine hydrochloride/ isosorbide dinitrate 
+NU-172
+CER-001
+CER-002
+CER-627
+Sobetirome
+ISIS 353512
+ISIS-APOCIIIRx
+Nitrite inhalation
+BIBT986
+LMI1195
+GS 9667
+Autologous cell therapy
+RG7418
+SAR104772
+MK-3614
+MK-5478
+MK-8266
+RWJ-676070
+SPD 535
+SLV338
+APD811
+BVI-007
+Adipose stem cell therapy
+MB-07811
+ILS920
+PF-04950615
+PSI-697
+Turofexorate isopropyl
+LU AA24493
+Ularitide
+GSK2190914
+GSK568859
+GSK813893
+BR-4628
+Thrombosis inhibitor 
+MTR105
+REG2
+MP-124
+RBx10558
+MER-102 
+SAR236553
+GGF 
+PA08140
+RG1512
+RG7232
+RO-4905417
+Beperminogene perplasmid
+DB-772d
+BMS-779788
+ACY001 
+Danegaptide
+PF-3049423
+ALD-201 
+MultiGeneAngio cell therapy
+B-type natriuretic peptide
+VMD-30283
+PL2100
+AAV1/SERCA2a gene therapy
+Saratin
+LCQ908
+Eicosapentaenoic acid/docosa-hexaenoic acid
+TAL-0500018
+ALD-301 
+Hypoxia therapeutic
+AMG 423
+BAY 60-4552
+BMS-180431
+BMS-582949
+BMS-770767
+BMS-823778
+NTC-801
+KAI-9803/ BMS-875944
+GP-531
+Revascor
+MultiStem
+Beraprost modified release
+Aviptadil 
+Cell-based gene therapy
+Nitric oxide synthase gene therapy
+NTx-265
+Prochymal
+XOMA 052
+AR9281
+BB3
+PL-3994
+Bendavia
+M118
+Egaptivon pegol
+MD-0727
+SLx-4090
+Coronary artery disease gene therapy
+ACT-280778
+Tezosentan
+YSPSL
+Tissue repair stem cell therapy
+ART-123
+Vernakalant 
+Cangrelor
+MDCO-216
+Icodextrin solution
+Cicletanine
+LY2484595
+Celivarone
+Lercanidipine MR 
+JNJ-39588146
+K201
+DCCR
+PF-489791
+Terguride
+E5555
+Elinogrel
+LCI699
+LCZ696
+GSK249320 
+Sodelglitazar
+MTR107
+IK-5001
+REG1
+CXL-1020
+ATI-2042
+Iodofiltic acid I-123
+Micardis telmisartan
+SCH-900271
+Human hemoglobin
+Capadenoson
+INOmax nitric oxide inhalation
+V10153
+1-MNA
+Tecarfarin
+Darexaban maleate
+Cell-based heart damage therapy 
+DP-b99
+Ivabradine
+Terutroban sodium
+Desmoteplase
+INDI-702
+Tafamidis meglumine 
+Clazosentan 
+Macitentan
+Selexipag
+Riferminogene pecaplasmid
+Atorvastatin/ ezetimibe
+Laropiprant/niacin/ simvastatin combination
+Fenofibrate/ simvastatin
+Alferminogene tadenovec
+AMR101
+Recombinant relaxin
+Mega-3-acid ethyl esters
+Riociguat
+Edoxaban tosylate
+Irbesartan/ trichlormethiazide fixed-dose combination
+Iobenguane I 123 injection
+Amlodipine/ irbesartan fixed-dose combination
+Omega-3 acid ethyl esters
+Clonidine controlled-release 
+AAB-002
+ACC-002
+LMTX
+MCD-386/glycopyrrolate
+BCI-632
+BCI-838
+BIIB037
+Bisnorcymserine
+BMS-241027
+BMS-932481
+BMS-933043
+DSP-8658
+E2212
+E2609
+EVP-0962
+Exebryl-1
+HPP-854
+Irdabisant
+MK-8931
+PF-05212377
+Pioglitazone companion diagnostic
+RG1662
+RG7129
+SAR228810
+SGC-1061
+TD-8954
+UB-311 
+V950
+XEL 001HP 
+AAB-003/PF-05236812
+ABT-126
+ABT-560
+ABT-957
+AD03 vaccine
+ARC029 
+ARC031 
+ASP0777
+AVN 322
+BAN2401
+GSK933776A
+LNK-754
+MK-3134
+MK-3328 
+SYN-120
+APH-0703
+Secretase inhibitor
+Bapineuzumab subcutaneous 
+BMS-708163
+CERE-110 
+CHF-5074
+Crenezumab
+Davunetide intranasal
+ELND005
+EVP-6124
+LU AE58054
+MSDC-0160
+NIC5-15
+R-phenserine
+PRX-3140
+RG1577
+ST-101
+TTP-448 
+Vanutide cridificar 
+VI-1121
+ABT-288
+ABT-384
+AD02 vaccine 
+AVN 101
+AVN 397
+AZD4694 
+AZD5213
+CAD106
+T-817MA
+Immune globulin
+Gantenerumab
+F18-florbetaben 
+F18-flutemetamol 
+Human immunoglobulin 
+Solanezumab
+Formoterol/fluticasone propionate
+ABT-308
+RG7185
+OPK-0018
+ONO-6950
+PUR003
+BI-144807
+CNTO 3157 
+CNTO 5825 
+MK-1029
+AMG 157
+ARRY-502
+R zileuton
+QGE031
+GSK2239633
+GSK2269557
+AM211
+GSK1440115
+N6022
+RNS60
+TC-6987
+ASM8
+Syk kinase silencer
+Setipiprant
+BI-54903
+BI-54903/olodaterol fixed-dose combination
+BI-671800
+Olodaterol
+JNJ-40929837
+Lebrikizumab
+RG7449
+House dust mite allergy vaccine tablet
+Montelukast/mometasone
+LAS 100977
+AMG 827
+MN-221
+Indacaterol/mometasone
+QAV680
+QAW039
+QAX576
+GSK870086
+GW766994
+SAR231893 
+JNJ-39758979
+GSK679586 
+VR506
+Vilanterol
+Reslizumab
+Formoterol/budesonide
+E004
+AMG 853
+Fluticasone furoate/ fluticasone propionate
+Salbutamol dry-powder inhalation
+Masitinib
+Mometasone furoate/ formoterol fumarate
+Vinanterol inhalation/ fluticasone furoate powder
+Histamine dihydrochloride
+Omacetaxine
+Melphalan drug delivery system
+Bendamustine
+Tc-99m tilmanocept
+Rituxan rituxumab 
+"Tumor-specific, radio-labeled monoclonal antibody targeting agent"
+Radium-223 chloride
+Pomalidomide
+Maraciclatide
+AFX-9154
+AFX-9901
+IMC-gp100 
+SR13668
+OBP-301
+KRN-330
+GL-0810 
+Anti-CD22/CD19 mAb-toxin conjugate
+Plitidepsin
+SHP-141
+IMP321
+Tasquinimod
+CBP-501
+EC17
+Paclitaxel liposomal
+PG11047
+Purine nucleoside phosphorylase gene therapy
+VGX-100
+EC0225
+HBI-8000
+GL-0817
+ALB-109564a
+EC0489
+P28 peptide
+PRI-724
+PWT33597
+AG103
+ARC-100
+Gene therapy
+Belagenpumatucel-L
+AC480
+BZL-101
+Breast cancer vaccine 
+MM-302
+NPC-1C
+Reovirus
+TAS-102
+TF2 
+HF-10
+AMG 172
+Tivozanib
+Veglin 
+AC220
+AC430
+AZD1208
+Bafetinib
+ABT-199/GDC-0199
+BI-836826
+CNDO-109
+CWP232291
+DCC-2036
+DCDS-4501A
+DCDT-2980S
+GNKG-168
+HuM195-Ac-225
+LDE225
+LG740
+LOR-2040
+Lurbinectedin
+MK-8242
+ON 013105
+Oral azacitidine
+MOR208
+Tivantinib 
+AP26113
+GI-4000 
+JNJ-26854165
+PRAME antigen-specific cancer immunotherapeutic 
+RG7599
+AEZS-112
+AFM13 
+Vinorelbine liposomal
+Autologous cancer vaccine
+Bcl-2 inhibitor
+CC-115
+CC-223
+CEP-9722
+ONO-4059
+RG7598
+RG7458
+GV1001
+AZD3514
+CYT-500
+DPX-0907
+MER-104
+TeloB-Vax
+Iofolastat I-124
+Ad-IL-12 DNA therapeutic
+AbGn-7
+ABI-009
+AZD1480
+AZD2014
+AZD5363
+BGJ398
+EMD-1214063
+Enavatuzumab
+LP-261
+ME-143
+MEDI-565
+MEDI0639 
+MG-1102
+MGA271
+MGAH22
+MINT1526A
+MSC2015103B
+MTKi-328
+NKP-1339
+NMS-1286937
+OMP-21M18
+OMP-59R5
+PM-060184
+RRx-001
+SAR125844
+SAR153192
+SCH-900353
+TAG vaccine
+TAK-441
+TAK-733
+TAK-960
+TRC102
+V935 
+T-cell replacement therapy
+MLN0128
+NTX-010
+TG02
+CBLB502
+Fenretinide intravenous
+PF-03084014
+PF-04449913
+PF-05082566
+SB1578
+IMC-3C5
+Anti-cancer mAb
+TST-10088
+VTX-2337
+ONT-10 
+ETBX-011 
+ATI-1123
+G-202
+BNP1350
+L-MDAM
+OVI-123 
+PBI-05204
+Carboxyamidotriazole orotate 
+StMN1 Lp
+IMT-1012
+EP-100
+GGTI-2418
+Ovarian dendritic cell-based vaccine
+Curmucin
+PNT2258
+CYT107
+AMP-224
+LG631
+8H9 I-131 mAb
+Zanolimumab
+CYT-6091
+GI-6301 
+GI-6207 
+INNO-305 
+JX-929
+FP-1039/HGS1036
+NKTR-105
+BMN-673
+LOR 253
+PB-357
+DM-CHOC-PEN
+AE37 
+SB-313-xTZ
+CA-18C3
+TUSC2/FUS1 gene therapy
+D-1MT
+X-82
+VX15
+Cintredekin besudotox 
+TKM-PLK1 
+QBI-139
+CPI-613
+KHK-2866
+Teglarinad
+AT-406/Debio-1143
+Cancer vaccine 
+BTSCAN
+TOK-001
+Oral clofaribine
+Ficlatuzumab
+MM-151
+IPI-145
+BIND-014
+99mTc-MIP-1405
+XMT-1001
+XMT-1107
+CUDC-101
+AI-850
+XmAb2513
+CALAA 01 
+Palifosfamide
+DC-IL-12 DNA therapeutic
+Darinaparsin
+CLT-008
+KB004
+ONX-0801
+Oprozomib
+JVRS-100
+TH-302
+Topotecan liposomes injection
+OXi4503
+HeR2 
+SB989
+Omtriptolide
+TLC-388
+Imprime pGG
+MTRN-2696
+Cytotropic heterogeneous molecular lipids
+AP1903
+B7-2/GM-CSF 
+KX2-391
+Elesclomol
+Ganetespib
+BBI503
+BBI608
+CDX-1127 
+CDX-301
+PRT6207
+Dendritic cancer cell vaccine
+IMGN529
+Lorvotuzumab mertansine
+IMGN388
+ARQ 621
+ARQ 736
+ARQ 761
+ARQ 092
+Brostallicin
+BI-811283
+BI-831266
+BI-836845
+BI-847325
+BI-853520
+Anti-CD137
+Anti-PD-L1
+BMS-936561
+BMS-936564
+BMS-986015
+BMS-986016
+EGFR/IGFR tandem adnectin
+IL-21
+BMS-906024
+MLN9708
+MLN1117
+MLN2480
+Siltuximab
+Ferroportin mAb
+Hepcidin mAb
+Chk1 inhibitor
+C-Met inhibitor
+IMC-CS4
+FGF receptor inhibitor
+Gemcitabine prodrug
+JAK2 inhibitor
+Notch inhibitor
+P38 MAP inhibitor
+P70/AKT inhibitor
+RON mAb
+OPB-51602
+OPB-31121
+GDC-0349
+GDC-0425
+GDC-0575
+GDC-0917
+RG7602
+DFRF-4539A
+RG7444
+DMUC-5754A
+RG7600
+DSTP-3086S
+DEDN-6526A
+RG7636
+Anti-IGF-1R mAb
+GDC-0032
+MPDL-3280A
+RG7446
+RG7594
+Solid tumor immunotherapy 
+RG7596
+RG7347
+MK-8808
+MK-3475
+Robatumumab
+HTERT plasmid DNA cancer vaccine
+MK-5108/VX-689
+V930/V932 
+ISIS-STAT3Rx
+ASP3026
+AGS-6MF
+AGS-16M8F
+AMG 208
+AMG 337
+AMG 780
+AMG 820
+AMG 900
+AMG 319
+U3-1565 
+JNJ-26481585
+OPR-003
+Anti-OX40 mAb
+SAR256212 
+Genz644282
+SAR245408/MSC1936369B combination therapy
+SAR245409/MSC1936369B combination therapy
+SAR566658 
+SAR650984 
+BP-100-1-01
+Oncolytic virus
+ABC294640
+Colorectal cancer vaccine
+GO-203-2c
+ABT-348
+ABT-700
+ABT-767
+ABT-806
+Indium-111
+Etirinotecan pegol
+Folate binding protein vaccine
+Unknown6
+PEG arginine deiminase
+GL-ONC1
+HuM195/rGel 
+Melanoma DNA vaccine
+NPI-0052
+Sonepcizumab
+INK1117
+CX-4945
+Inotuzumab ozogamicin
+PF-03446962
+PF-04605412
+PF-04691502
+PF-05212384
+AR-12
+AR-67
+Fluorapacin
+PV-10 
+Simotaxel IV
+D-3263
+ARRY-380
+ARRY-162
+ARRY-300
+ARRY-382 
+Golnerminogene pradenovec
+LGK974
+LGX818
+LEE011
+Lucatumumab
+Sotrastaurin 
+RAF265
+BHQ880
+BQS481
+BYL719
+HSP990
+LCL161
+LDK378
+LEQ506
+GSK2126458
+GSK2141795
+Trametinib
+GSK2241658A 
+GSK2302025A 
+GSK1070916A
+GSK2256098
+GSK2636771
+OMP-18R5
+BAY 1000394
+BAY 79-4620
+BAY 80-6946
+BAY 87-2243
+BAY 94-9343
+BAY 10-02670
+BAY 94-9392 
+DPX-survivac cancer vaccine
+Sapacitabine
+ABI-011
+UNBS-5162
+SAR307746
+PSMA ADC
+PSMA protein vaccine
+PSMA VRP therapeutic vaccine
+HS-110 
+ALD-151
+RG7256
+RG7112
+RG7116
+RG7155
+RG7167
+RG7304
+RG7356
+RG7388
+RG7593
+Tigatuzumab
+DS-2248
+DS-7423
+EZN-2208
+Naptumomab estafenatox
+GRN1005
+Verpasep caltespen 
+BIIB 022
+P2045
+MK-1496
+PTI-188
+Obatoclax
+CEP-11981
+Galiximab
+BIIB 015
+BIIB 028
+V934/V935
+TRC093
+PF-00337210
+Iboctadekin
+BI-505
+IMF-001
+In-111-DAC imaging agent
+REIC gene therapy
+WX-UK1
+CB3304
+Indatuximab ravtansine
+IPH-2101 
+BC-819
+AlloStim
+E7050
+Toca 511/Toca FC 
+VAL-083
+VB-111
+SF1 
+AVX-701
+EGEN-001
+Active specific immunotherapy
+PHY906
+TL-32711
+Abexinostat
+Anti-MUC1 mAb
+BAY 86-9766
+BPX-101 
+VT-464
+Samarium SM-153 lexidronam
+TH-9402
+MSC1936369B
+Umbilical cord blood stem cell therapy
+Telapristone
+SL-701 
+Autologous cell vaccine
+Thiarabine
+Rintatolimod
+Rigosertib
+TRU-016
+CLL immunotherapeutic vaccine
+CO-1686
+INNO-206
+JX-594
+MGCD265
+Norepinephrine topical
+CLR1404-I-124
+CLR1404-I-131
+Daratumumab
+SGX201
+KW-2450
+BIW-8962
+KW-2478
+JI-101
+ACY-1215
+M402
+CRLX101
+Prostate cancer vaccine
+Ascorbic acid/menadione
+Personalized cancer vaccine
+SL-401 
+Imetelstat
+GRNVAC1
+PRo antigen cancer vaccine
+SB1518
+Bavituximab
+Oregovomab
+CDX-1401
+Intetumumab
+Ibrutinib
+Samarium SM-153 lexidronam injection
+Cancer vaccine E75
+ARN-509
+TRC 105
+HE3235
+PR104
+PEGPH20 
+AR-42
+INC280
+GSK2302024A 
+GSK2110183
+Amrubicin
+SNS01-T 
+Crolibulin
+AGS-005
+SGI110
+ALT-801
+ALT-836
+HuM195-Bi-213
+Efatutazone
+NV-1020
+ALXN6000
+KD032
+MB07133
+SBG
+RGI-2001
+Poly-ICLC 
+Upamostat
+Sym004
+Irinotecan eluting beads
+EC145
+Interleukin-12 gene therapy
+Coxsackievirus A21
+CB-10-01
+EC20
+Melphalan intravenous 
+Onyvax-105 anti-idiotype cancer vaccine 105AD7
+PHA848125
+CEN-109
+AEZS-108
+Tesetaxel
+VB4-845
+DCVax
+G-100 prophage cancer vaccine
+G-200 prophage cancer vaccine
+GMB-Vax 
+ICT-107
+Olaratumab
+Paclitaxel poliglumex
+TVI-Brain-1 
+18F-fluorothymidine
+Acolbifene 
+AFP464
+Dalotuzumab
+Onartuzumab
+Rucaparib
+SR 16234
+Varlitinib
+ADXS-HPV 
+PM-00104
+PV701 
+VGX-3100 
+Brivanib
+CT-011
+E7820
+Encapsulated cell therapy 
+Autologous tumor cell vaccine
+Picoplatin
+Polyclonal antibody stimulator
+RG7160
+RG7597
+TAS-106
+AGS-003 
+Anti-PD1
+ABIO-0501
+GSK2130579A 
+Leukemia DNA vaccine
+Treosulfan
+RG7686
+LY2157299
+AMG888/U3-1287
+BMS-936558
+Apricoxib
+Custirsen
+Karenitecin
+MORAb-009
+Pegdinetanib
+Plinabulin
+PT107
+Ranpirnase
+Retaspimycin
+RG7414
+Volociximab
+B-cell lymphoma vaccine
+Ombrabulin
+Anti-PSCA mAb
+Onyvax-P 
+TroVax
+Saridegib
+Trabectedin
+AZD4547
+Belotecan
+Tremelimumab
+XEN-2174
+MER-101
+Volasertib
+SCH-900776
+Ecromeximab
+CG201
+J 591 Lu-177
+IRX-2
+Squalamine
+Tigapotide
+Vaccine autologous tumor cell vaccine
+AP5346
+Uridine triacetate
+Fluciclatide F-18
+Mapatumumab
+PCI-27483
+NP-2 gene therapy 
+Morphine intranasal
+CRS-207 
+Lung cancer immunotherapy
+Melanoma melanoma vaccine
+Imexon
+Liposome encapsulated paclitaxel
+LE-DT
+Amonafide
+CP-18770
+C31510
+MM-398 
+Metaiodobenzylguanidine I-131 
+GM-CT-01
+ARX-02
+Fosbretabulin
+CV-301 
+Telcyta canfosfamide
+Ibritumomab tiuxetan
+Afimoxifene
+Monoclonal antibody TNT-1 
+Rindopepimut 
+CDX-011 
+Vitespen 
+Pixantrone
+Emepepimut-S
+TAK-700
+GS-6624 
+GS-1101
+ODM-201
+Icrucumab
+Litronesib
+Cixutumumab
+LY2603618
+LY2835219
+LY2875358 
+LY2510924
+LY2090314
+LY2940680
+RG7321
+ISIS-EIF4ERx
+YM155 
+NX-1207
+SAR256212 companion diagnostic
+SAR245409 
+Leukemia cancer vaccine 
+Myeloma cancer vaccine
+Pancreatic cancer vaccine
+Elagolix
+IDM-2101 
+ISF35
+PRX-302
+Dacomitinib
+Tanezumab
+DN24-02 
+Golnerminogene pradenovac
+E7850
+MORAb-004
+SOM230
+HER2 antigen-specific cancer immunotherapeutic
+Doxorubicin-eluting beads
+GTx-758
+Eniluracil
+Autologous stem cell therapy
+Labetuzumab I-131
+APN301
+Sagopilone
+V505 
+TVI-Kidney-1 
+Cenersen
+BIIB 2024
+AME-133v
+BAY 86-5044
+IRX4204
+Paclitaxel polymeric micelle formulation
+SG2000
+MUC-1 cancer vaccine
+Thymalfasin alfa 1
+Tc-99m ethylenedicysteine glucosamine
+Fentanyl inhalation
+EMD-525797
+OPT-822/OPT-821
+RP101
+Pertuzumab companion diagnostic
+IMA901 
+Elacytarabine 
+NGR-hTNF 
+Abagovomab 
+EN3488 
+Companion diagnostic test EGFR-TKI
+V503 
+Talaporfin
+Ramucirumab
+Leukocyte interleukin 
+Girentuximab
+Obinutuzumab
+Astuprotimut-R
+Virulizin
+Velimogene aliplasmid
+S-1
+E6014
+Carlecortemcel-L
+Dimesna
+Melanoma vaccine
+Ch14.18 mAb 
+Rolapitant
+Remestemcel-L
+Pancreas algenpantucel-L
+Dronabinol oral solution
+Rilimogene galvacirepvec
+KD019
+M-200 prophage cancer vaccine
+Intedanib
+Elotuzumab
+Necitumumab
+Talminogene laherparepvec
+POL-103A
+Netupitant/palonosetron
+Girentuximab I-124
+Canfosfamide
+Aclidinium
+Aclidinium/formoterol
+AZD2115
+AZD2423 
+AZD3199 
+AZD5069
+AZD5423
+AZD8683
+BCT197
+BI-137882
+BIO-11006
+EP-101 
+EP-102 
+EPI-12323
+GSK1325756
+Levosalbutamol/ipratropium
+MEDI-2338
+MEDI8968 
+O-desulfated heparin
+Olodaterol/tiotropium bromide
+Paclitaxel-loaded stent
+PF-03715455
+PH-797804
+PT003
+PT005
+PUR118
+Relovair
+RV568
+TD-4208
+Tetomilast
+11-HSD inhibitor
+AC 165198
+Afrezza
+Alogliptin/metformin
+Alogliptin/pioglitazone
+Alogliptin/roflumilast
+AMG 151
+AMG 876
+Anagliptin
+Analog insulin-PH20
+ARI-2243
+ASP1941
+AV 133
+BGP-15
+BI-135585
+BIOD-123
+Canagliflozin/metformin
+CAT 1004
+CJC-1134-PC
+CVX 096
+Dapagliflozin/metformin
+DB 959
+DC9703
+Diabetes compound
+Dulaglutide
+EGT-0001442
+EGT-0001474
+Empagliflozin
+Empagliflozin/linagliptin
+Empagliflozin/metformin
+Emricasan
+Encapsulated islet cell transplantation therapy
+Ertugliflozin/PF-04971729
+GK1-399
+GPR 119 agonist
+GSK1070806
+GSK2330672
+HDV-insulin
+HIP-2B
+IBC-VS01 
+Indeglitazar
+INGAP peptide
+Insulin adjustable basal
+Insulin oral sublingual
+Insulin transdermal
+INT131
+ISIS-GCCRrx
+ISIS-GCGRrx
+ISIS-PTP1Brx
+ISIS-SGLT2rx
+ITCA 650 
+JNJ-16269110
+JNJ-41443532
+KRP-104
+LEZ763
+LIK066
+LIM-0705
+Linagliptin/pioglitazone 
+Lisofylline
+LX-4211
+LY2409021
+LY2523199
+LY2605541
+LY2963016
+MBX-2982
+Mesenchymal precursor cell 
+Metformin delayed-release formulation
+Metreleptin
+Mitoglitazone 
+MK-3102
+MK-5823
+MSDC-0602 
+NN1218 
+NN1953 
+NN1954 
+NN9068 
+NN9924
+NN9926
+NP-500
+OAP-189
+Oral-lyn
+Oxyntomodulin
+PAZ-320
+PB-1023
+PEG-FGF-21
+Peptide p277 
+PF-04937319
+PF-05175157
+PF-05231023
+RG4929
+RG7201
+RG7426
+RG7685
+Ryzodeg 
+S-707106
+Semaglutide
+Sitagliptin/atovastatin 
+SRT2104
+SRT2379
+SRT3025
+T2 18C3 
+TAK-329
+TAK-472
+TAK-875
+Teneligliptin
+Teplizumab 
+Insulin degludec
+TT-401
+TTP054
+TTP355
+Vildagliptin/metformin 
+VRS-859
+VVP808 
+ABT-335
+ABT-639
+ACT-1 topical gel
+AKB-9778
+ALG-1001 
+ARA 290
+ARC-4558 
+Baricitinib
+C-peptide long-acting
+Gentamicin-collagen sponge
+CORT001
+CTP-499
+DSC-127
+EVK-001
+Afilibercept
+GRT 6005/06
+HO-0303
+Iroxanadine
+Losartan/thioctic acid
+LY2382770 
+LY2623091
+MK-6096
+Modified hepatocyte growth factor gene therapy
+Doxycycline topical gel
+Nemonoxacin
+Antisense oligonucleotide Nexagon
+Nova63035 
+Pexiganan
+PF-655
+Pyridoxamine
+Ranirestat
+RM-131
+Safotibant 
+SAR164653
+Sirolimus ophthalmic
+SKL-NP
+TAK-428
+TTPABC
+TV1001 
+TZP-102
+White blood cell therapy 
+Abacavir/dolutegravir/lamivudine
+BI-224436
+CB1922
+Cenicriviroc
+CMX157 
+Cobicistat 
+Cobicistat/darunavir
+Cobicistat/darunavir/emtricitabine/GS-7340
+Cobicistat/elvitegravir/emtricitabine/GS-7340
+Dolutegravir
+Efavirenz/lamivudine/tenofovir fumarate
+GS-7340
+HIV attachment inhibitor
+HIV maturation inhibitor
+Ibalizumab
+KD-247 
+KP-1461
+Lamivudine /lopinavir/ritonavir fixed-dose combination
+Lamivudine /maraviroc/zidovudine fixed-dose combination
+Lersivirine 
+MK-1439
+NRT inhibitor
+RAP101
+RPI-MN
+S/GSK1265744
+SPL-7013 
+Tenofovir vaginal gel 
+TMC310911 
+UB-421 
+VRX806 
+HIV gene therapy
+Lexgenleucel-T
+SB-728-T
+AMZ0026
+Cytolin 
+IRT-103 
+ADVAX 
+AGS-004
+AVX-101
+DCVax-001 
+DermaVir patch 
+HIV gp41 vaccine
+HIV recombinant vaccine
+HIV vaccine
+HIVAX 
+ITV-1 
+Pennvax-B DNA vaccine 
+Pennvax-G DNA vaccine 
+TUTI-16 
+Vacc-4x
+VRC-HIVADV014-00-VP 
+VRC-HIVADV027-00-VP 
+VRC-HIVDNA016-00-VP 
+ALKS33
+ALKS5461
+Buprenorphine/naloxone
+EMB-001
+INT-0003/2005
+KRL-901
+MT-7716
+Neboglamine
+Nepicastat oral
+NIC002
+NicVAX 
+OMS-403
+TA-CD 
+ABT-436
+Alprazolam sublingual
+Alprazolam transdermal
+BNC210
+CX157
+CXB722 
+KRL-104
+PH94B
+SPN-805
+SPN-808
+Tedatioxetine
+TGFK08AA
+TGWOOAA
+Vortioxetine
+YKP-3089
+Amfetamine transdermal
+Bavisant
+COL-171
+CX1739
+EB-1020
+Edivoxetine
+KP106
+KRL-401
+Methylphenidate extended-release
+NWP06 
+NWP09
+OPC-34712
+ORADUR-ADHD 
+Sofinicline
+SPN-811
+SPN-812
+TD-9855
+AMG 747
+AQW051
+ADX N05
+Amitifadine
+Aripiprazole/escitalopram fixed-dose combination
+Armodafinil
+BCI-952 
+Bipolar disorder NCE
+BMS-820836
+Cariprazine
+Depression NCE
+DSP-1053
+Elpetrigine
+GLYX-13
+HT-2157
+Levomilnacipran
+Nefiracetam
+Nemifitide
+NSI-189
+RG1578
+RG7090
+RO4995819
+SEP-228432
+SKL-10406
+SPN-802
+Tasimelteon
+AFQ056
+AT001 
+CM-AT
+CYP2001
+RG7314
+STX107
+STX209 
+ALKS9070/ALKS9072
+AM-831
+AMG 579
+ATON-005
+AVN 211
+CM-2395
+DCCCyB
+ITI-007
+JNJ-17305600
+JNJ-37822681
+MK-2637
+MK-8998
+PF-02545920
+PF-04958242
+PF-05180999
+Pitolisant
+Pomaglumetad
+RP5063
+SB773812
+SLV 354
+TGOF02N
+Zicronapine
+E2006
+KRL-103
+Melatonin controlled-release 
+MK-3697
+MK-7288
+Neu-P11
+Zaleplon controlled-release
+Zolpidem buccal spray
+ADX71149
+BI-409306
+CORT-108297
+PH80
+Cat allergy vaccine
+Food allergy epicutaneous immunotherapy
+Grass pollen allergy vaccine tablet 
+Grass pollen extract sublingual vaccine
+House dust mite allergy sublingual vaccine
+Peanut allergy vaccine
+Quattro 
+Ragweed allergy vaccine
+Immunotherapeutic vaccine
+Anti-GnRH vaccine
+Brain dendritic cell-based vaccine 
+Prostate dendritic cell-based vaccine
+Dendritic cell cancer vaccine
+FANG vaccine 
+FBP vaccine
+HTERT vaccine 
+Algenpantucel-L 
+HER-2/neu-based modified vaccinia ankara vaccine
+MVA-BN Breast
+E75 cancer vaccine
+OPT-822
+Oral peptide cancer vaccine
+Recombinant soluble PSMA protein vaccine
+Tipapkinogene sovacivec
+Tumor-associated antigen vaccine
+WT1 immunotherapeutic
+ACAM-Cdiff 
+ACE527 
+Ad26.ENVA.01 HIV-1 recombinant vaccine
+Influenza A virus H5N1 vaccine
+AG-707 
+Anthrax transdermal vaccine
+ANZ-521 
+AV-7909 
+AVX-502
+Biothrax anthrax vaccine adsorbed
+Botulinum toxin recombinant vaccine
+Chikungunya virus vaccine
+CholeraGarde cholera vaccine live attenuated
+ChronVac-C hepatitis C DNA vaccine
+Cytomegalovirus vaccine
+Dengue
+Tetravalent hybrid dengue virus vaccine
+DNA topical patch vaccine
+DTP-HepB-Polio-Hib
+DV-601 
+Ebola vaccine
+EP1043 
+EP1090 
+EP1300 
+ETEC vaccine
+FluBlok influenza virus vaccine
+FluLaval FluLaval
+Fluvirin influenza A virus H1N1 vaccine
+GelVac H5N1 influenza virus vaccine intranasal
+GI-5005 
+GSK1437173A 
+GSK1492903A 
+GSK2189242A 
+GSK2254232A 
+GSK2254233A 
+GSK2282512A 
+GSK2321138A 
+GSK2340273A 
+GSK2340274A 
+GSK2392102A 
+GSK2830930A 
+H5N1 influenza virus vaccine
+H5N1 pandemic influenza virus vaccine
+HBV-002 
+Helicobacter pylori vaccine
+Hepatitis B DNA vaccine
+Hepatitis B vaccine
+Hepatitis C vaccine
+Hepatitis B vaccine 1018-ISS conjugate
+Herpes simplex DNA vaccine
+Replication-defective HIV-1 vaccine
+Imvamune smallpox vaccine
+Influenza A virus H1N1 vaccine
+Influenza A virus vaccine H1N1
+Influenza A virus vaccine H5N1
+Influenza A virus vaccine H9N2
+Influenza virus DNA vaccine
+Influenza virus vaccine
+Influvac tC cell culture-derived influenza vaccine
+INO-3510 
+Japanese encephalitis vaccine
+Ii-Key hybrid peptide vaccine
+LIQ-001
+Lyme disease vaccine
+Malaria DNA vaccine
+Malaria vaccine
+Marburg virus DNA vaccine
+MEDI-534 
+MenABCWY 
+Hib-MenCY-TT conjugated vaccine
+Meninge ACYW
+Meningococcal vaccine group B quadrivalent recombinant vaccine
+MMR
+Mosquirix malaria recombinant vaccine
+HIV multiantigen vaccine
+MVA-BN polytope HIV vaccine
+NB-1008 
+NDV-3 
+MenACWY-TT conjugated vaccine
+Norovirus bivalent vaccine
+Norovirus monovalent vaccine
+PanBlok influenza A virus H5N1 vaccine
+Parvovirus B19 vaccine
+PER.C-flu vaccine
+PF-05212366
+PF-05212367
+PF-06290510 
+Plague vaccine injectable
+Seasonal influenza virus vaccine
+Pseudomonas aeruginosa antibody fragment product
+PXVX-0103 
+Q-LAIV
+Diphtheria and tetanus toxoids and acellular pertussis vaccine adsorbed combined with inactivated poliomyelitis vaccine
+Diphtheria and tetanus toxoids
+Rabies VRVg 
+Respiratory syncytial virus VLPvaccine
+Rotavirus vaccine 
+Rotavirus vaccine I321
+RPA-102 
+Shigella vaccine
+SparVax recombinant protective antigen anthrax vaccine
+Staphylococcus aureus vaccine
+Staphylococcus aureus vaccine conjugate pentavalent
+Streptococcal B vaccine
+Streptococcal B vaccine conjugate
+Streptococcus pneumoniae vaccine
+TCN-032 
+TG-4040 
+Cytomegalovirus DNA vaccine 
+Tuberculosis recombinant subunit vaccine
+Tuberculosis vaccine
+V114 
+V212 
+V502 
+V520/V526 combination vaccine
+VAX-102
+VAX-125
+VAX-128
+VGX-3400
+Visceral leishmaniasis vaccine
+VLP-based influenza vaccine
+VRC-EBOADV018-00-VP 
+XRX-001 
+Zoster 
+BHT-3009 
+BHT-3021 
+Insulin B-chain vaccine
+PEG-SN38
+AMG 110 
+AMG 139 
+AMG 232
+AMG 334
+AMG 357
+AMG 595 
+AMG 729
+AMG 181 
+AMG 416
+Blinatumomab
+Brodalumab
+Omecamtiv mecarbil
+Romosozumab
+Talimogene
+XGEVA
+MDV3100
+MDV3101
+ASP4130
+ASP4131
+Isavuconazole
+ASP0113 
+ASP015K
+ASKP1240
+ASP3652
+ASP1707
+YM060
+YM533
+FK949E
+ASP1585 
+ASP3550
+ASP7374 
+ASP7373
+ASP0306
+ASP4901
+ASP8477
+ASP9226
+ASP7991
+ASP2409
+ASP6432
+ASP9853
+ASP8232
+ASP3662
+Axanum
+Brilinta/Brilique
+Bydureon Dual Chamber Pen
+Kombiglyze XR/Komboglyze FDC
+SaxaDapa FDC
+Symbicort
+CAZ AVI
+Zinforo
+Naloxegol
+Tralokinumab
+AZD5847
+CXL
+ATM AVI
+MEDI-550 
+MEDI-557 
+MEDI-559 
+AZD3293
+MEDI5117 
+AZD9150
+MEDI4736 
+MEDI6469 
+Moxetumomab
+Volitinib
+Benralizumab
+MEDI7183 
+AZD8848
+AZD7594
+MEDI2070 
+MEDI4212 
+MEDI5872 
+MEDI7814 
+MEDI9929 
+RDEA3170
+FluMist/Fluenz 
+BAY 2010112 
+BAY 1082439
+BAY 1067197
+BAY 86-8050
+BAY 1021189
+BAY 85-3934
+BAY 85-8501
+BAY 1026153
+MEK-Inhibitor
+Radium-223-Dichloride
+BAY 94-8862
+Amikacin Inhale
+BAY 94-9027
+BAY 86-6150
+Cipro Inhale
+Tedizolid
+FUMADERM
+TECFIDERA
+Recombinant factor IX Fc
+Recombinant factor VIII Fc
+PLEGRIDY 
+ANTI-TWEAK 
+Anti-LINGO
+STX-100
+Neublastin
+CD40L
+SMNrx
+Nintedanib
+ACE-536
+CC-930
+CC-11050
+PDA-001 
+CYT-609
+DU-176b
+DE-766 
+CS-3150
+DS-7250
+CS-1008 
+CS-7017
+U3-1287
+DS-5565
+SUN13837
+ASB17061
+DS-7309
+DS-6930
+DS-8500
+DS-1442
+DS-1040
+DS-3078
+DS-8587
+CS-4771
+CS-0777
+GS-9973
+Nivolumab
+SAR405838
+ABT-199/GDC-0199/RG7601
+Lintuzumab Ac-225
+AT-406
+BI-836858
+Birinapant
+Lintuzumab Bi-213
+Calaspargase pegol 
+CC-292
+CC-486
+CTL019 
+DFP-10917
+EPZ-5676
+Asparaginase Erwinia 
+GS-9820
+HTERT RNA vaccine
+Ibrutinib companion diagnostic
+Idelalisib
+Iomab-B 
+KX01
+Lirilumab
+PM01183
+Quizartinib
+SGN-CD19A 
+TCN-P
+Ublituximab
+VAY736 
+XmAb 5574/MOR208 
+AEB071
+Anti-CD79b antibody-drug conjugate
+Autologous idiotypic cancer vaccin
+BI-695500
+CGC-11047
+CUDC-427
+CUDC-907
+Delanzomib
+DI-Leu16-IL2
+Epratuzumab Y-90
+GDC-0980/RG7422
+Imprime PGG immunotherapeutic
+JNJ-42756493
+LY3039478
+Marizomib
+Mechlorethamine gel 
+Ocaratuzumab
+Pacritinib
+Pidilizumab
+Sepantronium bromide
+Urelumab 
+Veltuzumab/epratuzumab Y-90
+ARRY-614
+Pracinostat
+Ezatiostat 
+Antibody-drug conjugate
+BT-062 
+DKN-01
+IMGN901
+LGH447
+MFGR-1877S
+Milatuzumab-doxorubicin conjugate 
+PVX-410 
+Tabalumab 
+BMS-911543
+INCB39110
+Ruxolitinib
+LY2784544
+Momelotinib
+NS-018
+PRM-151 
+SAR302503
+Simtuzumab 
+DC Bead
+Careram
+Cinitapride
+E5501
+MORAb-003
+Inovelon/Banzel
+AS-3201
+E6005
+E6201
+E7016
+Ontak 
+Eluxadoline
+Avarofloxacin
+Dapoxetine
+MEGF0444A 
+MEHD7945A
+GDC-0199
+C-0084
+Trastuzumab emtansine
+FCFD4514S 
+Etrolizumab 
+MEMP1972A 
+Sodium Hyaluronate
+Arbaclofen
+MPSK3169A
+Tofogliflozin
+Eliglustat tartrate
+Acid sphingomyelinase 
+AAV-hAADC gene therapy
+AAV-sFLT gene therapy
+Single Tablet Regimen 
+Single Tablet Regimen of sofosbuvir and ledipasvir (
+GS-9451
+GS-9669
+GS-5816
+GS-9620
+Tenofovir Alafenamide
+GS-4774
+GS-5745
+Ranolazine/Dronedarone Fixed-Dose Combination
+GS-6615
+GS-9268
+GS-5806
+GI-13020
+GI-5005-02
+GI-4000 in combination with gemcitabine
+Ozanezumab
+Sirukumab
+1614235 + 2330672
+Camicinal
+Vercirnon
+Tafenoquine
+Patrome
+Trametinib + 2141795
+Dabrafenib
+Trametinib + dabrafenib
+Relvar/Breo
+Umeclidinium
+Anoro
+S. pneumoniae paediatric next generation 
+Mosquirix 
+HIV 
+NTHi 
+Tuberculosis 
+Flu 
+MAGE-A3 immunotherapeutic
+Migalastat HCl + ERT 
+Drisapersen 
+Migalastat HCl 
+Duac low dose 
+Dolutegravir + abacavir sulphate + lamivudine 
+IDX719
+INCB28060
+KYNAMRO
+ISIS-CRPRx
+ISIS-FXIRx
+ISIS-APOARx
+ISIS-TTRRx
+ISIS-SMNRx
+ISIS-FGFR4Rx
+Plazomicin
+Darunavir and cobicistat
+Simeprevir
+Paliperidone palmitate IM long acting injectable
+KX01 and paclitaxel
+Oraxol
+Oratecan
+SGN-35
+MLN0264
+HyperAcute Pancreas 
+HyperAcute Lung 
+HyperAcute Melanoma 
+NLG8189
+ATI355 
+BAF312
+BGS649
+BYM338
+DEB025
+Exjade 
+KAE609
+LFF571
+MEK162
+QMF149
+RLX030 
+NN5401
+NN1841
+Turoctocog alfa
+IDegLira
+N8-GP
+N9-GP
+NN8717
+LATIN T1D
+OI338GT
+OI362GT
+OI287GT
+OG217SC
+OG987GT
+OG987SC
+FIAsp
+LAI287
+NN7415
+NN8210
+NN8765
+Prochyma
+ChondrogenTM
+AN2728
+AS101
+CT 327
+DPIV/CD26
+LAS41004
+LEO 80185
+LEO 90100
+M518101
+PH-10
+WBI-1001
+ACT-128800
+Apo805K1
+FP187
+LEO 22811
+VB-201
+Ixekizumab
+MK-3222/SCH 900222
+BT-061
+CHU
+RG7212
+RG7221 
+RG7420
+RG7440
+RG7450 
+RG7601
+RG7604
+RG7666
+RG7741
+RG7853
+RG3616
+RG3638 
+RG7422
+RG1273
+RG3502 
+RG7159
+RG7421+RG7204
+RG7624
+RG7413 
+RG3637
+RG3806
+RG7667
+RG7697
+RG7652
+RG7203
+RG1450
+RG7412
+SSTarbaclofen
+GZ402674
+Combinations SAR245409 / MSC1936369B SAR245408/SAR256212 
+SAR260301
+SAR127963
+GZ404477 
+SAR126119
+SAR252067 
+SAR113244 
+Lixisenatide + Lantus
+GZ402665
+GZ402671
+FOV1101
+Ferroquine
+Fresolimumab
+SAR97276
+SAR279356 
+SAR339658
+SAR156597 
+SYNVISC-ONE 
+MACI 
+Quadracel 
+VaxiGrip QIV IM 
+Fluzone QIV ID 
+New hexavalent vaccine (DTP-HepB-Polio-Hib vaccine)
+Fluzone QIV IM 
+Lixisenatide
+SI-6603
+Condoliase
+SI-657
+SI-613 
+SI-614
+Levoleucovorin
+Captisol-enabled Melphalan
+Apaziquone/EOquin
+SPI-2012
+Renazorb
+SPI-205
+CT-064
+TS-071
+TT-063
+NT-702
+Palux
+TS-091
+TS-111
+MLN0002
+Peginesatide
+BLB-750 
+TAK-438
+TAK-816 
+TAK-361S 
+Norovirus vaccine
+TAK-272
+TAK-063
+MT203
+Lu AA24530
+AMG 403
+ITI-214
+RELVARTM or BREOTM ELLIPTATM
+ANORATM ELLIPTATM 
+TD-1607
+TD-1211
+VR315
+VR632
+VR496
+XmAb 5871
+PF-4605412
+Undisclosed
+Liprotamase
+Evacetrapib
+Blosozumab
+LY2886721
+LY2951742
+LY2801653
+LY2812176
+LY2606368
+LY2874455
+LY3012212
+LY2523355
+IL-1 ?Monoclonal Antibody 
+CSF-1R Monoclonal Antibody 
+Ferroportin Monoclonal Antibody
+PI3 Kinase/mTOR Inhibitor
+P38 MAP Kinase Inhibitor
+P70 S6 Kinase/AKT Dual Inhibitor
+RON Monoclonal Antibody
+VEGFR3 Monoclonal Antibody 
+MK-7655
+MK-8835
+MK-8742
+MK-1602
+MK-4618
+MK-8457
+MK-3415A
+MK-8109
+MK-3222
+MK-08887A
+Budesonide foam
+GSK683699
+(S)-amisulpride
+1192U90
+5-HT2C agonist
+A-71378
+A-74498
+A-837093
+AC-162352
+Adenosine A(2A) receptor antagonist
+ADX-2 series
+AG-021541
+ALN-PCS01
+AMG 714
+Apafant
+AR-R-1589
+ATI-17000
+ATL-1103
+AZ-40140
+Belaperidone
+BIBO-3304
+BIO-306
+Bisquaternary salt
+BL-1020
+BMS-192548
+BMS-433771
+BVT-A
+CB1 antagonist
+Celastrol
+CHIR-01020
+Chitin synthase inhibitor
+CL-314698
+CP-114271
+Cruentaren
+CYT-009-GhrQb
+D1 agonist D2 antagonist
+Dianicline
+Dianicline+rimonabant
+DPC-333
+DX-890
+E-6276
+EP-01492
+Estrogen and selective estrogen receptor modulators
+Fananserin
+FAS1
+FK778
+FPL-14294
+FR-79620
+FSA2
+GCR-1087
+Genz29155
+GG-8573
+GI-264879A
+GNTI
+GSK-326416
+GW-3333
+GW-594884A
+GYKI-47261
+HMG-CoA reductase inhibitor
+Icofungipen
+IDDB-41331
+IDDBCP-150101
+Indol-3-carbinol
+Iptakalim
+KD-3020
+L-742791
+L-751250
+Laropiprant+niacin
+LY-25582
+LY-362884
+MC-4 agonist
+MCH antagonist
+MCP-1
+Melanotetan II
+MGluR2 agonist
+MGluRIII agonist and mGlu5 antagonist
+Miltefosine
+Mteron-F1
+NAChRs agonist
+Nimesulide
+NOX-F37
+NPY antagonist
+NPY5RA-972
+ONO-5046
+Org-24461
+Organon
+Organon-2
+Organon-3
+Ostarine
+PCSK9 inhibitor
+PD-160170
+PD-170292
+PF9601N
+PT-15
+RFI-641
+RGH-1756
+Rhucin
+Rimcazole
+RMG-40083
+Ro-27-3225
+Rottlerin
+RS-504393
+S32504
+Scriptaid
+SDZ-HDC-912
+Sirna-027
+SLV-332
+SMP-534
+SNAP-7941
+Sonepiprazole
+SR-31742A
+SSR-103800
+SSR-504734
+T-226293
+T-226296
+Tanaproget
+UCL-2000 and butabindide
+VP-14637
+VT-111
+YM-344031
+YM-355179
+Huntingtin gene antisense
+Gem 92
+AG-024322
+TAK-779
+Remacemide
+LY467711
+LY525327
+ASP8497
+CCT-018159
+CHAP-15
+Chlamydocin
+Denagliptin
+Depudecin 
+ER-319711-15
+FFF1
+FFF2
+FFF3
+FFF4
+HC-Toxin
+HDAC-42
+Isoleucine thiazolidide DPP IV
+JNS-16241199
+KRH-2731
+LY-2463665
+LY367265
+M-carboxycinnamic acid bishydroxamide
+McN3377
+NVP DPP728
+Oxamflatin
+R-1438
+SB-623
+SB-6241
+SB-639
+SCH-C
+SK-7041
+SK-7068
+Tak-220
+TP-023
+TPT-43
+VER 49009
+YM-992
+Metastat
+Galardin
+4SC-202
+AEZS-123
+ALN-HTT
+ALN-PCS
+ANAVEX 1007
+ANAVEX 1-41
+AT008
+BMS-PCSK9
+CF502
+CF602
+IMO-2134
+ISIS-FGFR4
+ISIS-GCCR
+ISIS-GCGR
+ISIS-PTP1B
+ISIS-STAT3
+JD-5037
+RG2833
+RM-493
+SCY-641
+SGN-19A
+TZP-301
+XL475
+ZP2929
+Ceftobiprole medocaril
+Cefcapene pivoxil
+Cefozopran hcl
+Xeljanz
+Tarceva
+Iressa

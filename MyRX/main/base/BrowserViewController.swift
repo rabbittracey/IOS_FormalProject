@@ -8,7 +8,7 @@
 
 import UIKit
 
-class BrowserViewController: BaseViewController {
+class BrowserViewController: BaseViewController , UIWebViewDelegate {
 
     @IBOutlet weak var webView: UIWebView!
     @IBOutlet weak var activityIndicator: UIActivityIndicatorView!
@@ -19,7 +19,7 @@ class BrowserViewController: BaseViewController {
 
         // Do any additional setup after loading the view.
         activityIndicator.hidden = true
-        
+        webView.delegate = self
         webView.loadRequest(NSURLRequest(URL:target))
     }
 
@@ -38,5 +38,19 @@ class BrowserViewController: BaseViewController {
         // Pass the selected object to the new view controller.
     }
     */
+    func webView(webView: UIWebView, shouldStartLoadWithRequest request: NSURLRequest, navigationType: UIWebViewNavigationType) -> Bool {
+        activityIndicator.hidden = false
+        activityIndicator.startAnimating()
+        return true
+    }
+    func webViewDidFinishLoad(webView: UIWebView) {
+        activityIndicator.hidden = true
+        activityIndicator.stopAnimating()
+    }
+    func webView(webView: UIWebView, didFailLoadWithError error: NSError?) {
+        activityIndicator.hidden = true
+        activityIndicator.stopAnimating()
+        
+    }
 
 }

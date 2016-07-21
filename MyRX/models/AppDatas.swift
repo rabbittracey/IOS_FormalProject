@@ -56,3 +56,8 @@ let GENDER_ADAPT = [
     "F" : "Female",
     "U" : "Other"
 ]
+
+let DATEFORMAT = "yyyy-MM-dd".dateFormatter()
+let DATETIMEFORMAT = "yyyy-MM-dd HH:mm:ss".dateFormatter()
+let TIMEFORMAT = "HH:mm:ss".dateFormatter()
+

@@ -1,0 +1,28 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "9264AF7B19F42F61C1F63120F2C5BF164A6DC376",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "9264AF7B19F42F61C1F63120F2C5BF164A6DC376" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "C2225A0C-2E21-4F31-B1A5-512399920C9E",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "9264AF7B19F42F61C1F63120F2C5BF164A6DC376" : "..\/MyRX\/MyRX"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "MyRX",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "MyRX.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "dev-git:~\/repo\/myrx",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "9264AF7B19F42F61C1F63120F2C5BF164A6DC376"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "dev-git:\/home\/yaowei.li\/repo\/myrx",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "9264AF7B19F42F61C1F63120F2C5BF164A6DC376"
+    }
+  ]
+}

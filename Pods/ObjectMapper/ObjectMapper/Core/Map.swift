@@ -115,6 +115,13 @@ public final class Map {
 	public var isValid: Bool {
 		return failedCount == 0
 	}
+    public func key() -> String? {
+        guard self.isKeyPresent else {
+            return nil
+        }
+        return self.currentKey
+    }
+
 }
 
 /// Fetch value from JSON dictionary, loop through keyPathComponents until we reach the desired object

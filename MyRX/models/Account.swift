@@ -40,12 +40,10 @@ func currentAccount() -> Account {
     })
 }
 
-let DATEFORMAT = "yyyy-MM-dd".dateFormatter()
-
 class Account: Object,MDMappable {
 //    static let current:Account =
     static let email_reg = "^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\\.[a-zA-Z0-9-.]+$"
-//    static let password_reg = "^(?=.*[A-Z])(?=.*[!@#$&*])(?=.*[0-9])(?=.*[a-z]).{8,}$"
+  //    static let password_reg = "^(?=.*[A-Z])(?=.*[!@#$&*])(?=.*[0-9])(?=.*[a-z]).{8,}$"
     static let password_reg = "^.{2,}$"
     dynamic var id=0
     dynamic var fname:String?

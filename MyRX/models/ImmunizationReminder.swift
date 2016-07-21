@@ -22,12 +22,13 @@ class ImmunizationReminder : Object , MDMappable {
     required convenience init?(_ map: Map) {
         self.init()
     }
+    class func valid(map: Map) throws {
+        
+    }
     
     func mmapping(map:Map) {
-        if map.mappingType == .FromJSON {
-            id <- map["id"]
-        }       
-        reminder_date<-map["reminder_date"],DateFormatterTransform(dateFormatter:DATEFORMAT)
+        id <- map["id"]
+        reminder_date<-(map["reminder_date"],DateFormatterTransform(dateFormatter:DATEFORMAT))
         notes<-map["notes"]
         email<-map["email"]
         

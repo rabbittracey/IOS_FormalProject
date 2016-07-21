@@ -34,7 +34,7 @@ class Immunization : Object , MDMappable {
     dynamic var administrator_affiliation:String?
     dynamic var version: String?
     dynamic var is_archived: String?
-    dynamic var reminders : [ImmunizationReminder]?
+//    dynamic var reminders : [ImmunizationReminder]?
     required convenience init?(_ map: Map) {
         self.init()
     }
@@ -63,10 +63,10 @@ class Immunization : Object , MDMappable {
         administrator_affiliation<-map["administrator_affiliation"]
         version<-map["version"]
         is_archived<-map["is_archived"]
-        reminders <- map["reminders"]
-        reminders?.forEach { [ self ]
-            $0.immunization = self
-        }
+//        reminders <- map["reminders"]
+//        reminders?.forEach { [ self ]
+//            $0.immunization = self
+//        }
     }
 }
 class PackImmunization :  Mappable {

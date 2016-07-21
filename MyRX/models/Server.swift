@@ -16,25 +16,27 @@ public func request(
     method: Alamofire.Method,
     _ apiurl: String,
       _ parameters: [String: AnyObject] = [:],
-      headers: [String: String]? = nil)
+        encoding : ParameterEncoding? = nil, headers: [String: String]? = nil)
     -> Request
 {
-    guard let _ = parameters["token"] else {
+    switch method {
+    case .GET:
         return Manager.sharedInstance.request(
             method,
             SERVERURL + apiurl,
-            parameters: parameters + ["token" : TOKEN],
+            parameters: parameters + ["token" : parameters["token"] as? String ?? TOKEN],
+            encoding: .URL,
+            headers: headers
+        )
+    default:
+        return Manager.sharedInstance.request(
+            method,
+            SERVERURL + apiurl,
+            parameters: parameters + ["token" : parameters["token"] as? String ?? TOKEN],
             encoding: .JSON,
             headers: headers
         )
     }
-    return Manager.sharedInstance.request(
-        method,
-        SERVERURL + apiurl,
-        parameters: parameters,
-        encoding: .JSON,
-        headers: headers
-    )
 }
 
 public func request<T:Mappable>(
@@ -66,4 +68,8 @@ func changePassword(password:String) -> Request {
 }
 func logout() -> Request {
     return request(.DELETE,"/api/sessions/destroy",[:])
+}
+
+func getImmunization() -> Request {
+    return request(.GET,"/api/patient_immunizations",["version":0])
 }

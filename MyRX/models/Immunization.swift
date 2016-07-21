@@ -35,9 +35,31 @@ class Immunization : Object , MDMappable {
     required convenience init?(_ map: Map) {
         self.init()
     }
-    
-    func mmapping(map:Map) {
-        name <- map["name"]
-        name <-- (map["name"],"\\d")
+    static func valid(map: Map) throws {
+        
     }
+    func mmapping(map:Map) {
+        id <- map["id"]
+        name <- map["name"]
+        date_administered <- (map["date_administered"],DateFormatterTransform(dateFormatter:DATEFORMAT))
+        reImmunization_due_date <- (map["reImmunization_due_date"],DateFormatterTransform(dateFormatter:DATEFORMAT))
+    }
+}
+class PackImmunization :  Mappable {
+    dynamic var version = 0
+    dynamic var isContinue = false
+    dynamic var immunizations:[Immunization]?
+    
+    required convenience init?(_ map: Map) {
+        self.init()
+    }
+    static func valid(map: Map) throws {
+        
+    }
+    func mapping(map:Map) {
+        version <- map["next_version"]
+        isContinue <- map["continue"]
+        immunizations <- map["datas"]
+    }
+    
 }

@@ -222,7 +222,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="ZkA-fC-62C">
-                                <rect key="frame" x="0.0" y="92" width="600" height="44"/>
+                                <rect key="frame" x="0.0" y="28" width="600" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="ZkA-fC-62C" id="559-dy-Dvf">
                                     <rect key="frame" x="0.0" y="0.0" width="600" height="43.5"/>
@@ -239,7 +239,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eDU-Rd-B2X" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1660" y="-1216"/>
+            <point key="canvasLocation" x="1654" y="-1165"/>
         </scene>
         <!--Record-->
         <scene sceneID="TEP-0X-n1t">
@@ -251,12 +251,22 @@
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
-                        <segue destination="QFf-sf-Muf" kind="relationship" relationship="rootViewController" id="6zX-mQ-a8i"/>
+                        <segue destination="1bc-VB-fnX" kind="relationship" relationship="rootViewController" id="53Z-MP-C7x"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GPT-5e-inK" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1654" y="-2010"/>
+        </scene>
+        <!--ImmunizationViewController-->
+        <scene sceneID="WHk-Mh-jqM">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Immunization" referencedIdentifier="ImmunizationViewController" id="1bc-VB-fnX" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="QFa-lF-kJW"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qAy-cj-ljd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1654" y="-1578"/>
         </scene>
         <!--Inbox-->
         <scene sceneID="r8n-1A-Vpm">

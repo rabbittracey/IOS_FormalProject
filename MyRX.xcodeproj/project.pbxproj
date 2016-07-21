@@ -61,7 +61,6 @@
 		5AF96F071C84D23A00334E45 /* test.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AF96F061C84D23A00334E45 /* test.storyboard */; };
 		5AF96F091C84DCEE00334E45 /* MDTopAlignedLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF96F081C84DCEE00334E45 /* MDTopAlignedLabel.swift */; };
 		71D4B1481E6587EB5F2AE435 /* Pods_MyRX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEBB95D8B8DFE48ABC52B21D /* Pods_MyRX.framework */; };
-		74773A3411BDAC6ADF3A9915 /* Pods_MyRX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEBB95D8B8DFE48ABC52B21D /* Pods_MyRX.framework */; };
 		7B4826911D2EFA030069AE55 /* ActivationCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B4826901D2EFA030069AE55 /* ActivationCodeViewController.swift */; };
 		7B4D37C31D34178300A10954 /* MDThread.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B4D37C21D34178300A10954 /* MDThread.swift */; };
 		7B4D37C51D34200D00A10954 /* GlobalUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B4D37C41D34200D00A10954 /* GlobalUI.swift */; };
@@ -174,10 +173,26 @@
 		7B7700971D381D850000D847 /* ChangePasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B7700961D381D850000D847 /* ChangePasswordViewController.swift */; };
 		7B7700991D395D050000D847 /* Immunization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B7700981D395D050000D847 /* Immunization.swift */; };
 		7B77009C1D397FEC0000D847 /* JIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B77009A1D397FE60000D847 /* JIViewController.swift */; };
+		7B900A491D3E9CEF00017D14 /* ImmunizationDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B900A481D3E9CEF00017D14 /* ImmunizationDetailViewController.swift */; };
+		7B900A521D3EA2F500017D14 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B900A511D3EA2F500017D14 /* main.swift */; };
+		7BDAF34E1D3FE481007B5C1E /* Immunization.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BDAF34D1D3FE481007B5C1E /* Immunization.storyboard */; };
+		7BDAF3521D400677007B5C1E /* GlobalTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BDAF3511D400677007B5C1E /* GlobalTask.swift */; };
 		7BFB470D1D2EE47800981AEF /* FaceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BFB470C1D2EE47800981AEF /* FaceCell.swift */; };
 		7BFB470E1D2EE47800981AEF /* FaceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BFB470C1D2EE47800981AEF /* FaceCell.swift */; };
 		7BFB470F1D2EE52500981AEF /* FaceCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7B5824701D2EDCA400577A46 /* FaceCell.xib */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7B900A4D1D3EA2F500017D14 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		5A054AB41C90D0C500399391 /* MDGrayImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MDGrayImageView.swift; sourceTree = "<group>"; };
@@ -275,6 +290,13 @@
 		7B7700961D381D850000D847 /* ChangePasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChangePasswordViewController.swift; sourceTree = "<group>"; };
 		7B7700981D395D050000D847 /* Immunization.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Immunization.swift; sourceTree = "<group>"; };
 		7B77009A1D397FE60000D847 /* JIViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = JIViewController.swift; path = test/JIViewController.swift; sourceTree = "<group>"; };
+		7B900A481D3E9CEF00017D14 /* ImmunizationDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ImmunizationDetailViewController.swift; path = ../record/ImmunizationDetailViewController.swift; sourceTree = "<group>"; };
+		7B900A4F1D3EA2F500017D14 /* Test */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Test; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B900A511D3EA2F500017D14 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		7B900A571D3EA39300017D14 /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Realm.framework; path = "../../../../../Users/yaowei/Library/Developer/Xcode/DerivedData/MyRX-dxwjbdoilfntuydzuyxyiswwozch/Build/Products/Debug-iphoneos/Realm/Realm.framework"; sourceTree = "<group>"; };
+		7B900A581D3EA39300017D14 /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RealmSwift.framework; path = "../../../../../Users/yaowei/Library/Developer/Xcode/DerivedData/MyRX-dxwjbdoilfntuydzuyxyiswwozch/Build/Products/Debug-iphoneos/RealmSwift/RealmSwift.framework"; sourceTree = "<group>"; };
+		7BDAF34D1D3FE481007B5C1E /* Immunization.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Immunization.storyboard; sourceTree = "<group>"; };
+		7BDAF3511D400677007B5C1E /* GlobalTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlobalTask.swift; sourceTree = "<group>"; };
 		7BFB470C1D2EE47800981AEF /* FaceCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FaceCell.swift; sourceTree = "<group>"; };
 		808C922236F8CE3E9F398B7C /* Pods-MyRX.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyRX.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyRX/Pods-MyRX.release.xcconfig"; sourceTree = "<group>"; };
 		AEBB95D8B8DFE48ABC52B21D /* Pods_MyRX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyRX.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -287,11 +309,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				71D4B1481E6587EB5F2AE435 /* Pods_MyRX.framework in Frameworks */,
-				74773A3411BDAC6ADF3A9915 /* Pods_MyRX.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		7B58244C1D2ED32700577A46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B900A4C1D3EA2F500017D14 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -304,6 +332,8 @@
 		0F66BECDCFBC537FC81D7235 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				7B900A571D3EA39300017D14 /* Realm.framework */,
+				7B900A581D3EA39300017D14 /* RealmSwift.framework */,
 				AEBB95D8B8DFE48ABC52B21D /* Pods_MyRX.framework */,
 			);
 			name = Frameworks;
@@ -328,6 +358,7 @@
 			isa = PBXGroup;
 			children = (
 				5AAC00771C7F989A00E6C38D /* MyRX */,
+				7B900A501D3EA2F500017D14 /* Test */,
 				5AAC00761C7F989A00E6C38D /* Products */,
 				CFBE1A25B18BE44DE5BFD934 /* Pods */,
 				0F66BECDCFBC537FC81D7235 /* Frameworks */,
@@ -340,6 +371,7 @@
 			children = (
 				5AAC00751C7F989A00E6C38D /* MyRX.app */,
 				7B5824681D2ED32700577A46 /* MyRX-Test.app */,
+				7B900A4F1D3EA2F500017D14 /* Test */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -377,6 +409,8 @@
 		5AAC00B61C7F994600E6C38D /* main */ = {
 			isa = PBXGroup;
 			children = (
+				7BDAF3501D400603007B5C1E /* global */,
+				7BDAF34F1D3FE4AE007B5C1E /* immunization */,
 				7BFB470B1D2EE42300981AEF /* ui */,
 				5AAC00B71C7F994600E6C38D /* base */,
 				5AAC00BA1C7F994600E6C38D /* home */,
@@ -543,6 +577,7 @@
 				5AAC007C1C7F989A00E6C38D /* Main.storyboard */,
 				7B5823F51D24672500577A46 /* utils.storyboard */,
 				7B5823FD1D2EA74200577A46 /* Setting.storyboard */,
+				7BDAF34D1D3FE481007B5C1E /* Immunization.storyboard */,
 			);
 			path = storyboard;
 			sourceTree = "<group>";
@@ -561,6 +596,30 @@
 				7B5824701D2EDCA400577A46 /* FaceCell.xib */,
 			);
 			path = items;
+			sourceTree = "<group>";
+		};
+		7B900A501D3EA2F500017D14 /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				7B900A511D3EA2F500017D14 /* main.swift */,
+			);
+			path = Test;
+			sourceTree = "<group>";
+		};
+		7BDAF34F1D3FE4AE007B5C1E /* immunization */ = {
+			isa = PBXGroup;
+			children = (
+				7B900A481D3E9CEF00017D14 /* ImmunizationDetailViewController.swift */,
+			);
+			path = immunization;
+			sourceTree = "<group>";
+		};
+		7BDAF3501D400603007B5C1E /* global */ = {
+			isa = PBXGroup;
+			children = (
+				7BDAF3511D400677007B5C1E /* GlobalTask.swift */,
+			);
+			path = global;
 			sourceTree = "<group>";
 		};
 		7BFB470B1D2EE42300981AEF /* ui */ = {
@@ -625,13 +684,30 @@
 			productReference = 7B5824681D2ED32700577A46 /* MyRX-Test.app */;
 			productType = "com.apple.product-type.application";
 		};
+		7B900A4E1D3EA2F500017D14 /* Test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B900A531D3EA2F500017D14 /* Build configuration list for PBXNativeTarget "Test" */;
+			buildPhases = (
+				7B900A4B1D3EA2F500017D14 /* Sources */,
+				7B900A4C1D3EA2F500017D14 /* Frameworks */,
+				7B900A4D1D3EA2F500017D14 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Test;
+			productName = Test;
+			productReference = 7B900A4F1D3EA2F500017D14 /* Test */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		5AAC006D1C7F989900E6C38D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0720;
+				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = EagleForce;
 				TargetAttributes = {
@@ -643,6 +719,9 @@
 								enabled = 1;
 							};
 						};
+					};
+					7B900A4E1D3EA2F500017D14 = {
+						CreatedOnToolsVersion = 7.3.1;
 					};
 				};
 			};
@@ -661,6 +740,7 @@
 			targets = (
 				5AAC00741C7F989900E6C38D /* MyRX */,
 				7B5824041D2ED32700577A46 /* MyRX-Test */,
+				7B900A4E1D3EA2F500017D14 /* Test */,
 			);
 		};
 /* End PBXProject section */
@@ -687,6 +767,7 @@
 				7B5823EE1D24578100577A46 /* diversity.html in Resources */,
 				7B5823F01D24578100577A46 /* managementTeam.html in Resources */,
 				7B5823F61D24672500577A46 /* utils.storyboard in Resources */,
+				7BDAF34E1D3FE481007B5C1E /* Immunization.storyboard in Resources */,
 				7B5823ED1D24578100577A46 /* corporateResponsibility.html in Resources */,
 				5AAC007E1C7F989A00E6C38D /* Main.storyboard in Resources */,
 				5A53CC171C80EF3500CFE559 /* drugNames.txt in Resources */,
@@ -883,6 +964,8 @@
 				5A53CC1D1C80FE4600CFE559 /* MDTabBarView.swift in Sources */,
 				5A4534921C99DE2D0072518B /* T05ViewController.swift in Sources */,
 				5A53CC1F1C80FF1500CFE559 /* MDCornerView.swift in Sources */,
+				7BDAF3521D400677007B5C1E /* GlobalTask.swift in Sources */,
+				7B900A491D3E9CEF00017D14 /* ImmunizationDetailViewController.swift in Sources */,
 				5AAC00791C7F989A00E6C38D /* AppDelegate.swift in Sources */,
 				7B5564E21D22CDA8001F5135 /* RegisterViewController.swift in Sources */,
 				5A22F9FD1C80A7DF0083AAFE /* UIModel.swift in Sources */,
@@ -955,6 +1038,14 @@
 				7B58244A1D2ED32700577A46 /* Models.swift in Sources */,
 				7B58244B1D2ED32700577A46 /* HomeInboxViewController.swift in Sources */,
 				7BFB470E1D2EE47800981AEF /* FaceCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B900A4B1D3EA2F500017D14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B900A521D3EA2F500017D14 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1124,6 +1215,28 @@
 			};
 			name = Release;
 		};
+		7B900A541D3EA2F500017D14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CODE_SIGN_IDENTITY = "-";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		7B900A551D3EA2F500017D14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CODE_SIGN_IDENTITY = "-";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1150,6 +1263,15 @@
 			buildConfigurations = (
 				7B5824661D2ED32700577A46 /* Debug */,
 				7B5824671D2ED32700577A46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7B900A531D3EA2F500017D14 /* Build configuration list for PBXNativeTarget "Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B900A541D3EA2F500017D14 /* Debug */,
+				7B900A551D3EA2F500017D14 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

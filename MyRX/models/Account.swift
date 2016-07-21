@@ -13,7 +13,8 @@ import Eureka
 
 func currentRealm() -> Realm {
     return cachedThreadLocalObjectWithKey("com.eagleforce.myrx.realm", create: {
-        return try! Realm()
+        return try! Realm(configuration: Realm.Configuration(inMemoryIdentifier: "MyInMemoryRealm"))
+//        return try! Realm()
     })
     
 }
@@ -66,6 +67,10 @@ class Account: Object,MDMappable {
     
     required convenience init?(_ map: Map) {
         self.init()
+    }
+    
+    static func valid(map: Map) throws {
+//        try map["email"] =~ "^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\\.[a-zA-Z0-9-.]+$"
     }
     
     func mmapping(map:Map) {

@@ -67,9 +67,11 @@ class InformationViewController: BaseFormViewController {
                 })
         
     }
+    
     private func updateValues() {
         var values = form.values()
         values["email"] = currentAccount().email
+        
         switch Account.instance(values) {
         case .Error(let field,let message):
             notification_top.showNotification(field, body: message, onTap: { (Void) in

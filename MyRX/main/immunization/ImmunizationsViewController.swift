@@ -24,9 +24,7 @@ class ImmunizationsViewController: BaseFormViewController {
             $0.title = "Test"
         }.onCellSelection({ (cell, row) in
         })
-        +++ Section()
-        
-
+        +++ Section("Here are your immunization information")
         let results = currentRealm().objects(Immunization.self)
         token = results.addNotificationBlock({ [ weak self ] in
             switch $0 {
@@ -36,7 +34,8 @@ class ImmunizationsViewController: BaseFormViewController {
                 break
             case .Update(let results,_,let insertions,let modifications):
                 print("update")
-                print(results)
+                print(results.count)
+                print(results[0])
                 print(insertions)
                 print(modifications)
                 self?.update(results,insertions: insertions,modifications: modifications)
@@ -48,10 +47,9 @@ class ImmunizationsViewController: BaseFormViewController {
         })
     }
     func update(result : Results<Immunization>,insertions:[Int]?=nil,modifications:[Int]?=nil) {
-        result.forEach { (immunization) in
-            print(immunization)
-            form.last! <<< ButtonRow() { [immunization]
-                $0.title = immunization.name
+        result.count.forEach { (index, total) in
+            form.last! <<< ImmunizationListRow() { [index,result]
+                $0.value = result[index]
             }
         }
     }

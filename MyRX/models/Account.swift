@@ -45,7 +45,6 @@ class Account: Object,MDMappable {
     static let email_reg = "^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\\.[a-zA-Z0-9-.]+$"
   //    static let password_reg = "^(?=.*[A-Z])(?=.*[!@#$&*])(?=.*[0-9])(?=.*[a-z]).{8,}$"
     static let password_reg = "^.{2,}$"
-    dynamic var id=0
     dynamic var fname:String?
     dynamic var lname:String?
     dynamic var gender:String?
@@ -63,6 +62,8 @@ class Account: Object,MDMappable {
     dynamic var isupdate:Bool = false
     dynamic var islogin:Bool = false
     
+    dynamic var token = NSUUID().UUIDString
+    
     required convenience init?(_ map: Map) {
         self.init()
     }
@@ -72,9 +73,6 @@ class Account: Object,MDMappable {
     }
     
     func mmapping(map:Map) {
-        if map.mappingType == .FromJSON {
-            id <- map["id"]
-        }
         fname <- map["fname"]
         lname <- map["lname"]
         gender <- map["gender"]
@@ -87,7 +85,6 @@ class Account: Object,MDMappable {
         city <- map["city"]
         // ----------------------------
         email <- map["email"]
-//        password <- map["password"]
         
     }
     enum CheckResult {
@@ -101,7 +98,6 @@ class Account: Object,MDMappable {
         }
 
         account.email = email
-//        account.password = values["password"] as? String
         account.fname = values["fname"] as? String
         account.lname = values["lname"] as? String
         account.gender = values["gender"] as? String
@@ -162,15 +158,14 @@ class Account: Object,MDMappable {
             self.state = account.state
             isupdate = true
         }
-        if (self.id != account.id) && account.id != 0 {
-            self.id = account.id
-            isupdate = true
-        }
     }
 // Specify properties to ignore (Realm won't persist these)
     
     override static func ignoredProperties() -> [String] {
         return ["isupdate"]
     }
-
+    
+    override static func primaryKey() -> String? {
+        return "token"
+    }
 }

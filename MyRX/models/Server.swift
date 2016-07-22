@@ -24,7 +24,7 @@ public func request(
         return Manager.sharedInstance.request(
             method,
             SERVERURL + apiurl,
-            parameters: parameters + ["token" : parameters["token"] as? String ?? TOKEN],
+            parameters: parameters + ["token" : parameters["token"] as? String ?? currentAccount().token],
             encoding: .URL,
             headers: headers
         )
@@ -32,7 +32,7 @@ public func request(
         return Manager.sharedInstance.request(
             method,
             SERVERURL + apiurl,
-            parameters: parameters + ["token" : parameters["token"] as? String ?? TOKEN],
+            parameters: parameters + ["token" : parameters["token"] as? String ?? currentAccount().token],
             encoding: .JSON,
             headers: headers
         )

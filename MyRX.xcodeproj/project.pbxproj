@@ -533,7 +533,6 @@
 				7B4DA5441D3029960034382B /* Message.swift */,
 				7B4DA5461D302C7E0034382B /* Account.swift */,
 				7B7700981D395D050000D847 /* Immunization.swift */,
-				4041522B1D4124190019914F /* ImmunizationReminder.swift */,
 			);
 			name = model;
 			sourceTree = "<group>";
@@ -623,7 +622,6 @@
 			isa = PBXGroup;
 			children = (
 				7B900A481D3E9CEF00017D14 /* ImmunizationsViewController.swift */,
-				404152311D426A9E0019914F /* ImmunizationDetailViewController.swift */,
 			);
 			path = immunization;
 			sourceTree = "<group>";
@@ -963,7 +961,6 @@
 				5AF96F091C84DCEE00334E45 /* MDTopAlignedLabel.swift in Sources */,
 				7B4D37CD1D357B0C00A10954 /* LinkRow.swift in Sources */,
 				5A4534901C98B57F0072518B /* ScheduleViewController.swift in Sources */,
-				4041522C1D4124190019914F /* ImmunizationReminder.swift in Sources */,
 				7B4D37C31D34178300A10954 /* MDThread.swift in Sources */,
 				7B4DA5451D3029960034382B /* Message.swift in Sources */,
 				5AAC00C91C7F994600E6C38D /* RecordViewController.swift in Sources */,

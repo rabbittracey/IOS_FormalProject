@@ -78,7 +78,9 @@ class InformationViewController: BaseFormViewController {
                 
             })
         case .Ok(let account):
+            account.token = currentAccount().token
             try! currentRealm().write({
+                
                 currentAccount().copyfrom(account)
             })
             updateAccount().responseObject(completionHandler: { (response:Response<Account,NSError>) in

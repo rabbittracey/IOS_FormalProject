@@ -81,9 +81,9 @@ class SearchDrugViewController: UIViewController , UITextFieldDelegate , NSURLCo
                 }
             }
             
-            let request = NSMutableURLRequest(URL: NSURL(string: "\(SERVER_URL)/tipsDrugName/" + text)!)
-            request.HTTPMethod = "GET"
-            self.httpConnect = NSURLConnection(request: request, delegate: self)
+//            let request = NSMutableURLRequest(URL: NSURL(string: "\(SERVER_URL)/tipsDrugName/" + text)!)
+//            request.HTTPMethod = "GET"
+//            self.httpConnect = NSURLConnection(request: request, delegate: self)
         }
         return true
     }

@@ -38,7 +38,7 @@ let TASKS = [
                 print(value)
                 try! currentRealm().write {
                     value.immunizations?.forEach{
-                        currentRealm().add($0)
+                        currentRealm().add($0,update:true)
                     }
                 }
                 break

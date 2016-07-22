@@ -50,15 +50,21 @@ class ImmunizationsTableViewController: BaseTableViewController {
         cell!.textLabel?.text = self.results[indexPath.row].name
         return cell!
     }
+    override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+        self.performSegueWithIdentifier("ImmunizationDetailSegue", sender: self.results[indexPath.row])
+    }
 
-    /*
     // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         // Get the new view controller using segue.destinationViewController.
         // Pass the selected object to the new view controller.
+        if let immunization = sender as? Immunization {
+            if let destine = segue.destinationViewController as? ImmunizationDetailViewController {
+                destine.immunization = immunization
+            }
+        }
     }
-    */
 
 }

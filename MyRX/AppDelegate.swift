@@ -27,7 +27,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         pageControl.currentPageIndicatorTintColor = UIColor.blackColor()
         pageControl.backgroundColor = UIColor(white: 1, alpha: 0)
         AppDelegate.properties = NSDictionary(contentsOfURL: NSBundle.mainBundle().URLForResource("MyEx", withExtension: "plist")!)
-        timer = DispatchTimer(interval: 5.seconds) { (timer: RepeatingTimer, count: Int) in
+        timer = DispatchTimer(interval: 5.minutes) { (timer: RepeatingTimer, count: Int) in
             TASKS.forEach {
                 $0()
             }

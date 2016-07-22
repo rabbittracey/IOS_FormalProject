@@ -176,6 +176,7 @@
 		7B7700971D381D850000D847 /* ChangePasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B7700961D381D850000D847 /* ChangePasswordViewController.swift */; };
 		7B7700991D395D050000D847 /* Immunization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B7700981D395D050000D847 /* Immunization.swift */; };
 		7B77009C1D397FEC0000D847 /* JIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B77009A1D397FE60000D847 /* JIViewController.swift */; };
+		7B7878DD1D42B7F40010F7B9 /* ImmunizationDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B7878DC1D42B7F40010F7B9 /* ImmunizationDetailViewController.swift */; };
 		7B900A491D3E9CEF00017D14 /* ImmunizationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B900A481D3E9CEF00017D14 /* ImmunizationsViewController.swift */; };
 		7B900A521D3EA2F500017D14 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B900A511D3EA2F500017D14 /* main.swift */; };
 		7BDAF34E1D3FE481007B5C1E /* Immunization.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BDAF34D1D3FE481007B5C1E /* Immunization.storyboard */; };
@@ -297,6 +298,7 @@
 		7B7700961D381D850000D847 /* ChangePasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChangePasswordViewController.swift; sourceTree = "<group>"; };
 		7B7700981D395D050000D847 /* Immunization.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Immunization.swift; sourceTree = "<group>"; };
 		7B77009A1D397FE60000D847 /* JIViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = JIViewController.swift; path = test/JIViewController.swift; sourceTree = "<group>"; };
+		7B7878DC1D42B7F40010F7B9 /* ImmunizationDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImmunizationDetailViewController.swift; sourceTree = "<group>"; };
 		7B900A481D3E9CEF00017D14 /* ImmunizationsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImmunizationsViewController.swift; sourceTree = "<group>"; };
 		7B900A4F1D3EA2F500017D14 /* Test */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Test; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B900A511D3EA2F500017D14 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
@@ -621,6 +623,7 @@
 			children = (
 				7B900A481D3E9CEF00017D14 /* ImmunizationsViewController.swift */,
 				7B21A5D91D42AEF000422666 /* ImmunizationsTableViewController.swift */,
+				7B7878DC1D42B7F40010F7B9 /* ImmunizationDetailViewController.swift */,
 			);
 			path = immunization;
 			sourceTree = "<group>";
@@ -921,6 +924,7 @@
 			files = (
 				7B5564E01D21CEA0001F5135 /* LoginViewController.swift in Sources */,
 				5A22F9F71C7FB8A50083AAFE /* AddDrugViewController.swift in Sources */,
+				7B7878DD1D42B7F40010F7B9 /* ImmunizationDetailViewController.swift in Sources */,
 				5AAC00B41C7F993D00E6C38D /* AppDatas.swift in Sources */,
 				5AAC00CF1C7F995100E6C38D /* MDSegue.swift in Sources */,
 				5AAC00D61C7F9ABD00E6C38D /* MessageViewController.swift in Sources */,

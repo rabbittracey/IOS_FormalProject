@@ -122,11 +122,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MyRX/main/global/GlobalTask.swift"
-            timestampString = "490908897.488018"
+            timestampString = "490914251.976912"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "41"
-            endingLineNumber = "41">
+            startingLineNumber = "43"
+            endingLineNumber = "43">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

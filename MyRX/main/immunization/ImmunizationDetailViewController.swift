@@ -10,6 +10,7 @@ import UIKit
 import Eureka
 import ObjectMapper
 import Realm
+import RealmSwift
 import Alamofire
 
 class ImmunizationDetailViewController: BaseFormViewController {
@@ -37,20 +38,26 @@ class ImmunizationDetailViewController: BaseFormViewController {
                 }
             }
         })
-        +++ Section()
+        +++ Section("Here are your immunization information")
+
+
+     
         
 
         let results = currentRealm().objects(Immunization.self)
-        token = results.addNotificationBlock({
+        token = results.addNotificationBlock({ [ weak self ] in
             switch $0 {
             case .Initial(let results):
                 print(results)
+                self?.update(results)
                 break
             case .Update(let results,_,let insertions,let modifications):
                 print("update")
-                print(results)
+                print(results.count)
+                print(results[0])
                 print(insertions)
                 print(modifications)
+                self?.update(results)
                 break
             case .Error:
                 print("Error")
@@ -58,6 +65,14 @@ class ImmunizationDetailViewController: BaseFormViewController {
             }
         })
     }
+    func update(result : Results<Immunization>,insertions:[Int]?=nil,modifications:[Int]?=nil) {
+        result.count.forEach { (index, total) in
+            form.last! <<< ImmunizationListRow() { [index,result]
+                $0.value = result[index]
+            }
+        }
+    }
+
     deinit {
         token?.stop()
     }

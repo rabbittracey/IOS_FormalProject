@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		4041522C1D4124190019914F /* ImmunizationReminder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4041522B1D4124190019914F /* ImmunizationReminder.swift */; };
+		4041522E1D416C9D0019914F /* ImmunizationListView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4041522D1D416C9D0019914F /* ImmunizationListView.xib */; };
+		404152301D416D120019914F /* ImmunizationListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4041522F1D416D120019914F /* ImmunizationListView.swift */; };
 		5A054AB51C90D0C500399391 /* MDGrayImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A054AB41C90D0C500399391 /* MDGrayImageView.swift */; };
 		5A22F9EC1C7FA2AE0083AAFE /* message.html in Resources */ = {isa = PBXBuildFile; fileRef = 5A22F9EA1C7FA2AE0083AAFE /* message.html */; };
 		5A22F9ED1C7FA2AE0083AAFE /* mline@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A22F9EB1C7FA2AE0083AAFE /* mline@2x.png */; };
@@ -197,6 +199,8 @@
 
 /* Begin PBXFileReference section */
 		4041522B1D4124190019914F /* ImmunizationReminder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImmunizationReminder.swift; sourceTree = "<group>"; };
+		4041522D1D416C9D0019914F /* ImmunizationListView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ImmunizationListView.xib; sourceTree = "<group>"; };
+		4041522F1D416D120019914F /* ImmunizationListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImmunizationListView.swift; sourceTree = "<group>"; };
 		5A054AB41C90D0C500399391 /* MDGrayImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MDGrayImageView.swift; sourceTree = "<group>"; };
 		5A22F9EA1C7FA2AE0083AAFE /* message.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = message.html; sourceTree = "<group>"; };
 		5A22F9EB1C7FA2AE0083AAFE /* mline@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mline@2x.png"; sourceTree = "<group>"; };
@@ -597,6 +601,7 @@
 			isa = PBXGroup;
 			children = (
 				7B5824701D2EDCA400577A46 /* FaceCell.xib */,
+				4041522D1D416C9D0019914F /* ImmunizationListView.xib */,
 			);
 			path = items;
 			sourceTree = "<group>";
@@ -631,6 +636,7 @@
 				7BFB470C1D2EE47800981AEF /* FaceCell.swift */,
 				7B4D37C41D34200D00A10954 /* GlobalUI.swift */,
 				7B4D37CC1D357B0C00A10954 /* LinkRow.swift */,
+				4041522F1D416D120019914F /* ImmunizationListView.swift */,
 			);
 			path = ui;
 			sourceTree = "<group>";
@@ -773,6 +779,7 @@
 				7BDAF34E1D3FE481007B5C1E /* Immunization.storyboard in Resources */,
 				7B5823ED1D24578100577A46 /* corporateResponsibility.html in Resources */,
 				5AAC007E1C7F989A00E6C38D /* Main.storyboard in Resources */,
+				4041522E1D416C9D0019914F /* ImmunizationListView.xib in Resources */,
 				5A53CC171C80EF3500CFE559 /* drugNames.txt in Resources */,
 				7B5564E91D22DB17001F5135 /* WeekDaysCell.xib in Resources */,
 				5AF96F071C84D23A00334E45 /* test.storyboard in Resources */,
@@ -919,6 +926,7 @@
 				7B7700951D3818AE0000D847 /* MDUtils.swift in Sources */,
 				7B4D37C51D34200D00A10954 /* GlobalUI.swift in Sources */,
 				5AAC00CA1C7F994600E6C38D /* SettingViewController.swift in Sources */,
+				404152301D416D120019914F /* ImmunizationListView.swift in Sources */,
 				5AAC00C71C7F994600E6C38D /* InboxViewController.swift in Sources */,
 				5A53CC191C80FDA800CFE559 /* RxDetailViewController.swift in Sources */,
 				5A53CC211C81070900CFE559 /* MDLine.swift in Sources */,

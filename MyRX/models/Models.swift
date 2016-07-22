@@ -147,9 +147,6 @@ extension MDMappable where Self : Object {
         defer { if opened { map.mappingType == .FromJSON ? try! self.realm?.commitWrite() : self.realm?.cancelWrite() } }
         self.mmapping(map)
     }
-    static func primaryKey() -> String? {
-        return "id"
-    }
 }
 //enum MDMapError : ErrorType {
 //    case ModelError

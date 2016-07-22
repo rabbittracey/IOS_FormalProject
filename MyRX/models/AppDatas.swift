@@ -37,7 +37,7 @@ let DRUG_UNIT = ( "tablet","tablets" )
 let DailyReminder = [ 13 , 17 , 10 , 20 , 7 ,23 ]
 let WeeklyReminder = [ 0 , 3 , 5 , 2 , 6 , 1 ]
 
-let SERVER_URL="http://10.0.80.98:8080"
+//let SERVER_URL="http://10.0.80.98:8080"
 
 let COLORS = [
     UIColor(red: 95.0/255, green: 231.0/255, blue: 237.0/255, alpha: 1)
@@ -47,9 +47,9 @@ enum Gender : String {
     case Male , Female, Other
 }
 
-var TOKEN = "vvvvv" //"7fa8a808-70a9-4f1d-9191-31ec856be0de"
+//var TOKEN = "vvvvv" //"7fa8a808-70a9-4f1d-9191-31ec856be0de"
 
-let SERVERURL="http://10.0.80.123:3000"
+let SERVERURL="http://10.0.80.184:3004"
 
 let GENDER_ADAPT = [
     "M" : "Male",

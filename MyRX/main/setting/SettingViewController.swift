@@ -115,17 +115,6 @@ class SettingViewController: BaseFormViewController {
                 }.cellSetup({ (cell, row) in
                     cell.imageView?.image = UIImage(named:"icon_aboutus")
                 }).onCellSelection({ (cell,row) in
-                    Alamofire.request(.POST,"http://10.0.80.184:3004/api/sessions",parameters:[
-                        "email":"a@a.com",
-                        "password":"123123123",
-                        "token" : "7fa8a808-70a9-4f1d-9191-31ec856be0de"],encoding:.JSON).responseObject { (response:Response<Account,NSError>) in
-                            if let account = response.result.value {
-                                print(account.id)
-                            } else {
-                                print(response)
-                            }
-                            
-                    }
                 })
         
         self.update()

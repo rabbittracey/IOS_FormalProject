@@ -13,7 +13,7 @@ import Realm
 import RealmSwift
 import Alamofire
 
-class ImmunizationDetailViewController: BaseFormViewController {
+class ImmunizationsViewController: BaseFormViewController {
     var token : RLMNotificationToken? = nil
     
     override func viewDidLoad() {

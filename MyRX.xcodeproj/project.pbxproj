@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4041522C1D4124190019914F /* ImmunizationReminder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4041522B1D4124190019914F /* ImmunizationReminder.swift */; };
 		5A054AB51C90D0C500399391 /* MDGrayImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A054AB41C90D0C500399391 /* MDGrayImageView.swift */; };
 		5A22F9EC1C7FA2AE0083AAFE /* message.html in Resources */ = {isa = PBXBuildFile; fileRef = 5A22F9EA1C7FA2AE0083AAFE /* message.html */; };
 		5A22F9ED1C7FA2AE0083AAFE /* mline@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A22F9EB1C7FA2AE0083AAFE /* mline@2x.png */; };
@@ -174,7 +173,7 @@
 		7B7700971D381D850000D847 /* ChangePasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B7700961D381D850000D847 /* ChangePasswordViewController.swift */; };
 		7B7700991D395D050000D847 /* Immunization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B7700981D395D050000D847 /* Immunization.swift */; };
 		7B77009C1D397FEC0000D847 /* JIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B77009A1D397FE60000D847 /* JIViewController.swift */; };
-		7B900A491D3E9CEF00017D14 /* ImmunizationDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B900A481D3E9CEF00017D14 /* ImmunizationDetailViewController.swift */; };
+		7B900A491D3E9CEF00017D14 /* ImmunizationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B900A481D3E9CEF00017D14 /* ImmunizationsViewController.swift */; };
 		7B900A521D3EA2F500017D14 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B900A511D3EA2F500017D14 /* main.swift */; };
 		7BDAF34E1D3FE481007B5C1E /* Immunization.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BDAF34D1D3FE481007B5C1E /* Immunization.storyboard */; };
 		7BDAF3521D400677007B5C1E /* GlobalTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BDAF3511D400677007B5C1E /* GlobalTask.swift */; };
@@ -197,7 +196,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		4041522B1D4124190019914F /* ImmunizationReminder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImmunizationReminder.swift; sourceTree = "<group>"; };
 		5A054AB41C90D0C500399391 /* MDGrayImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MDGrayImageView.swift; sourceTree = "<group>"; };
 		5A22F9EA1C7FA2AE0083AAFE /* message.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = message.html; sourceTree = "<group>"; };
 		5A22F9EB1C7FA2AE0083AAFE /* mline@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mline@2x.png"; sourceTree = "<group>"; };
@@ -293,7 +291,7 @@
 		7B7700961D381D850000D847 /* ChangePasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChangePasswordViewController.swift; sourceTree = "<group>"; };
 		7B7700981D395D050000D847 /* Immunization.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Immunization.swift; sourceTree = "<group>"; };
 		7B77009A1D397FE60000D847 /* JIViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = JIViewController.swift; path = test/JIViewController.swift; sourceTree = "<group>"; };
-		7B900A481D3E9CEF00017D14 /* ImmunizationDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImmunizationDetailViewController.swift; sourceTree = "<group>"; };
+		7B900A481D3E9CEF00017D14 /* ImmunizationsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImmunizationsViewController.swift; sourceTree = "<group>"; };
 		7B900A4F1D3EA2F500017D14 /* Test */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Test; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B900A511D3EA2F500017D14 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		7B900A571D3EA39300017D14 /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Realm.framework; path = "../../../../../Users/yaowei/Library/Developer/Xcode/DerivedData/MyRX-dxwjbdoilfntuydzuyxyiswwozch/Build/Products/Debug-iphoneos/Realm/Realm.framework"; sourceTree = "<group>"; };
@@ -527,7 +525,6 @@
 				7B4DA5441D3029960034382B /* Message.swift */,
 				7B4DA5461D302C7E0034382B /* Account.swift */,
 				7B7700981D395D050000D847 /* Immunization.swift */,
-				4041522B1D4124190019914F /* ImmunizationReminder.swift */,
 			);
 			name = model;
 			sourceTree = "<group>";
@@ -615,7 +612,7 @@
 		7BDAF34F1D3FE4AE007B5C1E /* immunization */ = {
 			isa = PBXGroup;
 			children = (
-				7B900A481D3E9CEF00017D14 /* ImmunizationDetailViewController.swift */,
+				7B900A481D3E9CEF00017D14 /* ImmunizationsViewController.swift */,
 			);
 			path = immunization;
 			sourceTree = "<group>";
@@ -951,7 +948,6 @@
 				5AF96F091C84DCEE00334E45 /* MDTopAlignedLabel.swift in Sources */,
 				7B4D37CD1D357B0C00A10954 /* LinkRow.swift in Sources */,
 				5A4534901C98B57F0072518B /* ScheduleViewController.swift in Sources */,
-				4041522C1D4124190019914F /* ImmunizationReminder.swift in Sources */,
 				7B4D37C31D34178300A10954 /* MDThread.swift in Sources */,
 				7B4DA5451D3029960034382B /* Message.swift in Sources */,
 				5AAC00C91C7F994600E6C38D /* RecordViewController.swift in Sources */,
@@ -973,7 +969,7 @@
 				5A4534921C99DE2D0072518B /* T05ViewController.swift in Sources */,
 				5A53CC1F1C80FF1500CFE559 /* MDCornerView.swift in Sources */,
 				7BDAF3521D400677007B5C1E /* GlobalTask.swift in Sources */,
-				7B900A491D3E9CEF00017D14 /* ImmunizationDetailViewController.swift in Sources */,
+				7B900A491D3E9CEF00017D14 /* ImmunizationsViewController.swift in Sources */,
 				5AAC00791C7F989A00E6C38D /* AppDelegate.swift in Sources */,
 				7B5564E21D22CDA8001F5135 /* RegisterViewController.swift in Sources */,
 				5A22F9FD1C80A7DF0083AAFE /* UIModel.swift in Sources */,

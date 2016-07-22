@@ -180,6 +180,7 @@
 		7B900A521D3EA2F500017D14 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B900A511D3EA2F500017D14 /* main.swift */; };
 		7BDAF34E1D3FE481007B5C1E /* Immunization.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BDAF34D1D3FE481007B5C1E /* Immunization.storyboard */; };
 		7BDAF3521D400677007B5C1E /* GlobalTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BDAF3511D400677007B5C1E /* GlobalTask.swift */; };
+		7BDAF3541D416A17007B5C1E /* Immunization.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7BDAF3531D416A17007B5C1E /* Immunization.xib */; };
 		7BFB470D1D2EE47800981AEF /* FaceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BFB470C1D2EE47800981AEF /* FaceCell.swift */; };
 		7BFB470E1D2EE47800981AEF /* FaceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BFB470C1D2EE47800981AEF /* FaceCell.swift */; };
 		7BFB470F1D2EE52500981AEF /* FaceCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7B5824701D2EDCA400577A46 /* FaceCell.xib */; };
@@ -303,6 +304,7 @@
 		7B900A581D3EA39300017D14 /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RealmSwift.framework; path = "../../../../../Users/yaowei/Library/Developer/Xcode/DerivedData/MyRX-dxwjbdoilfntuydzuyxyiswwozch/Build/Products/Debug-iphoneos/RealmSwift/RealmSwift.framework"; sourceTree = "<group>"; };
 		7BDAF34D1D3FE481007B5C1E /* Immunization.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Immunization.storyboard; sourceTree = "<group>"; };
 		7BDAF3511D400677007B5C1E /* GlobalTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlobalTask.swift; sourceTree = "<group>"; };
+		7BDAF3531D416A17007B5C1E /* Immunization.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Immunization.xib; sourceTree = "<group>"; };
 		7BFB470C1D2EE47800981AEF /* FaceCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FaceCell.swift; sourceTree = "<group>"; };
 		808C922236F8CE3E9F398B7C /* Pods-MyRX.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyRX.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyRX/Pods-MyRX.release.xcconfig"; sourceTree = "<group>"; };
 		AEBB95D8B8DFE48ABC52B21D /* Pods_MyRX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyRX.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -602,6 +604,7 @@
 			children = (
 				7B5824701D2EDCA400577A46 /* FaceCell.xib */,
 				4041522D1D416C9D0019914F /* ImmunizationListView.xib */,
+				7BDAF3531D416A17007B5C1E /* Immunization.xib */,
 			);
 			path = items;
 			sourceTree = "<group>";
@@ -764,6 +767,7 @@
 				5A22F9EC1C7FA2AE0083AAFE /* message.html in Resources */,
 				5AAC00861C7F989A00E6C38D /* LaunchScreen.storyboard in Resources */,
 				7B5823DE1D24286A00577A46 /* main.css in Resources */,
+				7BDAF3541D416A17007B5C1E /* Immunization.xib in Resources */,
 				7B4D37C71D34220500A10954 /* click.wav in Resources */,
 				5A22F9ED1C7FA2AE0083AAFE /* mline@2x.png in Resources */,
 				7B5823EB1D24578100577A46 /* codeofConduct.html in Resources */,

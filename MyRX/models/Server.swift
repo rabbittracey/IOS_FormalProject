@@ -70,6 +70,6 @@ func logout() -> Request {
     return request(.DELETE,"/api/sessions/destroy",[:])
 }
 
-func getImmunization() -> Request {
-    return request(.GET,"/api/patient_immunizations",["version":0])
+func getImmunization(version:Int = 0) -> Request {
+    return request(.GET,"/api/patient_immunizations",["version":version])
 }

@@ -4,6 +4,7 @@ PODS:
     - Alamofire (~> 3.2)
     - ObjectMapper (~> 1.0)
   - Argo (3.0.1)
+  - Chronos-Swift (0.2.2)
   - Curry (2.3.1)
   - Eureka (1.7.0)
   - LNRSimpleNotifications (0.4.1)
@@ -19,6 +20,7 @@ DEPENDENCIES:
   - Alamofire (~> 3.4)
   - AlamofireObjectMapper (~> 3.0)
   - Argo
+  - Chronos-Swift
   - Curry
   - Eureka (~> 1.6)
   - LNRSimpleNotifications
@@ -30,6 +32,7 @@ SPEC CHECKSUMS:
   Alamofire: 01a82e2f6c0f860ade35534c8dd88be61bdef40c
   AlamofireObjectMapper: 70f97cbf45c01c48d26aa07a1a7059a60ed7411d
   Argo: 22c5d62b7967020a641468c91dc9488bea9523b8
+  Chronos-Swift: 68a4fff66a41a1b698b30353d66bea412c5bba73
   Curry: c8f65c8ade091aad5cb86f7b51dd408d698810ca
   Eureka: 2020d9faeef7b7e9adeb9e3d8af779e5931c1897
   LNRSimpleNotifications: a4916ab314c21f75876ffc1168d91a7580a20166
@@ -38,6 +41,6 @@ SPEC CHECKSUMS:
   RealmSwift: d73ea2af08c3676dbdd5e4b669651a0f492162a4
   SwiftSpinner: c6585a0ae5c67eb33e737695cce88f0262008cce
 
-PODFILE CHECKSUM: 3ef85848068e8d3b1a7163852b94aa578d8828e1
+PODFILE CHECKSUM: 276e5010a02dbe4c3a201531ab4e66b7d5caae60
 
 COCOAPODS: 1.0.1

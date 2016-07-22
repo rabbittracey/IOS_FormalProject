@@ -23,27 +23,8 @@ class ImmunizationDetailViewController: BaseFormViewController {
         <<< ButtonRow("Test") {
             $0.title = "Test"
         }.onCellSelection({ (cell, row) in
-            getImmunization().responseObject { (response:Response<PackImmunization, NSError>) in
-                switch(response.result) {
-                case .Success(let value):
-                    print(value)
-                    try! currentRealm().write {
-                        value.immunizations?.forEach{
-                            currentRealm().add($0)
-                        }
-                    }
-                    break
-                case .Failure(let error):
-                    print(error)
-                }
-            }
         })
         +++ Section("Here are your immunization information")
-
-
-     
-        
-
         let results = currentRealm().objects(Immunization.self)
         token = results.addNotificationBlock({ [ weak self ] in
             switch $0 {
@@ -57,7 +38,7 @@ class ImmunizationDetailViewController: BaseFormViewController {
                 print(results[0])
                 print(insertions)
                 print(modifications)
-                self?.update(results)
+                self?.update(results,insertions: insertions,modifications: modifications)
                 break
             case .Error:
                 print("Error")
@@ -72,7 +53,6 @@ class ImmunizationDetailViewController: BaseFormViewController {
             }
         }
     }
-
     deinit {
         token?.stop()
     }

@@ -13,8 +13,8 @@ import Eureka
 
 func currentRealm() -> Realm {
     return cachedThreadLocalObjectWithKey("com.eagleforce.myrx.realm", create: {
-        return try! Realm(configuration: Realm.Configuration(inMemoryIdentifier: "MyInMemoryRealm"))
-//        return try! Realm()
+//        return try! Realm(configuration: Realm.Configuration(inMemoryIdentifier: "MyInMemoryRealm"))
+        return try! Realm()
     })
     
 }

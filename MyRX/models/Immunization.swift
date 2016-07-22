@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import Realm
 import RealmSwift
 import ObjectMapper
 import Eureka
@@ -34,7 +35,8 @@ class Immunization : Object , MDMappable {
     dynamic var administrator_affiliation:String?
     dynamic var version: String?
     dynamic var is_archived: String?
-//    dynamic var reminders : [ImmunizationReminder]?
+//    var reminders = List<ImmunizationReminder>()
+    
     required convenience init?(_ map: Map) {
         self.init()
     }

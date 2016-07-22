@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "38159996E0B3A78CEEE5A63042A177A2"
-               BuildableName = "RealmSwift.framework"
-               BlueprintName = "RealmSwift"
+               BlueprintIdentifier = "5EECCD049B5A1BBC2B4117857B86C637"
+               BuildableName = "Chronos.framework"
+               BlueprintName = "Chronos-Swift"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -45,9 +45,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "38159996E0B3A78CEEE5A63042A177A2"
-            BuildableName = "RealmSwift.framework"
-            BlueprintName = "RealmSwift"
+            BlueprintIdentifier = "5EECCD049B5A1BBC2B4117857B86C637"
+            BuildableName = "Chronos.framework"
+            BlueprintName = "Chronos-Swift"
             ReferencedContainer = "container:Pods.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -63,9 +63,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "38159996E0B3A78CEEE5A63042A177A2"
-            BuildableName = "RealmSwift.framework"
-            BlueprintName = "RealmSwift"
+            BlueprintIdentifier = "5EECCD049B5A1BBC2B4117857B86C637"
+            BuildableName = "Chronos.framework"
+            BlueprintName = "Chronos-Swift"
             ReferencedContainer = "container:Pods.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

@@ -8,12 +8,12 @@
 
 import UIKit
 import CoreData
+import Chronos
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
-
     var window: UIWindow?
-    var timer:NSTimer!
+    var timer : DispatchTimer?
     
     static var properties:NSDictionary!
     
@@ -26,14 +26,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         pageControl.pageIndicatorTintColor = UIColor.lightGrayColor()
         pageControl.currentPageIndicatorTintColor = UIColor.blackColor()
         pageControl.backgroundColor = UIColor(white: 1, alpha: 0)
-//        print(User.current.uuid,User.current.reminders)
         AppDelegate.properties = NSDictionary(contentsOfURL: NSBundle.mainBundle().URLForResource("MyEx", withExtension: "plist")!)
-        
-//        NSTimer.schedule(every: 5.seconds) {
-//            TASKS.forEach {
-//                $0()
-//            }
-//        }
+        timer = DispatchTimer(interval: 5.seconds) { (timer: RepeatingTimer, count: Int) in
+            TASKS.forEach {
+                $0()
+            }
+        }
+        timer?.start(true)
         return true
     }
 
@@ -45,14 +44,17 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func applicationDidEnterBackground(application: UIApplication) {
         // Use this method to release shared resources, save user data, invalidate timers, and store enough application state information to restore your application to its current state in case it is terminated later.
         // If your application supports background execution, this method is called instead of applicationWillTerminate: when the user quits.
+        timer?.pause()
     }
 
     func applicationWillEnterForeground(application: UIApplication) {
         // Called as part of the transition from the background to the inactive state; here you can undo many of the changes made on entering the background.
+        timer?.start(true)
     }
 
     func applicationDidBecomeActive(application: UIApplication) {
         // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
+        
     }
 
     func applicationWillTerminate(application: UIApplication) {

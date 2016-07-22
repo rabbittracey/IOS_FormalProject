@@ -10,6 +10,7 @@ import UIKit
 import Eureka
 import ObjectMapper
 import Realm
+import RealmSwift
 import Alamofire
 
 class ImmunizationDetailViewController: BaseFormViewController {
@@ -22,41 +23,37 @@ class ImmunizationDetailViewController: BaseFormViewController {
         <<< ButtonRow("Test") {
             $0.title = "Test"
         }.onCellSelection({ (cell, row) in
-            getImmunization().responseObject { (response:Response<PackImmunization, NSError>) in
-                switch(response.result) {
-                case .Success(let value):
-                    print(value)
-                    try! currentRealm().write {
-                        value.immunizations?.forEach{
-                            currentRealm().add($0)
-                        }
-                    }
-                    break
-                case .Failure(let error):
-                    print(error)
-                }
-            }
         })
         +++ Section()
         
 
         let results = currentRealm().objects(Immunization.self)
-        token = results.addNotificationBlock({
+        token = results.addNotificationBlock({ [ weak self ] in
             switch $0 {
             case .Initial(let results):
                 print(results)
+                self?.update(results)
                 break
             case .Update(let results,_,let insertions,let modifications):
                 print("update")
                 print(results)
                 print(insertions)
                 print(modifications)
+                self?.update(results,insertions: insertions,modifications: modifications)
                 break
             case .Error:
                 print("Error")
                 break
             }
         })
+    }
+    func update(result : Results<Immunization>,insertions:[Int]?=nil,modifications:[Int]?=nil) {
+        result.forEach { (immunization) in
+            print(immunization)
+            form.last! <<< ButtonRow() { [immunization]
+                $0.title = immunization.name
+            }
+        }
     }
     deinit {
         token?.stop()

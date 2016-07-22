@@ -13,5 +13,6 @@ target "MyRX" do
     pod 'AlamofireObjectMapper', '~> 3.0'
     pod 'RealmSwift'
     pod 'SwiftSpinner'
+    pod 'Chronos-Swift'
 end
 

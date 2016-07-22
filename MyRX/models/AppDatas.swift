@@ -49,7 +49,7 @@ enum Gender : String {
 
 var TOKEN = "vvvvv" //"7fa8a808-70a9-4f1d-9191-31ec856be0de"
 
-let SERVERURL="http://10.0.80.184:3004"
+let SERVERURL="http://10.0.80.123:3000"
 
 let GENDER_ADAPT = [
     "M" : "Male",

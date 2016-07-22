@@ -25,42 +25,6 @@ func ~> <R> (
     }
 }
 
-private class NSTimerActor {
-    var block: () -> ()
-    
-    init(block: () -> ()) {
-        self.block = block
-    }
-    
-    dynamic func fire() {
-        block()
-    }
-}
-
-extension NSTimer {
-    convenience init(_ intervalFromNow: NSTimeInterval, block: () -> ()) {
-        let actor = NSTimerActor(block: block)
-        self.init(timeInterval: intervalFromNow, target: actor, selector: #selector(NSTimerActor.fire), userInfo: nil, repeats: false)
-    }
-    
-    convenience init(every interval: NSTimeInterval, block: () -> ()) {
-        let actor = NSTimerActor(block: block)
-        self.init(timeInterval: interval, target: actor, selector: #selector(NSTimerActor.fire), userInfo: nil, repeats: true)
-    }
-    
-    class func schedule(intervalFromNow: NSTimeInterval, block: () -> ()) -> NSTimer {
-        let timer = NSTimer(intervalFromNow, block: block)
-        NSRunLoop.currentRunLoop().addTimer(timer, forMode: NSDefaultRunLoopMode)
-        return timer
-    }
-    
-    class func schedule(every interval: NSTimeInterval, block: () -> ()) -> NSTimer {
-        let timer = NSTimer(every: interval, block: block)
-        NSRunLoop.currentRunLoop().addTimer(timer, forMode: NSDefaultRunLoopMode)
-        return timer
-    }
-}
-
 let TASKS = [
     // update Immunization
     {
@@ -68,15 +32,20 @@ let TASKS = [
         guard account.islogin else {
             return
         }
-        getImmunization().responseArray(completionHandler: { (response:Response<[Immunization],NSError>) in
-            switch response.result {
-            case .Failure:
-                notification_top.showNotification("System Error", body: "Please check your network,and try it again", onTap: nil)
-            case .Success(let results):
-                notification_top.showNotification("Test", body: "\(results.count)", onTap: nil)
+        getImmunization().responseObject { (response:Response<PackImmunization, NSError>) in
+            switch(response.result) {
+            case .Success(let value):
+                print(value)
+                try! currentRealm().write {
+                    value.immunizations?.forEach{
+                        currentRealm().add($0)
+                    }
+                }
                 break
+            case .Failure(let error):
+                print(error)
             }
-        })
+        }
     },
     {
         

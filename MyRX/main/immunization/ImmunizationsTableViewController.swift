@@ -7,13 +7,31 @@
 //
 
 import UIKit
+import Eureka
+import ObjectMapper
+import Realm
+import RealmSwift
+import Alamofire
 
 class ImmunizationsTableViewController: BaseTableViewController {
-
+    var token : RLMNotificationToken? = nil
+    var results : Results<Immunization>?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        let results = currentRealm().objects(Immunization.self)
+        token = results.addNotificationBlock({ [ weak self ] in
+            switch $0 {
+            case .Initial,.Update:
+                self?.tableView.reloadData()
+                break
+            case .Error:
+                print("Error")
+                break
+            }
+            })
     }
 
     override func didReceiveMemoryWarning() {
@@ -22,14 +40,11 @@ class ImmunizationsTableViewController: BaseTableViewController {
     }
     
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        
+        return self.results?.count ?? 0
     }
+    override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
     
-    // Row display. Implementers should *always* try to reuse cells by setting each cell's reuseIdentifier and querying for available reusable cells with dequeueReusableCellWithIdentifier:
-    // Cell gets various attributes set automatically based on table (separators) and data source (accessory views, editing controls)
-    
-    @available(iOS 2.0, *)
-    public func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell
+    }
 
     /*
     // MARK: - Navigation

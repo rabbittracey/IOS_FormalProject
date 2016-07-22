@@ -258,10 +258,10 @@
             </objects>
             <point key="canvasLocation" x="1654" y="-2010"/>
         </scene>
-        <!--ImmunizationViewController-->
+        <!--ImmunizationsTableViewController-->
         <scene sceneID="WHk-Mh-jqM">
             <objects>
-                <viewControllerPlaceholder storyboardName="Immunization" referencedIdentifier="ImmunizationViewController" id="1bc-VB-fnX" sceneMemberID="viewController">
+                <viewControllerPlaceholder storyboardName="Immunization" referencedIdentifier="ImmunizationsTableViewController" id="1bc-VB-fnX" sceneMemberID="viewController">
                     <navigationItem key="navigationItem" id="QFa-lF-kJW"/>
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qAy-cj-ljd" userLabel="First Responder" sceneMemberID="firstResponder"/>

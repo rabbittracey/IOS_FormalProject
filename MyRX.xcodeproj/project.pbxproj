@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		4041522E1D416C9D0019914F /* ImmunizationListView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4041522D1D416C9D0019914F /* ImmunizationListView.xib */; };
 		404152301D416D120019914F /* ImmunizationListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4041522F1D416D120019914F /* ImmunizationListView.swift */; };
-		404152321D426A9E0019914F /* ImmunizationDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 404152311D426A9E0019914F /* ImmunizationDetailViewController.swift */; };
 		5A054AB51C90D0C500399391 /* MDGrayImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A054AB41C90D0C500399391 /* MDGrayImageView.swift */; };
 		5A22F9EC1C7FA2AE0083AAFE /* message.html in Resources */ = {isa = PBXBuildFile; fileRef = 5A22F9EA1C7FA2AE0083AAFE /* message.html */; };
 		5A22F9ED1C7FA2AE0083AAFE /* mline@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A22F9EB1C7FA2AE0083AAFE /* mline@2x.png */; };
@@ -202,7 +201,6 @@
 /* Begin PBXFileReference section */
 		4041522D1D416C9D0019914F /* ImmunizationListView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ImmunizationListView.xib; sourceTree = "<group>"; };
 		4041522F1D416D120019914F /* ImmunizationListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImmunizationListView.swift; sourceTree = "<group>"; };
-		404152311D426A9E0019914F /* ImmunizationDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImmunizationDetailViewController.swift; sourceTree = "<group>"; };
 		5A054AB41C90D0C500399391 /* MDGrayImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MDGrayImageView.swift; sourceTree = "<group>"; };
 		5A22F9EA1C7FA2AE0083AAFE /* message.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = message.html; sourceTree = "<group>"; };
 		5A22F9EB1C7FA2AE0083AAFE /* mline@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mline@2x.png"; sourceTree = "<group>"; };
@@ -944,7 +942,6 @@
 				7B4826911D2EFA030069AE55 /* ActivationCodeViewController.swift in Sources */,
 				5A4534961C9B38890072518B /* MyMedicationViewController.swift in Sources */,
 				5A22F9F11C7FADAC0083AAFE /* MyRxTableViewCell.swift in Sources */,
-				404152321D426A9E0019914F /* ImmunizationDetailViewController.swift in Sources */,
 				5AC2C7F61CA4834B00F0B726 /* MDSwipeImageView.swift in Sources */,
 				5AAC00C61C7F994600E6C38D /* HomeViewController.swift in Sources */,
 				5A89CDAE1C8A15070006082E /* TestViewController1.swift in Sources */,

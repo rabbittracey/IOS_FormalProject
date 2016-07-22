@@ -15,13 +15,13 @@ import Alamofire
 
 class ImmunizationsTableViewController: BaseTableViewController {
     var token : RLMNotificationToken? = nil
-    var results : Results<Immunization>?
+    var results : Results<Immunization>!
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        let results = currentRealm().objects(Immunization.self)
+        results = currentRealm().objects(Immunization.self)
         token = results.addNotificationBlock({ [ weak self ] in
             switch $0 {
             case .Initial,.Update:
@@ -43,7 +43,12 @@ class ImmunizationsTableViewController: BaseTableViewController {
         return self.results?.count ?? 0
     }
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-    
+        var cell = tableView.dequeueReusableCellWithIdentifier("reuseIdentifier")
+        if cell == nil {
+            cell = UITableViewCell(style: .Default, reuseIdentifier: "reuseIdentifier")
+        }
+        cell!.textLabel?.text = self.results[indexPath.row].name
+        return cell!
     }
 
     /*

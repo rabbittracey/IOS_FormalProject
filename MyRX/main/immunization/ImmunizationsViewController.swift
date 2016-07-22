@@ -38,6 +38,9 @@ class ImmunizationsViewController: BaseFormViewController {
                 print(results[0])
                 print(insertions)
                 print(modifications)
+//                results.filter() {
+//                    insertions.contains(<#T##element: Int##Int#>)
+//                }
                 self?.update(results,insertions: insertions,modifications: modifications)
                 break
             case .Error:
@@ -47,6 +50,7 @@ class ImmunizationsViewController: BaseFormViewController {
         })
     }
     func update(result : Results<Immunization>,insertions:[Int]?=nil,modifications:[Int]?=nil) {
+        
         result.count.forEach { (index, total) in
             form.last! <<< ImmunizationListRow() { [index,result]
                 $0.value = result[index]

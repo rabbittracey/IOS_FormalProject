@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4041522C1D4124190019914F /* ImmunizationReminder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4041522B1D4124190019914F /* ImmunizationReminder.swift */; };
 		4041522E1D416C9D0019914F /* ImmunizationListView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4041522D1D416C9D0019914F /* ImmunizationListView.xib */; };
 		404152301D416D120019914F /* ImmunizationListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4041522F1D416D120019914F /* ImmunizationListView.swift */; };
 		5A054AB51C90D0C500399391 /* MDGrayImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A054AB41C90D0C500399391 /* MDGrayImageView.swift */; };
@@ -64,6 +63,7 @@
 		5AF96F071C84D23A00334E45 /* test.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AF96F061C84D23A00334E45 /* test.storyboard */; };
 		5AF96F091C84DCEE00334E45 /* MDTopAlignedLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF96F081C84DCEE00334E45 /* MDTopAlignedLabel.swift */; };
 		71D4B1481E6587EB5F2AE435 /* Pods_MyRX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEBB95D8B8DFE48ABC52B21D /* Pods_MyRX.framework */; };
+		7B21A5DA1D42AEF000422666 /* ImmunizationsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B21A5D91D42AEF000422666 /* ImmunizationsTableViewController.swift */; };
 		7B4826911D2EFA030069AE55 /* ActivationCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B4826901D2EFA030069AE55 /* ActivationCodeViewController.swift */; };
 		7B4D37C31D34178300A10954 /* MDThread.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B4D37C21D34178300A10954 /* MDThread.swift */; };
 		7B4D37C51D34200D00A10954 /* GlobalUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B4D37C41D34200D00A10954 /* GlobalUI.swift */; };
@@ -199,7 +199,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		4041522B1D4124190019914F /* ImmunizationReminder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImmunizationReminder.swift; sourceTree = "<group>"; };
 		4041522D1D416C9D0019914F /* ImmunizationListView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ImmunizationListView.xib; sourceTree = "<group>"; };
 		4041522F1D416D120019914F /* ImmunizationListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImmunizationListView.swift; sourceTree = "<group>"; };
 		5A054AB41C90D0C500399391 /* MDGrayImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MDGrayImageView.swift; sourceTree = "<group>"; };
@@ -257,6 +256,7 @@
 		5AC2C7F51CA4834B00F0B726 /* MDSwipeImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MDSwipeImageView.swift; sourceTree = "<group>"; };
 		5AF96F061C84D23A00334E45 /* test.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = test.storyboard; path = ../test/test.storyboard; sourceTree = "<group>"; };
 		5AF96F081C84DCEE00334E45 /* MDTopAlignedLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MDTopAlignedLabel.swift; sourceTree = "<group>"; };
+		7B21A5D91D42AEF000422666 /* ImmunizationsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImmunizationsTableViewController.swift; sourceTree = "<group>"; };
 		7B4826901D2EFA030069AE55 /* ActivationCodeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivationCodeViewController.swift; sourceTree = "<group>"; };
 		7B4D37C21D34178300A10954 /* MDThread.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MDThread.swift; sourceTree = "<group>"; };
 		7B4D37C41D34200D00A10954 /* GlobalUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlobalUI.swift; sourceTree = "<group>"; };
@@ -620,6 +620,7 @@
 			isa = PBXGroup;
 			children = (
 				7B900A481D3E9CEF00017D14 /* ImmunizationsViewController.swift */,
+				7B21A5D91D42AEF000422666 /* ImmunizationsTableViewController.swift */,
 			);
 			path = immunization;
 			sourceTree = "<group>";
@@ -944,6 +945,7 @@
 				5AC2C7F61CA4834B00F0B726 /* MDSwipeImageView.swift in Sources */,
 				5AAC00C61C7F994600E6C38D /* HomeViewController.swift in Sources */,
 				5A89CDAE1C8A15070006082E /* TestViewController1.swift in Sources */,
+				7B21A5DA1D42AEF000422666 /* ImmunizationsTableViewController.swift in Sources */,
 				7B5564DE1D21C34D001F5135 /* StaticValues.swift in Sources */,
 				5A89CDB21C8A34F50006082E /* FeelingTodayViewController.swift in Sources */,
 				7BFB470D1D2EE47800981AEF /* FaceCell.swift in Sources */,

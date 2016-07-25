@@ -35,7 +35,7 @@ class Immunization : Object , MDMappable {
     dynamic var administrator_affiliation:String?
     dynamic var version: String?
     dynamic var is_archived: String?
-//    dynamic var reminder:ImmunizationReminder?
+    dynamic var reminder:ImmunizationReminder?
     
     required convenience init?(_ map: Map) {
         self.init()
@@ -65,7 +65,7 @@ class Immunization : Object , MDMappable {
         administrator_affiliation<-map["administrator_affiliation"]
         version<-map["version"]
         is_archived<-map["is_archived"]
-//        reminder <- map["reminder"]
+        reminder <- map["reminder"]
 //        reminder?.immunization = self
     }
     override static func primaryKey() -> String? {

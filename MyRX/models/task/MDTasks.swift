@@ -24,10 +24,13 @@ class MDTask {
     
     final func run(dt:NSTimeInterval) {
         elapsed += dt
-        if elapsed >= interval {
+        if elapsed >= interval - 0.1 {
             process(self)
             elapsed = 0
         }
+    }
+    final func immediately() {
+        elapsed = interval
     }
 }
 

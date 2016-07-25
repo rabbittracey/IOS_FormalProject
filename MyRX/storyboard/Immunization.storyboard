@@ -28,10 +28,19 @@
                         </connections>
                     </tableView>
                     <connections>
+                        <outlet property="rightBarButton" destination="hpg-6v-sHw" id="Qlh-lc-2sR"/>
                         <segue destination="vXa-wV-GfL" kind="show" identifier="ImmunizationDetailSegue" customClass="MDSegue01" customModule="MyRX" customModuleProvider="target" id="lga-VV-wQg"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="97R-S1-Jxo" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="hpg-6v-sHw">
+                    <rect key="frame" x="0.0" y="0.0" width="93" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" title="Add New"/>
+                    <connections>
+                        <action selector="onAddNew:" destination="K28-4Y-hgO" eventType="touchUpInside" id="mqJ-IU-8Ai"/>
+                    </connections>
+                </button>
             </objects>
             <point key="canvasLocation" x="255" y="110"/>
         </scene>

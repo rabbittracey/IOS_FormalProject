@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		4041522E1D416C9D0019914F /* ImmunizationListView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4041522D1D416C9D0019914F /* ImmunizationListView.xib */; };
 		404152301D416D120019914F /* ImmunizationListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4041522F1D416D120019914F /* ImmunizationListView.swift */; };
+		404152701D4695980019914F /* ForTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4041526F1D4695980019914F /* ForTest.swift */; };
 		5A054AB51C90D0C500399391 /* MDGrayImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A054AB41C90D0C500399391 /* MDGrayImageView.swift */; };
 		5A22F9EC1C7FA2AE0083AAFE /* message.html in Resources */ = {isa = PBXBuildFile; fileRef = 5A22F9EA1C7FA2AE0083AAFE /* message.html */; };
 		5A22F9ED1C7FA2AE0083AAFE /* mline@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A22F9EB1C7FA2AE0083AAFE /* mline@2x.png */; };
@@ -202,6 +203,7 @@
 /* Begin PBXFileReference section */
 		4041522D1D416C9D0019914F /* ImmunizationListView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ImmunizationListView.xib; sourceTree = "<group>"; };
 		4041522F1D416D120019914F /* ImmunizationListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImmunizationListView.swift; sourceTree = "<group>"; };
+		4041526F1D4695980019914F /* ForTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ForTest.swift; path = test/ForTest.swift; sourceTree = "<group>"; };
 		5A054AB41C90D0C500399391 /* MDGrayImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MDGrayImageView.swift; sourceTree = "<group>"; };
 		5A22F9EA1C7FA2AE0083AAFE /* message.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = message.html; sourceTree = "<group>"; };
 		5A22F9EB1C7FA2AE0083AAFE /* mline@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mline@2x.png"; sourceTree = "<group>"; };
@@ -549,6 +551,7 @@
 				5A5C57511CBD79D400988A04 /* Test.swift */,
 				7B58246A1D2ED3D100577A46 /* TestFormViewController.swift */,
 				7B77009A1D397FE60000D847 /* JIViewController.swift */,
+				4041526F1D4695980019914F /* ForTest.swift */,
 			);
 			name = test;
 			sourceTree = "<group>";
@@ -948,6 +951,7 @@
 				5A22F9F11C7FADAC0083AAFE /* MyRxTableViewCell.swift in Sources */,
 				5AC2C7F61CA4834B00F0B726 /* MDSwipeImageView.swift in Sources */,
 				5AAC00C61C7F994600E6C38D /* HomeViewController.swift in Sources */,
+				404152701D4695980019914F /* ForTest.swift in Sources */,
 				5A89CDAE1C8A15070006082E /* TestViewController1.swift in Sources */,
 				7B21A5DA1D42AEF000422666 /* ImmunizationsTableViewController.swift in Sources */,
 				7B5564DE1D21C34D001F5135 /* StaticValues.swift in Sources */,

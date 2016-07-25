@@ -17,6 +17,9 @@ class ImmunizationsTableViewController: BaseTableViewController {
     var token : RLMNotificationToken? = nil
     var results : Results<Immunization>!
     
+    @IBAction func onAddNew(sender: AnyObject) {
+        self.performSegueWithIdentifier("ImmunizationDetailSegue", sender: self)
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -60,10 +63,9 @@ class ImmunizationsTableViewController: BaseTableViewController {
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         // Get the new view controller using segue.destinationViewController.
         // Pass the selected object to the new view controller.
-        if let immunization = sender as? Immunization {
-            if let destine = segue.destinationViewController as? ImmunizationDetailViewController {
-                destine.immunization = immunization
-            }
+        let immunization = (sender as? Immunization) ?? Immunization()
+        if let destine = segue.destinationViewController as? ImmunizationDetailViewController {
+            destine.immunization = immunization
         }
     }
 

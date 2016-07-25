@@ -8,8 +8,27 @@
 
 import Foundation
 
-enum A<Value> {
-    case Test(Value)
+class A {
+    func vv() {
+        print("A")
+    }
 }
 
-let vv = A.Test((10,"1"))
+protocol B{
+    func jjj()
+}
+
+extension B where Self : A {
+    func vvv() {
+        jjj()
+        print("B")
+    }
+}
+
+class C : A , B {
+    func jjj() {
+        print("C")
+    }
+}
+
+C().vvv()

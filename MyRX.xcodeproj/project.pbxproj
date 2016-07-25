@@ -178,6 +178,7 @@
 		7B77009C1D397FEC0000D847 /* JIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B77009A1D397FE60000D847 /* JIViewController.swift */; };
 		7B7878DD1D42B7F40010F7B9 /* ImmunizationDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B7878DC1D42B7F40010F7B9 /* ImmunizationDetailViewController.swift */; };
 		7B7878E01D42C3A80010F7B9 /* MDTasks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B7878DF1D42C3A80010F7B9 /* MDTasks.swift */; };
+		7B7878E11D4651A10010F7B9 /* MDTasks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B7878DF1D42C3A80010F7B9 /* MDTasks.swift */; };
 		7B900A521D3EA2F500017D14 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B900A511D3EA2F500017D14 /* main.swift */; };
 		7BDAF34E1D3FE481007B5C1E /* Immunization.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BDAF34D1D3FE481007B5C1E /* Immunization.storyboard */; };
 		7BDAF3521D400677007B5C1E /* GlobalTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BDAF3511D400677007B5C1E /* GlobalTask.swift */; };
@@ -1074,6 +1075,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7B900A521D3EA2F500017D14 /* main.swift in Sources */,
+				7B7878E11D4651A10010F7B9 /* MDTasks.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

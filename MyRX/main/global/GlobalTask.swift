@@ -25,31 +25,3 @@ func ~> <R> (
     }
 }
 
-var Immunization_Version = -1
-
-let TASKS = [
-    // update Immunization
-    {
-        let account = currentAccount()
-        guard account.islogin else {
-            return
-        }
-        getImmunization(Immunization_Version + 1).responseObject { (response:Response<PackImmunization, NSError>) in
-            switch(response.result) {
-            case .Success(let value):
-                Immunization_Version = value.version
-                try! currentRealm().write {
-                    value.immunizations?.forEach{
-                        currentRealm().add($0,update:true)
-                    }
-                }
-                break
-            case .Failure(let error):
-                print(error)
-            }
-        }
-    },
-    {
-        
-    }
-]

@@ -133,11 +133,23 @@ public class CombineTransform<F:TransformType,S:TransformType where F.JSON == S.
     
 }
 
-protocol MDMappable : Mappable {
-    static func valid(map:Map) throws
-    func mmapping(map:Map)
+class MDObject : Object {
+    dynamic var id = 0
+    dynamic var pending = true
+    
+    required convenience init?(_ map: Map) {
+        self.init()
+    }
+    override class func primaryKey() -> String? {
+        return "id"
+    }
+    
 }
-extension MDMappable where Self : Object {
+
+protocol MDMappable : Mappable {
+    func mdmap(map:Map)
+}
+extension MDMappable where Self : MDObject {
     final func mapping(map:Map) {
         var opened = false
         if let realm = self.realm where !realm.inWriteTransaction {
@@ -145,74 +157,9 @@ extension MDMappable where Self : Object {
             opened = true
         }
         defer { if opened { map.mappingType == .FromJSON ? try! self.realm?.commitWrite() : self.realm?.cancelWrite() } }
-        self.mmapping(map)
+        id <- map["id"]
+        pending = false
+        self.mdmap(map)
     }
+    
 }
-//enum MDMapError : ErrorType {
-//    case ModelError
-//    case ModelFieldError(field:String)
-//}
-//
-//enum ModelResult<T:MDMappable> {
-//    case Ok(T)
-//    case Error(MDMapError)
-//}
-//
-//infix operator =~ {}
-//
-//func =~ (left:Map,right:String) throws {
-//    guard left.mappingType == .FromJSON else {
-//        return
-//    }
-//    if let value:String = left.value() where value.match(right) == false {
-//        throw MDMapError(field: left.key() ?? "unknow")
-//    }
-//}
-//
-//func MDMapper<T:MDMappable>(context:MapContext,JSONDictionary:[String : AnyObject]) -> ModelResult<T> {
-////    do {
-////        try T.valid(
-////    } case MDMapError(let error) {
-////        
-////    }
-//    let map = Map(mappingType: .FromJSON, JSONDictionary: JSONDictionary, context: context)
-//    do {
-//        try T.valid(map)
-//    } catch is MDMapError {
-//        
-//    }
-//    // check if objectForMapping returns an object for mapping
-//    if var object = T.self.objectForMapping(map) as? T {
-//        object.mapping(map)
-//        return object
-//    }
-//    
-//    // fall back to using init? to create N
-//    if var object = N(map) {
-//        object.mapping(map)
-//        return object
-//    }
-//    
-//    return nil
-//
-//    if let result = Mapper<T>(context:context).map(value) {
-//        return ModelResult.Ok(result)
-//    }
-//    return ModelResult.Error(MDMapError(field: "\(T.self)"))
-//}
-//
-//public func <-- <lhs>(inout left: lhs, right : (Map,String?) ) {
-//    let (map , _) = right
-//    left <- map
-//}
-//
-//public func <-- <lhs,Transform: TransformType where lhs >(inout left: lhs, right : ((Map,Transform),String?) ) {
-//    let (map , _) = right
-////    left <- map
-//}
-
-//public func <-- <lhs>(inout left: lhs?, right : (Map,String?) ) throws {
-//    let (map , _) = right
-//    left <- map
-//}
-

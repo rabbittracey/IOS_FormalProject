@@ -40,10 +40,8 @@ func currentAccount() -> Account {
     })
 }
 
-class Account: Object,MDMappable {
-//    static let current:Account =
+class Account: MDObject,MDMappable {
     static let email_reg = "^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\\.[a-zA-Z0-9-.]+$"
-  //    static let password_reg = "^(?=.*[A-Z])(?=.*[!@#$&*])(?=.*[0-9])(?=.*[a-z]).{8,}$"
     static let password_reg = "^.{2,}$"
     dynamic var fname:String?
     dynamic var lname:String?
@@ -59,7 +57,7 @@ class Account: Object,MDMappable {
     // ----------------------------
     dynamic var email = ""
     
-    dynamic var isupdate:Bool = false
+//    dynamic var isupdate:Bool = false
     dynamic var islogin:Bool = false
     
     dynamic var token = NSUUID().UUIDString
@@ -67,12 +65,8 @@ class Account: Object,MDMappable {
     required convenience init?(_ map: Map) {
         self.init()
     }
-    
-    static func valid(map: Map) throws {
-//        try map["email"] =~ "^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\\.[a-zA-Z0-9-.]+$"
-    }
-    
-    func mmapping(map:Map) {
+        
+    func mdmap(map:Map) {
         fname <- map["fname"]
         lname <- map["lname"]
         gender <- map["gender"]
@@ -120,52 +114,42 @@ class Account: Object,MDMappable {
     func copyfrom(let account:Account) {
         if self.email != account.email {
             self.email = account.email
-            isupdate = true
         }
         if self.fname != account.fname {
             self.fname = account.fname
-            isupdate = true
         }
         if self.lname != account.lname {
             self.lname = account.lname
-            isupdate = true
         }
         if self.gender != account.gender {
             self.gender = account.gender
-            isupdate = true
         }
         if self.dob != account.dob {
             self.dob = account.dob
-            isupdate = true
         }
         if self.address1 != account.address1 {
             self.address1 = account.address1
-            isupdate = true
         }
         if self.address2 != account.address2 {
             self.address2 = account.address2
-            isupdate = true
         }
         if self.city != account.city {
             self.city = account.city
-            isupdate = true
         }
         if self.zipcode != account.zipcode {
             self.zipcode = account.zipcode
-            isupdate = true
         }
         if self.state != account.state {
             self.state = account.state
-            isupdate = true
         }
     }
 // Specify properties to ignore (Realm won't persist these)
     
-    override static func ignoredProperties() -> [String] {
-        return ["isupdate"]
-    }
+//    override static func ignoredProperties() -> [String] {
+//        return ["isupdate"]
+//    }
     
-    override static func primaryKey() -> String? {
+    override class func primaryKey() -> String? {
         return "token"
     }
 }

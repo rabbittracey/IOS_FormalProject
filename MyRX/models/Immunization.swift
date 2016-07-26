@@ -174,7 +174,7 @@ class ImmunizationReminder : MDObject , MDMappable {
     
 }
 class PackImmunization :  Mappable {
-    dynamic var version = 0
+//    dynamic var version:Int64 = 0
     dynamic var isContinue = false
     dynamic var immunizations:[Immunization]?
     
@@ -185,7 +185,7 @@ class PackImmunization :  Mappable {
         
     }
     func mapping(map:Map) {
-        version <- map["next_version"]
+//        version <- map["next_version"]
         isContinue <- map["continue"]
         immunizations <- map["datas"]
     }

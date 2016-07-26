@@ -71,7 +71,7 @@ func logout() -> Request {
 }
 
 func getImmunization(version:Int64 = 0) -> Request {
-    return request(.GET,"/api/patient_immunizations",["version":NSNumber(longLong: version)])
+    return request(.GET,"/api/patient_immunizations",["version":NSNumber(longLong:version)])
 }
 
 func applyIDs(table:String,count:Int = 50) -> Request {

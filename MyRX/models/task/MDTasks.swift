@@ -9,6 +9,8 @@
 import Foundation
 import Alamofire
 import AlamofireObjectMapper
+import Realm
+import RealmSwift
 
 class MDTask {
     let interval : NSTimeInterval
@@ -66,15 +68,15 @@ class GlobalTaskQueue {
         self.last = _last
     }
 }
-
+extension NSNumber : MinMaxType {}
 let TASKS = [
     // syncrony immunization for server
-    MDTask(60.seconds) { (task) in
+    MDTask(3.seconds) { (task) in
         let account = currentAccount()
         guard account.islogin else {
             return
         }
-        let maxversion = currentRealm().objects(Immunization.self).filter("is_archived == false").sorted("version",ascending:false)[0].version ?? -1
+        let maxversion = ( currentRealm().objects(Immunization.self).max("version") as NSNumber? )?.longLongValue ?? -1
         
         getImmunization(maxversion + 1).responseObject { (response:Response<PackImmunization, NSError>) in
             switch(response.result) {

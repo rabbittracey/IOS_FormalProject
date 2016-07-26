@@ -138,7 +138,7 @@ class MDObject : Object {
     dynamic var id = 0
     dynamic var pending = true
 
-    dynamic var version: Int64 = 0
+    dynamic var version: NSNumber = 0
     dynamic var is_archived: Bool = false
     
     required convenience init?(_ map: Map) {

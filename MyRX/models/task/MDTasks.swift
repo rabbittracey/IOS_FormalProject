@@ -37,7 +37,6 @@ class MDTask {
 class GlobalTaskQueue {
     let interval:NSTimeInterval
     var timer : NSTimer?
-    
     var last:NSDate
     
     init(tasks : [MDTask],interval:NSTimeInterval = 5 ) {
@@ -68,9 +67,6 @@ class GlobalTaskQueue {
     }
 }
 
-
-var Immunization_Version = -1
-
 let TASKS = [
     // syncrony immunization for server
     MDTask(60.seconds) { (task) in
@@ -78,10 +74,11 @@ let TASKS = [
         guard account.islogin else {
             return
         }
-        getImmunization(Immunization_Version + 1).responseObject { (response:Response<PackImmunization, NSError>) in
+        let maxversion = currentRealm().objects(Immunization.self).filter("is_archived == false").sorted("version",ascending:false)[0].version ?? -1
+        
+        getImmunization(maxversion + 1).responseObject { (response:Response<PackImmunization, NSError>) in
             switch(response.result) {
             case .Success(let value):
-                Immunization_Version = value.version
                 try! currentRealm().write {
                     value.immunizations?.forEach{
                         currentRealm().add($0,update:true)
@@ -94,3 +91,4 @@ let TASKS = [
         }
     },
 ]
+

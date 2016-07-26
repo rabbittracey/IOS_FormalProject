@@ -32,15 +32,10 @@ class Immunization : MDObject , MDMappable {
     dynamic var clinic_name:String?
     dynamic var clinic_address:String?
     dynamic var administrator_affiliation:String?
-    dynamic var version: String?
-    dynamic var is_archived: String?
     dynamic var reminder:ImmunizationReminder?
     
     required convenience init?(_ map: Map) {
         self.init()
-    }
-    static func valid(map: Map) throws {
-        
     }
     func mdmap(map:Map) {
         name <- map[ "name"]
@@ -61,14 +56,8 @@ class Immunization : MDObject , MDMappable {
         clinic_name<-map["clinic_name"]
         clinic_address<-map["clinic_address"]
         administrator_affiliation<-map["administrator_affiliation"]
-        version<-map["version"]
-        is_archived<-map["is_archived"]
         reminder <- map["reminder"]
-    }
-    override static func primaryKey() -> String? {
-        return "id"
-    }
-    
+    }    
 }
 class ImmunizationReminder : MDObject , MDMappable {
     dynamic var reminder_date:NSDate?
@@ -80,10 +69,6 @@ class ImmunizationReminder : MDObject , MDMappable {
     required convenience init?(_ map: Map) {
         self.init()
     }
-    class func valid(map: Map) throws {
-        
-    }
-    
     func mdmap(map:Map) {
         id <- map["id"]
         reminder_date<-(map["reminder_date"],DateFormatterTransform(dateFormatter:DATEFORMAT))

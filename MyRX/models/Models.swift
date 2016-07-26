@@ -134,8 +134,12 @@ public class CombineTransform<F:TransformType,S:TransformType where F.JSON == S.
 }
 
 class MDObject : Object {
+    dynamic var cid = 0
     dynamic var id = 0
     dynamic var pending = true
+
+    dynamic var version: Int64 = 0
+    dynamic var is_archived: Bool = false
     
     required convenience init?(_ map: Map) {
         self.init()
@@ -158,6 +162,8 @@ extension MDMappable where Self : MDObject {
         }
         defer { if opened { map.mappingType == .FromJSON ? try! self.realm?.commitWrite() : self.realm?.cancelWrite() } }
         id <- map["id"]
+        version <- map["version"]
+        is_archived <- map["is_archived"]
         pending = false
         self.mdmap(map)
     }

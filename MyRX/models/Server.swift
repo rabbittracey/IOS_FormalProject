@@ -27,7 +27,7 @@ public func request(
             parameters: parameters + ["token" : parameters["token"] as? String ?? currentAccount().token],
             encoding: .URL,
             headers: headers
-        )
+        ).validate()
     default:
         return Manager.sharedInstance.request(
             method,
@@ -35,7 +35,7 @@ public func request(
             parameters: parameters + ["token" : parameters["token"] as? String ?? currentAccount().token],
             encoding: .JSON,
             headers: headers
-        )
+        ).validate()
     }
 }
 
@@ -70,6 +70,10 @@ func logout() -> Request {
     return request(.DELETE,"/api/sessions/destroy",[:])
 }
 
-func getImmunization(version:Int = 0) -> Request {
-    return request(.GET,"/api/patient_immunizations",["version":version])
+func getImmunization(version:Int64 = 0) -> Request {
+    return request(.GET,"/api/patient_immunizations",["version":NSNumber(longLong: version)])
+}
+
+func applyIDs(table:String,count:Int = 50) -> Request {
+    return request(.GET,"/api/patient_immunizations",["table":table,"count":count])
 }

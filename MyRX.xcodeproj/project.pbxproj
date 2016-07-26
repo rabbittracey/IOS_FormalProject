@@ -180,6 +180,7 @@
 		7B7878DD1D42B7F40010F7B9 /* ImmunizationDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B7878DC1D42B7F40010F7B9 /* ImmunizationDetailViewController.swift */; };
 		7B7878E01D42C3A80010F7B9 /* MDTasks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B7878DF1D42C3A80010F7B9 /* MDTasks.swift */; };
 		7B7878E11D4651A10010F7B9 /* MDTasks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B7878DF1D42C3A80010F7B9 /* MDTasks.swift */; };
+		7B7878E31D469AA90010F7B9 /* GlobalData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B7878E21D469AA90010F7B9 /* GlobalData.swift */; };
 		7B900A521D3EA2F500017D14 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B900A511D3EA2F500017D14 /* main.swift */; };
 		7BDAF34E1D3FE481007B5C1E /* Immunization.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BDAF34D1D3FE481007B5C1E /* Immunization.storyboard */; };
 		7BDAF3521D400677007B5C1E /* GlobalTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BDAF3511D400677007B5C1E /* GlobalTask.swift */; };
@@ -303,6 +304,7 @@
 		7B77009A1D397FE60000D847 /* JIViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = JIViewController.swift; path = test/JIViewController.swift; sourceTree = "<group>"; };
 		7B7878DC1D42B7F40010F7B9 /* ImmunizationDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImmunizationDetailViewController.swift; sourceTree = "<group>"; };
 		7B7878DF1D42C3A80010F7B9 /* MDTasks.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MDTasks.swift; sourceTree = "<group>"; };
+		7B7878E21D469AA90010F7B9 /* GlobalData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlobalData.swift; sourceTree = "<group>"; };
 		7B900A4F1D3EA2F500017D14 /* Test */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Test; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B900A511D3EA2F500017D14 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		7B900A571D3EA39300017D14 /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Realm.framework; path = "../../../../../Users/yaowei/Library/Developer/Xcode/DerivedData/MyRX-dxwjbdoilfntuydzuyxyiswwozch/Build/Products/Debug-iphoneos/Realm/Realm.framework"; sourceTree = "<group>"; };
@@ -537,6 +539,7 @@
 				7B4DA5441D3029960034382B /* Message.swift */,
 				7B4DA5461D302C7E0034382B /* Account.swift */,
 				7B7700981D395D050000D847 /* Immunization.swift */,
+				7B7878E21D469AA90010F7B9 /* GlobalData.swift */,
 			);
 			name = model;
 			sourceTree = "<group>";
@@ -964,6 +967,7 @@
 				5A89CDAE1C8A15070006082E /* TestViewController1.swift in Sources */,
 				7B21A5DA1D42AEF000422666 /* ImmunizationsTableViewController.swift in Sources */,
 				7B5564DE1D21C34D001F5135 /* StaticValues.swift in Sources */,
+				7B7878E31D469AA90010F7B9 /* GlobalData.swift in Sources */,
 				5A89CDB21C8A34F50006082E /* FeelingTodayViewController.swift in Sources */,
 				7BFB470D1D2EE47800981AEF /* FaceCell.swift in Sources */,
 				5AAC00D81C7F9B5800E6C38D /* MDScrollView.swift in Sources */,

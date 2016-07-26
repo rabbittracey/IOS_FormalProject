@@ -87,6 +87,7 @@ class RegisterViewController: BaseFormViewController {
             notification_top.showNotification("password", body: "These passwords don't match. Try again.", onTap:nil)
             return
         }
+        
         switch Account.instance(form.values()) {
         case .Error(let field,let message):
             notification_top.showNotification(field, body: message, onTap:nil)

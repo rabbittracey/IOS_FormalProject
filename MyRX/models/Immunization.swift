@@ -57,7 +57,101 @@ class Immunization : MDObject , MDMappable {
         clinic_address<-map["clinic_address"]
         administrator_affiliation<-map["administrator_affiliation"]
         reminder <- map["reminder"]
-    }    
+    }
+    override static func primaryKey() -> String? {
+        return "id"
+    }
+    
+    class func instance(value:[String:Any?]) -> ModelResult<Immunization> {
+        let immunization = Immunization()
+        
+        //need to fix it, how to set the id of the immunization
+        immunization.id = getID()
+        guard let name = value["name"] as? String else {
+            return .Error(field:"name", message: " The name of immunization can not be blank")
+        }
+        guard let date_administered = value["date_administered"] as? NSDate else {
+            return .Error(field: "date_administered", message: "The name of date administered can not be blank")
+        }
+        immunization.name=name
+        immunization.date_administered=date_administered
+        
+        immunization.reImmunization_due_date=value["reImmunization"] as? NSDate
+        immunization.administrator=value["administrator"] as? String
+        immunization.notes = value["notes"] as? String
+        immunization.source=value["source"] as? String
+        immunization.patient_id=value["patient_id"] as?  String
+        immunization.funding_source=value["funding_source"] as?  String
+        immunization.route_site=value["route_site"] as?  String
+        immunization.vaccine_lot=value["vaccine_lot"] as?  String
+        immunization.vaccine_mfr=value["vaccine_mfr"] as?  String
+        immunization.publication_date=value["publication_date"] as? NSDate
+        immunization.date_on_vis=value["date_on_vis"] as? NSDate
+        immunization.date_given=value["date_given"] as? NSDate
+        immunization.adverse_reaction_log=value["adverse_reaction_log"] as?  String
+        immunization.clinic_name=value["clinic_name"] as?  String
+        immunization.administrator_affiliation=value["administrator_affiliation"] as?  String
+        immunization.reminder=nil
+        
+        return .Ok(immunization)
+    }
+    func copyfrom(let immunization:Immunization) {
+        if self.name != immunization.name{
+            self.name = immunization.name
+        }
+        if self.date_administered != immunization.date_administered{
+            self.date_administered = immunization.date_administered
+        }
+        if self.notes != immunization.notes{
+            self.notes = immunization.notes
+        }
+        if self.source != immunization.source{
+            self.source = immunization.source
+        }
+        if self.patient_id != immunization.patient_id{
+            self.patient_id = immunization.patient_id
+        }
+        if self.funding_source != immunization.funding_source{
+            self.funding_source = immunization.funding_source
+        }
+        if self.route_site != immunization.route_site{
+            self.route_site = immunization.route_site
+        }
+        if self.vaccine_lot != immunization.vaccine_lot{
+            self.vaccine_lot = immunization.vaccine_lot
+        }
+        if self.vaccine_mfr != immunization.vaccine_mfr{
+            self.vaccine_mfr = immunization.vaccine_mfr
+        }
+        if self.publication_date != immunization.publication_date{
+            self.publication_date = immunization.publication_date
+        }
+        if self.date_on_vis != immunization.date_on_vis{
+            self.date_on_vis = immunization.date_on_vis
+        }
+        if self.date_given != immunization.date_given{
+            self.date_given = immunization.date_given
+        }
+        if self.adverse_reaction_log != immunization.adverse_reaction_log{
+            self.adverse_reaction_log = immunization.adverse_reaction_log
+        }
+        
+        if self.clinic_name != immunization.clinic_name{
+            self.clinic_name = immunization.clinic_name
+        }
+        if self.administrator_affiliation != immunization.administrator_affiliation{
+            self.administrator_affiliation = immunization.administrator_affiliation
+        }
+        if self.version != immunization.version{
+            self.version = immunization.version
+        }
+        if self.is_archived != immunization.is_archived{
+            self.is_archived = immunization.is_archived
+        }
+        
+        
+    }
+
 }
 class ImmunizationReminder : MDObject , MDMappable {
     dynamic var reminder_date:NSDate?
@@ -76,6 +170,8 @@ class ImmunizationReminder : MDObject , MDMappable {
         email<-map["email"]
         
     }
+   
+    
 }
 class PackImmunization :  Mappable {
     dynamic var version = 0

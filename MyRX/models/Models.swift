@@ -169,3 +169,8 @@ extension MDMappable where Self : MDObject {
     }
     
 }
+
+enum ModelResult<T:Object where T : MDMappable> {
+    case Ok(T)
+    case Error(field:String,message:String)
+}

@@ -81,11 +81,7 @@ class Account: MDObject,MDMappable {
         email <- map["email"]
         
     }
-    enum CheckResult {
-        case Ok(Account)
-        case Error(field:String,message:String)
-    }
-    static func instance(values:[String:Any?]) -> CheckResult {
+    static func instance(values:[String:Any?]) -> ModelResult<Account> {
         let account = Account()
         guard let email = values["email"] as? String where email.match(Account.email_reg) else {
             return .Error(field: "email",message: "Email cannot allow to blank")

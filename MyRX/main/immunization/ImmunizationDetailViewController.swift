@@ -12,6 +12,7 @@ import ObjectMapper
 import Realm
 import RealmSwift
 import Alamofire
+import Foundation
 
 class ImmunizationDetailViewController: BaseFormViewController {
     var immunization:Immunization!
@@ -155,15 +156,45 @@ class ImmunizationDetailViewController: BaseFormViewController {
                 })
 
         
-        
+            +++ Section()
+            <<< ButtonRow("submit") {
+                $0.title="Submit"
+                }.onCellSelection({ [weak self] (row,cell) in
+                    self!.updateImmunizations()
+                    })
 
 
-
-
-
-
-
-        
         
     }
+    
+    private func updateImmunizations() {
+        let values = form.values()
+        
+        switch Immunization.instance(values) {
+        case .Error(let field,let message):
+            notification_top.showNotification(field, body: message, onTap: { (Void) in
+                
+            })
+        case .Ok(let immunization):
+                      try! currentRealm().write({
+                
+                Immunization().copyfrom(immunization)
+            })
+            updateAccount().responseObject(completionHandler: { (response:Response<Account,NSError>) in
+                switch response.result {
+                case .Failure:
+                    notification_top.showNotification("Add Immunization Error", body: "Please check your input immunization information,and try it again", onTap: nil)
+                case .Success:
+                    break
+                }
+            })
+            self.navigationController?.popViewControllerAnimated(true)
+            
+        }
+    }
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+        // Dispose of any resources that can be recreated.
+    }
+
 }

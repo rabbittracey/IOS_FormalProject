@@ -148,6 +148,11 @@ extension MDMappable where Self : Object {
         self.mmapping(map)
     }
 }
+
+enum ModelResult<T:Object where T : MDMappable> {
+    case Ok(T)
+    case Error(field:String,message:String)
+}
 //enum MDMapError : ErrorType {
 //    case ModelError
 //    case ModelFieldError(field:String)

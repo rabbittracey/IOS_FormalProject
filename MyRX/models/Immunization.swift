@@ -13,8 +13,7 @@ import ObjectMapper
 import Eureka
 
 
-class Immunization : Object , MDMappable {
-    dynamic var id = 0
+class Immunization : MDObject , MDMappable {
     dynamic var name = ""
     dynamic var date_administered = NSDate()
     dynamic var reImmunization_due_date:NSDate?
@@ -43,8 +42,7 @@ class Immunization : Object , MDMappable {
     static func valid(map: Map) throws {
         
     }
-    func mmapping(map:Map) {
-        id <- map["id"]
+    func mdmap(map:Map) {
         name <- map[ "name"]
         date_administered<-(map["date_administered"],DateFormatterTransform(dateFormatter: DATEFORMAT))
         reImmunization_due_date<-(map["reimmunization_due_date"],DateFormatterTransform(dateFormatter:DATEFORMAT))
@@ -66,7 +64,6 @@ class Immunization : Object , MDMappable {
         version<-map["version"]
         is_archived<-map["is_archived"]
         reminder <- map["reminder"]
-//        reminder?.immunization = self
     }
     override static func primaryKey() -> String? {
         return "id"
@@ -183,8 +180,7 @@ class Immunization : Object , MDMappable {
     
     
 }
-class ImmunizationReminder : Object , MDMappable {
-    dynamic var id = 0
+class ImmunizationReminder : MDObject , MDMappable {
     dynamic var reminder_date:NSDate?
     
     dynamic var notes:String?
@@ -198,7 +194,7 @@ class ImmunizationReminder : Object , MDMappable {
         
     }
     
-    func mmapping(map:Map) {
+    func mdmap(map:Map) {
         id <- map["id"]
         reminder_date<-(map["reminder_date"],DateFormatterTransform(dateFormatter:DATEFORMAT))
         notes<-map["notes"]

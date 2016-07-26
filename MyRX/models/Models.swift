@@ -133,11 +133,23 @@ public class CombineTransform<F:TransformType,S:TransformType where F.JSON == S.
     
 }
 
-protocol MDMappable : Mappable {
-    static func valid(map:Map) throws
-    func mmapping(map:Map)
+class MDObject : Object {
+    dynamic var id = 0
+    dynamic var pending = true
+    
+    required convenience init?(_ map: Map) {
+        self.init()
+    }
+    override class func primaryKey() -> String? {
+        return "id"
+    }
+    
 }
-extension MDMappable where Self : Object {
+
+protocol MDMappable : Mappable {
+    func mdmap(map:Map)
+}
+extension MDMappable where Self : MDObject {
     final func mapping(map:Map) {
         var opened = false
         if let realm = self.realm where !realm.inWriteTransaction {
@@ -145,9 +157,13 @@ extension MDMappable where Self : Object {
             opened = true
         }
         defer { if opened { map.mappingType == .FromJSON ? try! self.realm?.commitWrite() : self.realm?.cancelWrite() } }
-        self.mmapping(map)
+        id <- map["id"]
+        pending = false
+        self.mdmap(map)
     }
+    
 }
+<<<<<<< HEAD
 
 enum ModelResult<T:Object where T : MDMappable> {
     case Ok(T)
@@ -221,3 +237,5 @@ enum ModelResult<T:Object where T : MDMappable> {
 //    left <- map
 //}
 
+=======
+>>>>>>> 49d21ff4e79bef2f25573323b011f181f2ca864b

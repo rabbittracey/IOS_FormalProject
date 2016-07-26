@@ -13,7 +13,7 @@ import Chronos
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
-    var timer : DispatchTimer?
+    var tasks : GlobalTaskQueue!
     
     static var properties:NSDictionary!
     
@@ -27,12 +27,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         pageControl.currentPageIndicatorTintColor = UIColor.blackColor()
         pageControl.backgroundColor = UIColor(white: 1, alpha: 0)
         AppDelegate.properties = NSDictionary(contentsOfURL: NSBundle.mainBundle().URLForResource("MyEx", withExtension: "plist")!)
-        timer = DispatchTimer(interval: 5.minutes) { (timer: RepeatingTimer, count: Int) in
-            TASKS.forEach {
-                $0()
-            }
-        }
-        timer?.start(true)
+        
+        // Global Task
+        tasks = GlobalTaskQueue(tasks: TASKS)
+        tasks.start()
         return true
     }
 
@@ -44,12 +42,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func applicationDidEnterBackground(application: UIApplication) {
         // Use this method to release shared resources, save user data, invalidate timers, and store enough application state information to restore your application to its current state in case it is terminated later.
         // If your application supports background execution, this method is called instead of applicationWillTerminate: when the user quits.
-        timer?.pause()
+        tasks.pause()
     }
 
     func applicationWillEnterForeground(application: UIApplication) {
         // Called as part of the transition from the background to the inactive state; here you can undo many of the changes made on entering the background.
-        timer?.start(true)
+        tasks.start()
     }
 
     func applicationDidBecomeActive(application: UIApplication) {

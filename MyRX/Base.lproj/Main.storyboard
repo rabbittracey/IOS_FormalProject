@@ -239,7 +239,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eDU-Rd-B2X" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1654" y="-1165"/>
+            <point key="canvasLocation" x="1782" y="-1151"/>
         </scene>
         <!--Record-->
         <scene sceneID="TEP-0X-n1t">
@@ -686,17 +686,6 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="note" translatesAutoresizingMaskIntoConstraints="NO" id="ztn-05-YGJ">
-                                <rect key="frame" x="558" y="121" width="24" height="24"/>
-                                <gestureRecognizers/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="24" id="7NL-wC-t3e"/>
-                                    <constraint firstAttribute="height" constant="24" id="n4I-Yg-qCe"/>
-                                </constraints>
-                                <connections>
-                                    <outletCollection property="gestureRecognizers" destination="lbF-V0-fOt" appends="YES" id="k4S-Wi-stP"/>
-                                </connections>
-                            </imageView>
                             <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="uparrow" translatesAutoresizingMaskIntoConstraints="NO" id="Ac3-fa-6uP">
                                 <rect key="frame" x="559" y="184" width="23" height="19"/>
                                 <gestureRecognizers/>
@@ -719,6 +708,17 @@
                                 </userDefinedRuntimeAttributes>
                                 <connections>
                                     <outletCollection property="gestureRecognizers" destination="kdx-zR-hfo" appends="YES" id="1yK-lf-IKR"/>
+                                </connections>
+                            </imageView>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="note" translatesAutoresizingMaskIntoConstraints="NO" id="ztn-05-YGJ">
+                                <rect key="frame" x="558" y="121" width="24" height="24"/>
+                                <gestureRecognizers/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="24" id="7NL-wC-t3e"/>
+                                    <constraint firstAttribute="height" constant="24" id="n4I-Yg-qCe"/>
+                                </constraints>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="lbF-V0-fOt" appends="YES" id="k4S-Wi-stP"/>
                                 </connections>
                             </imageView>
                         </subviews>

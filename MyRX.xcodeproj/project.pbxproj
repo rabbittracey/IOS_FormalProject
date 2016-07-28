@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		403221941D4802940090FB68 /* ImmunizationListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403221931D4802940090FB68 /* ImmunizationListCell.swift */; };
 		4041522E1D416C9D0019914F /* ImmunizationListView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4041522D1D416C9D0019914F /* ImmunizationListView.xib */; };
-		404152301D416D120019914F /* ImmunizationListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4041522F1D416D120019914F /* ImmunizationListView.swift */; };
 		404152701D4695980019914F /* ForTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4041526F1D4695980019914F /* ForTest.swift */; };
 		5A054AB51C90D0C500399391 /* MDGrayImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A054AB41C90D0C500399391 /* MDGrayImageView.swift */; };
 		5A22F9EC1C7FA2AE0083AAFE /* message.html in Resources */ = {isa = PBXBuildFile; fileRef = 5A22F9EA1C7FA2AE0083AAFE /* message.html */; };
@@ -203,6 +203,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		403221931D4802940090FB68 /* ImmunizationListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImmunizationListCell.swift; sourceTree = "<group>"; };
 		4041522D1D416C9D0019914F /* ImmunizationListView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ImmunizationListView.xib; sourceTree = "<group>"; };
 		4041522F1D416D120019914F /* ImmunizationListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImmunizationListView.swift; sourceTree = "<group>"; };
 		4041526F1D4695980019914F /* ForTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ForTest.swift; path = test/ForTest.swift; sourceTree = "<group>"; };
@@ -639,6 +640,7 @@
 			children = (
 				7B21A5D91D42AEF000422666 /* ImmunizationsTableViewController.swift */,
 				7B7878DC1D42B7F40010F7B9 /* ImmunizationDetailViewController.swift */,
+				403221931D4802940090FB68 /* ImmunizationListCell.swift */,
 			);
 			path = immunization;
 			sourceTree = "<group>";
@@ -949,7 +951,6 @@
 				7B7700951D3818AE0000D847 /* MDUtils.swift in Sources */,
 				7B4D37C51D34200D00A10954 /* GlobalUI.swift in Sources */,
 				5AAC00CA1C7F994600E6C38D /* SettingViewController.swift in Sources */,
-				404152301D416D120019914F /* ImmunizationListView.swift in Sources */,
 				5AAC00C71C7F994600E6C38D /* InboxViewController.swift in Sources */,
 				5A53CC191C80FDA800CFE559 /* RxDetailViewController.swift in Sources */,
 				5A53CC211C81070900CFE559 /* MDLine.swift in Sources */,
@@ -1010,6 +1011,7 @@
 				5A4534981C9B540C0072518B /* HomeInboxViewController.swift in Sources */,
 				7B4DA53F1D3008260034382B /* InformationViewController.swift in Sources */,
 				7B7700991D395D050000D847 /* Immunization.swift in Sources */,
+				403221941D4802940090FB68 /* ImmunizationListCell.swift in Sources */,
 				7B7878E01D42C3A80010F7B9 /* MDTasks.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

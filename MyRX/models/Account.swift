@@ -57,7 +57,6 @@ class Account: MDObject,MDMappable {
     // ----------------------------
     dynamic var email = ""
     
-//    dynamic var isupdate:Bool = false
     dynamic var islogin:Bool = false
     
     dynamic var token = NSUUID().UUIDString

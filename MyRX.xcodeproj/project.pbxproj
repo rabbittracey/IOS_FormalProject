@@ -72,7 +72,6 @@
 		7B4D37CD1D357B0C00A10954 /* LinkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B4D37CC1D357B0C00A10954 /* LinkRow.swift */; };
 		7B4DA53F1D3008260034382B /* InformationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B4DA53E1D3008260034382B /* InformationViewController.swift */; };
 		7B4DA5451D3029960034382B /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B4DA5441D3029960034382B /* Message.swift */; };
-		7B4DA5471D302C7E0034382B /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B4DA5461D302C7E0034382B /* Account.swift */; };
 		7B5564DE1D21C34D001F5135 /* StaticValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B5564DD1D21C34D001F5135 /* StaticValues.swift */; };
 		7B5564E01D21CEA0001F5135 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B5564DF1D21CEA0001F5135 /* LoginViewController.swift */; };
 		7B5564E21D22CDA8001F5135 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B5564E11D22CDA8001F5135 /* RegisterViewController.swift */; };
@@ -146,7 +145,6 @@
 		7B5824471D2ED32700577A46 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B5564E11D22CDA8001F5135 /* RegisterViewController.swift */; };
 		7B5824481D2ED32700577A46 /* UIModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A22F9FC1C80A7DF0083AAFE /* UIModel.swift */; };
 		7B5824491D2ED32700577A46 /* TestDatas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AAC00B31C7F993D00E6C38D /* TestDatas.swift */; };
-		7B58244A1D2ED32700577A46 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A22F9F41C7FAFD50083AAFE /* Models.swift */; };
 		7B58244B1D2ED32700577A46 /* HomeInboxViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4534971C9B540C0072518B /* HomeInboxViewController.swift */; };
 		7B58244F1D2ED32700577A46 /* companyOverview.html in Resources */ = {isa = PBXBuildFile; fileRef = 7B5823DF1D24288E00577A46 /* companyOverview.html */; };
 		7B5824501D2ED32700577A46 /* employeeOwership.html in Resources */ = {isa = PBXBuildFile; fileRef = 7B5823E91D24578100577A46 /* employeeOwership.html */; };
@@ -179,12 +177,12 @@
 		7B77009C1D397FEC0000D847 /* JIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B77009A1D397FE60000D847 /* JIViewController.swift */; };
 		7B7878DD1D42B7F40010F7B9 /* ImmunizationDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B7878DC1D42B7F40010F7B9 /* ImmunizationDetailViewController.swift */; };
 		7B7878E01D42C3A80010F7B9 /* MDTasks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B7878DF1D42C3A80010F7B9 /* MDTasks.swift */; };
-		7B7878E11D4651A10010F7B9 /* MDTasks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B7878DF1D42C3A80010F7B9 /* MDTasks.swift */; };
 		7B7878E31D469AA90010F7B9 /* GlobalData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B7878E21D469AA90010F7B9 /* GlobalData.swift */; };
 		7B900A521D3EA2F500017D14 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B900A511D3EA2F500017D14 /* main.swift */; };
 		7BDAF34E1D3FE481007B5C1E /* Immunization.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BDAF34D1D3FE481007B5C1E /* Immunization.storyboard */; };
 		7BDAF3521D400677007B5C1E /* GlobalTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BDAF3511D400677007B5C1E /* GlobalTask.swift */; };
 		7BDAF3541D416A17007B5C1E /* Immunization.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7BDAF3531D416A17007B5C1E /* Immunization.xib */; };
+		7BDF9BD01D490A6A00138689 /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B4DA5461D302C7E0034382B /* Account.swift */; };
 		7BFB470D1D2EE47800981AEF /* FaceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BFB470C1D2EE47800981AEF /* FaceCell.swift */; };
 		7BFB470E1D2EE47800981AEF /* FaceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BFB470C1D2EE47800981AEF /* FaceCell.swift */; };
 		7BFB470F1D2EE52500981AEF /* FaceCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7B5824701D2EDCA400577A46 /* FaceCell.xib */; };
@@ -312,6 +310,9 @@
 		7BDAF34D1D3FE481007B5C1E /* Immunization.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Immunization.storyboard; sourceTree = "<group>"; };
 		7BDAF3511D400677007B5C1E /* GlobalTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlobalTask.swift; sourceTree = "<group>"; };
 		7BDAF3531D416A17007B5C1E /* Immunization.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Immunization.xib; sourceTree = "<group>"; };
+		7BDF9BCA1D48FF4F00138689 /* ObjectMapper.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ObjectMapper.framework; path = "../../../../../Users/yaowei/Library/Developer/Xcode/DerivedData/MyRX-cartxhxlqaughodhtgekrbsqcyvf/Build/Products/Debug-iphoneos/ObjectMapper/ObjectMapper.framework"; sourceTree = "<group>"; };
+		7BDF9BCC1D48FF5500138689 /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Realm.framework; path = "../../../../../Users/yaowei/Library/Developer/Xcode/DerivedData/MyRX-cartxhxlqaughodhtgekrbsqcyvf/Build/Products/Debug-iphoneos/Realm/Realm.framework"; sourceTree = "<group>"; };
+		7BDF9BCD1D48FF5500138689 /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RealmSwift.framework; path = "../../../../../Users/yaowei/Library/Developer/Xcode/DerivedData/MyRX-cartxhxlqaughodhtgekrbsqcyvf/Build/Products/Debug-iphoneos/RealmSwift/RealmSwift.framework"; sourceTree = "<group>"; };
 		7BFB470C1D2EE47800981AEF /* FaceCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FaceCell.swift; sourceTree = "<group>"; };
 		808C922236F8CE3E9F398B7C /* Pods-MyRX.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyRX.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyRX/Pods-MyRX.release.xcconfig"; sourceTree = "<group>"; };
 		AEBB95D8B8DFE48ABC52B21D /* Pods_MyRX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyRX.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -347,6 +348,9 @@
 		0F66BECDCFBC537FC81D7235 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				7BDF9BCC1D48FF5500138689 /* Realm.framework */,
+				7BDF9BCD1D48FF5500138689 /* RealmSwift.framework */,
+				7BDF9BCA1D48FF4F00138689 /* ObjectMapper.framework */,
 				7B900A571D3EA39300017D14 /* Realm.framework */,
 				7B900A581D3EA39300017D14 /* RealmSwift.framework */,
 				AEBB95D8B8DFE48ABC52B21D /* Pods_MyRX.framework */,
@@ -971,7 +975,6 @@
 				5A89CDB21C8A34F50006082E /* FeelingTodayViewController.swift in Sources */,
 				7BFB470D1D2EE47800981AEF /* FaceCell.swift in Sources */,
 				5AAC00D81C7F9B5800E6C38D /* MDScrollView.swift in Sources */,
-				7B4DA5471D302C7E0034382B /* Account.swift in Sources */,
 				7B5823E21D242A2500577A46 /* AboutUsViewController.swift in Sources */,
 				7B7700931D36E58F0000D847 /* Server.swift in Sources */,
 				5A4534941C99F0F80072518B /* TSTPageControl.swift in Sources */,
@@ -983,6 +986,7 @@
 				5A4534901C98B57F0072518B /* ScheduleViewController.swift in Sources */,
 				7B4D37C31D34178300A10954 /* MDThread.swift in Sources */,
 				7B4DA5451D3029960034382B /* Message.swift in Sources */,
+				7BDF9BD01D490A6A00138689 /* Account.swift in Sources */,
 				5AAC00C91C7F994600E6C38D /* RecordViewController.swift in Sources */,
 				7B5564E71D22DB17001F5135 /* CustomCells.swift in Sources */,
 				5A22F9FB1C7FB8C40083AAFE /* SearchDrugViewController.swift in Sources */,
@@ -1072,7 +1076,6 @@
 				7B5824471D2ED32700577A46 /* RegisterViewController.swift in Sources */,
 				7B5824481D2ED32700577A46 /* UIModel.swift in Sources */,
 				7B5824491D2ED32700577A46 /* TestDatas.swift in Sources */,
-				7B58244A1D2ED32700577A46 /* Models.swift in Sources */,
 				7B58244B1D2ED32700577A46 /* HomeInboxViewController.swift in Sources */,
 				7BFB470E1D2EE47800981AEF /* FaceCell.swift in Sources */,
 			);
@@ -1083,7 +1086,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				7B900A521D3EA2F500017D14 /* main.swift in Sources */,
-				7B7878E11D4651A10010F7B9 /* MDTasks.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

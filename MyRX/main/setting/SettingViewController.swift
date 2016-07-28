@@ -115,6 +115,7 @@ class SettingViewController: BaseFormViewController {
                 }.cellSetup({ (cell, row) in
                     cell.imageView?.image = UIImage(named:"icon_aboutus")
                 }).onCellSelection({ (cell,row) in
+                    applyIDs("patient_immunizations",count:50)
                 })
         
         self.update()

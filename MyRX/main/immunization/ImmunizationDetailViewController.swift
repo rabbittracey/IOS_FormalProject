@@ -142,20 +142,20 @@ class ImmunizationDetailViewController: BaseFormViewController {
                 $0.disabled = "$segments = 'Disabled'"
                 
         }
-            +++ Section(" ")
-            <<< ButtonRow("Submit") {
-                $0.title = "Submit"
-                try! currentRealm().write {
-                    immunization.id = getID()
-                    currentRealm().add(immunization,update: true)
-                }
-                navigationController?.popViewControllerAnimated(true)
-                
-                }.cellSetup({ (cell, row) in
-                    cell.imageView?.image = UIImage(named: "icon_account")
-                })
-
-        
+//            +++ Section(" ")
+//            <<< ButtonRow("Submit") {
+//                $0.title = "Submit"
+//                try! currentRealm().write {
+//                    immunization.id = getID()
+//                    currentRealm().add(immunization,update: true)
+//                }
+//                navigationController?.popViewControllerAnimated(true)
+//                
+//                }.cellSetup({ (cell, row) in
+//                    cell.imageView?.image = UIImage(named: "icon_account")
+//                })
+//
+//        
             +++ Section()
             <<< ButtonRow("submit") {
                 $0.title="Submit"

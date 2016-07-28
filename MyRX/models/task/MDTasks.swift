@@ -71,7 +71,7 @@ class GlobalTaskQueue {
 extension NSNumber : MinMaxType {}
 let TASKS = [
     // syncrony immunization for server
-    MDTask(3.seconds) { (task) in
+    MDTask(10.seconds) { (task) in
         let account = currentAccount()
         guard account.islogin else {
             return

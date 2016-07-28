@@ -8,8 +8,8 @@
 
 import Foundation
 
-var ids = 50000
-func getID() -> Int {
+var ids : Int64 = 50000
+func getID() -> Int64 {
     ids += 1
     return ids
 }

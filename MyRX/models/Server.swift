@@ -75,5 +75,5 @@ func getImmunization(version:Int64 = 0) -> Request {
 }
 
 func applyIDs(table:String,count:Int = 50) -> Request {
-    return request(.GET,"/api/patient_immunizations",["table":table,"count":count])
+    return request(.POST,"/api/mobiles/apply_range",["table_name":table,"count":count])
 }

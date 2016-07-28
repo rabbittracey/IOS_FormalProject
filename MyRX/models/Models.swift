@@ -133,21 +133,34 @@ public class CombineTransform<F:TransformType,S:TransformType where F.JSON == S.
     
 }
 
+public class Int64Transform : TransformType {
+    public typealias Object = Int64
+    public typealias JSON = NSNumber
+    
+    public func transformFromJSON(value: AnyObject?) -> Object? {
+        return (value as? JSON)?.longLongValue
+    }
+    public func transformToJSON(value: Object?) -> JSON? {
+        guard let value = value else {
+            return nil
+        }
+        return NSNumber(longLong: value)
+    }
+    
+}
 class MDObject : Object {
-    dynamic var cid = 0
-    dynamic var id = 0
+    dynamic var id:Int64 = 0
     dynamic var pending = true
 
-    dynamic var version: NSNumber = 0
+    dynamic var version: Int64 = 0
     dynamic var is_archived: Bool = false
     
-    required convenience init?(_ map: Map) {
-        self.init()
-    }
     override class func primaryKey() -> String? {
         return "id"
     }
-    
+    func save() {
+        
+    }
 }
 
 protocol MDMappable : Mappable {
@@ -161,13 +174,12 @@ extension MDMappable where Self : MDObject {
             opened = true
         }
         defer { if opened { map.mappingType == .FromJSON ? try! self.realm?.commitWrite() : self.realm?.cancelWrite() } }
-        id <- map["id"]
-        version <- map["version"]
+        id <- (map["id"],Int64Transform())
+        version <- (map["version"],Int64Transform())
         is_archived <- map["is_archived"]
         pending = false
         self.mdmap(map)
     }
-    
 }
 
 enum ModelResult<T:Object where T : MDMappable> {

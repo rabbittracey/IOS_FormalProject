@@ -164,7 +164,6 @@ class ImmunizationReminder : MDObject , MDMappable {
         self.init()
     }
     func mdmap(map:Map) {
-        id <- map["id"]
         reminder_date<-(map["reminder_date"],DateFormatterTransform(dateFormatter:DATEFORMAT))
         notes<-map["notes"]
         email<-map["email"]
@@ -174,7 +173,7 @@ class ImmunizationReminder : MDObject , MDMappable {
     
 }
 class PackImmunization :  Mappable {
-//    dynamic var version:Int64 = 0
+//    dynamic var version:NSNumber = 0
     dynamic var isContinue = false
     dynamic var immunizations:[Immunization]?
     

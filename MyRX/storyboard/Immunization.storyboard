@@ -2,24 +2,55 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
-        <!--Immunizations Table View Controller-->
+        <!--Immunization List-->
         <scene sceneID="MDF-Wy-EXW">
             <objects>
-                <tableViewController storyboardIdentifier="ImmunizationsTableViewController" id="K28-4Y-hgO" customClass="ImmunizationsTableViewController" customModule="MyRX" customModuleProvider="target" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="VrD-28-yIH">
+                <tableViewController storyboardIdentifier="ImmunizationsTableViewController" title="Immunization List" id="K28-4Y-hgO" customClass="ImmunizationsTableViewController" customModule="MyRX" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="100" sectionHeaderHeight="28" sectionFooterHeight="28" id="VrD-28-yIH">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="0kb-Nz-bMw">
-                                <rect key="frame" x="0.0" y="28" width="600" height="44"/>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ImmunizationListCell" rowHeight="100" id="0kb-Nz-bMw" customClass="ImmunizationListCell" customModule="MyRX" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="28" width="600" height="100"/>
                                 <autoresizingMask key="autoresizingMask"/>
-                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="0kb-Nz-bMw" id="mPh-4E-bc0">
-                                    <rect key="frame" x="0.0" y="0.0" width="600" height="43"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" restorationIdentifier="ImmunizationListCell" tableViewCell="0kb-Nz-bMw" id="mPh-4E-bc0">
+                                    <rect key="frame" x="0.0" y="0.0" width="600" height="99"/>
                                     <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V4E-m9-yHS">
+                                            <rect key="frame" x="18" y="18" width="300" height="21"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="300" id="T73-Gr-J50"/>
+                                            </constraints>
+                                            <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Did-Nh-bfk">
+                                            <rect key="frame" x="18" y="58" width="300" height="21"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="300" id="p5T-5v-guL"/>
+                                            </constraints>
+                                            <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="Did-Nh-bfk" firstAttribute="leading" secondItem="mPh-4E-bc0" secondAttribute="leadingMargin" constant="10" id="X0r-qn-Fjw"/>
+                                        <constraint firstItem="V4E-m9-yHS" firstAttribute="top" secondItem="mPh-4E-bc0" secondAttribute="topMargin" constant="10" id="ojF-Jx-Kgu"/>
+                                        <constraint firstItem="Did-Nh-bfk" firstAttribute="top" secondItem="V4E-m9-yHS" secondAttribute="bottom" constant="19" id="tcD-ZZ-9aN"/>
+                                        <constraint firstItem="V4E-m9-yHS" firstAttribute="leading" secondItem="mPh-4E-bc0" secondAttribute="leadingMargin" constant="10" id="uXu-lt-lcW"/>
+                                    </constraints>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="Date" destination="Did-Nh-bfk" id="C0g-zV-4oH"/>
+                                    <outlet property="Name" destination="V4E-m9-yHS" id="L3b-6m-jeS"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
@@ -34,9 +65,9 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="97R-S1-Jxo" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="hpg-6v-sHw">
-                    <rect key="frame" x="0.0" y="0.0" width="93" height="30"/>
+                    <rect key="frame" x="0.0" y="0.0" width="47" height="30"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                    <state key="normal" title="Add New"/>
+                    <state key="normal" title="Add"/>
                     <connections>
                         <action selector="onAddNew:" destination="K28-4Y-hgO" eventType="touchUpInside" id="mqJ-IU-8Ai"/>
                     </connections>

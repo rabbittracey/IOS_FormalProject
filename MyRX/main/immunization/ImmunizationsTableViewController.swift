@@ -24,7 +24,7 @@ class ImmunizationsTableViewController: BaseTableViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        results = currentRealm().objects(Immunization.self)
+        results = currentRealm().objects(Immunization.self).filter("is_archived==false")
         token = results.addNotificationBlock({ [ weak self ] in
             switch $0 {
             case .Initial,.Update:
@@ -46,17 +46,17 @@ class ImmunizationsTableViewController: BaseTableViewController {
         return self.results?.count ?? 0
     }
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        var cell = tableView.dequeueReusableCellWithIdentifier("reuseIdentifier")
-        if cell == nil {
-            cell = UITableViewCell(style: .Default, reuseIdentifier: "reuseIdentifier")
-        }
-        cell!.textLabel?.text = self.results[indexPath.row].name
-        return cell!
+        let cell = tableView.dequeueReusableCellWithIdentifier("ImmunizationListCell",forIndexPath: indexPath) as! ImmunizationListCell
+        cell.updateUI(self.results[indexPath.row])
+//        cell.textLabel?.text = self.results[indexPath.row].name
+        return cell
     }
     override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
         self.performSegueWithIdentifier("ImmunizationDetailSegue", sender: self.results[indexPath.row])
     }
-
+    override func tableView(tableView: UITableView, heightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
+        return 120
+    }
     // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation

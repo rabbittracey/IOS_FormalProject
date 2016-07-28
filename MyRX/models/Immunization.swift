@@ -1,4 +1,4 @@
-//
+
 //  Immunization.swift
 //  MyRX
 //
@@ -76,7 +76,7 @@ class Immunization : MDObject , MDMappable {
         immunization.name=name
         immunization.date_administered=date_administered
         
-        immunization.reImmunization_due_date=value["reImmunization"] as? NSDate
+        immunization.reImmunization_due_date=value["reImmunization_due_date"] as? NSDate
         immunization.administrator=value["administrator"] as? String
         immunization.notes = value["notes"] as? String
         immunization.source=value["source"] as? String
@@ -88,10 +88,13 @@ class Immunization : MDObject , MDMappable {
         immunization.publication_date=value["publication_date"] as? NSDate
         immunization.date_on_vis=value["date_on_vis"] as? NSDate
         immunization.date_given=value["date_given"] as? NSDate
-        immunization.adverse_reaction_log=value["adverse_reaction_log"] as?  String
+        immunization.adverse_reaction_log=value["adverse_react_log"] as?  String
         immunization.clinic_name=value["clinic_name"] as?  String
+        immunization.clinic_address=value["clinic_address"] as? String
+        immunization.funding_source=value["funding_source"]as? String
         immunization.administrator_affiliation=value["administrator_affiliation"] as?  String
         immunization.reminder=nil
+        
         
         return .Ok(immunization)
     }

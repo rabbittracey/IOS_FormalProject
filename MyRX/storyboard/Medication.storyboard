@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--Medication Detail View Controller-->
+        <scene sceneID="it6-Rh-p4o">
+            <objects>
+                <viewController id="Ujd-dL-wCe" customClass="MedicationDetailViewController" customModule="MyRX" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="fLw-tt-xQ3"/>
+                        <viewControllerLayoutGuide type="bottom" id="HG0-oP-44R"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="JLm-3d-2fp">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cdo-Jd-WHN" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="938" y="268"/>
+        </scene>
+        <!--Medications Table View Controller-->
+        <scene sceneID="KZd-2G-3B3">
+            <objects>
+                <tableViewController storyboardIdentifier="MedicationScene" id="wDK-NP-XnU" customClass="MedicationsTableViewController" customModule="MyRX" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="107" sectionHeaderHeight="28" sectionFooterHeight="28" id="bLH-1w-z5I">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="MedicationListCell" rowHeight="107" id="Mlq-Qb-TvF" customClass="MedicationListCell" customModule="MyRX" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="28" width="600" height="107"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Mlq-Qb-TvF" id="p9H-so-veh">
+                                    <rect key="frame" x="0.0" y="0.0" width="600" height="106"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hIO-vI-1Ms">
+                                            <rect key="frame" x="72" y="26" width="368" height="21"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="368" id="Nwc-iU-kDt"/>
+                                            </constraints>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="hIO-vI-1Ms" firstAttribute="top" secondItem="p9H-so-veh" secondAttribute="topMargin" constant="15" id="8Wa-PP-6PA"/>
+                                        <constraint firstItem="hIO-vI-1Ms" firstAttribute="leading" secondItem="p9H-so-veh" secondAttribute="leadingMargin" constant="64" id="EOW-Bw-eKg"/>
+                                    </constraints>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="nameLabel" destination="hIO-vI-1Ms" id="l1U-Zy-u80"/>
+                                    <segue destination="Ujd-dL-wCe" kind="show" identifier="MedicationDetailSegue" id="O8h-gm-gEh"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="wDK-NP-XnU" id="rPC-9J-XVD"/>
+                            <outlet property="delegate" destination="wDK-NP-XnU" id="fFd-gS-6bC"/>
+                        </connections>
+                    </tableView>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XIL-oT-Qvb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="ZKk-YN-l4L">
+                    <rect key="frame" x="0.0" y="0.0" width="46" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" title="Button"/>
+                </button>
+            </objects>
+            <point key="canvasLocation" x="82" y="268"/>
+        </scene>
+    </scenes>
+</document>

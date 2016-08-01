@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		403221941D4802940090FB68 /* ImmunizationListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403221931D4802940090FB68 /* ImmunizationListCell.swift */; };
+		403221D71D4A96120090FB68 /* Medication.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 403221D61D4A96120090FB68 /* Medication.storyboard */; };
+		403221DA1D4A972F0090FB68 /* MedicationDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403221D91D4A972F0090FB68 /* MedicationDetailViewController.swift */; };
+		403221DC1D4A98320090FB68 /* MedicationListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403221DB1D4A98320090FB68 /* MedicationListCell.swift */; };
+		403221DE1D4A99B20090FB68 /* Medication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403221DD1D4A99B20090FB68 /* Medication.swift */; };
+		4032230E1D4F89D00090FB68 /* MedicationsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4032230D1D4F89D00090FB68 /* MedicationsTableViewController.swift */; };
 		4041522E1D416C9D0019914F /* ImmunizationListView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4041522D1D416C9D0019914F /* ImmunizationListView.xib */; };
 		404152701D4695980019914F /* ForTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4041526F1D4695980019914F /* ForTest.swift */; };
 		5A054AB51C90D0C500399391 /* MDGrayImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A054AB41C90D0C500399391 /* MDGrayImageView.swift */; };
@@ -202,6 +207,11 @@
 
 /* Begin PBXFileReference section */
 		403221931D4802940090FB68 /* ImmunizationListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImmunizationListCell.swift; sourceTree = "<group>"; };
+		403221D61D4A96120090FB68 /* Medication.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Medication.storyboard; sourceTree = "<group>"; };
+		403221D91D4A972F0090FB68 /* MedicationDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MedicationDetailViewController.swift; sourceTree = "<group>"; };
+		403221DB1D4A98320090FB68 /* MedicationListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MedicationListCell.swift; sourceTree = "<group>"; };
+		403221DD1D4A99B20090FB68 /* Medication.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Medication.swift; sourceTree = "<group>"; };
+		4032230D1D4F89D00090FB68 /* MedicationsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MedicationsTableViewController.swift; sourceTree = "<group>"; };
 		4041522D1D416C9D0019914F /* ImmunizationListView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ImmunizationListView.xib; sourceTree = "<group>"; };
 		4041522F1D416D120019914F /* ImmunizationListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImmunizationListView.swift; sourceTree = "<group>"; };
 		4041526F1D4695980019914F /* ForTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ForTest.swift; path = test/ForTest.swift; sourceTree = "<group>"; };
@@ -359,6 +369,16 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		403221D81D4A961B0090FB68 /* medication */ = {
+			isa = PBXGroup;
+			children = (
+				403221D91D4A972F0090FB68 /* MedicationDetailViewController.swift */,
+				403221DB1D4A98320090FB68 /* MedicationListCell.swift */,
+				4032230D1D4F89D00090FB68 /* MedicationsTableViewController.swift */,
+			);
+			path = medication;
+			sourceTree = "<group>";
+		};
 		5A22F9E91C7FA2840083AAFE /* resources */ = {
 			isa = PBXGroup;
 			children = (
@@ -430,6 +450,7 @@
 		5AAC00B61C7F994600E6C38D /* main */ = {
 			isa = PBXGroup;
 			children = (
+				403221D81D4A961B0090FB68 /* medication */,
 				7BDAF3501D400603007B5C1E /* global */,
 				7BDAF34F1D3FE4AE007B5C1E /* immunization */,
 				7BFB470B1D2EE42300981AEF /* ui */,
@@ -544,6 +565,7 @@
 				7B4DA5441D3029960034382B /* Message.swift */,
 				7B4DA5461D302C7E0034382B /* Account.swift */,
 				7B7700981D395D050000D847 /* Immunization.swift */,
+				403221DD1D4A99B20090FB68 /* Medication.swift */,
 				7B7878E21D469AA90010F7B9 /* GlobalData.swift */,
 			);
 			name = model;
@@ -601,6 +623,7 @@
 				7B5823F51D24672500577A46 /* utils.storyboard */,
 				7B5823FD1D2EA74200577A46 /* Setting.storyboard */,
 				7BDAF34D1D3FE481007B5C1E /* Immunization.storyboard */,
+				403221D61D4A96120090FB68 /* Medication.storyboard */,
 			);
 			path = storyboard;
 			sourceTree = "<group>";
@@ -787,6 +810,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7B5823E01D24288E00577A46 /* companyOverview.html in Resources */,
+				403221D71D4A96120090FB68 /* Medication.storyboard in Resources */,
 				7B5823EF1D24578100577A46 /* employeeOwership.html in Resources */,
 				5A22F9EC1C7FA2AE0083AAFE /* message.html in Resources */,
 				5AAC00861C7F989A00E6C38D /* LaunchScreen.storyboard in Resources */,
@@ -945,6 +969,7 @@
 			files = (
 				7B5564E01D21CEA0001F5135 /* LoginViewController.swift in Sources */,
 				5A22F9F71C7FB8A50083AAFE /* AddDrugViewController.swift in Sources */,
+				403221DA1D4A972F0090FB68 /* MedicationDetailViewController.swift in Sources */,
 				7B7878DD1D42B7F40010F7B9 /* ImmunizationDetailViewController.swift in Sources */,
 				5AAC00B41C7F993D00E6C38D /* AppDatas.swift in Sources */,
 				5AAC00CF1C7F995100E6C38D /* MDSegue.swift in Sources */,
@@ -957,6 +982,7 @@
 				5AAC00CA1C7F994600E6C38D /* SettingViewController.swift in Sources */,
 				5AAC00C71C7F994600E6C38D /* InboxViewController.swift in Sources */,
 				5A53CC191C80FDA800CFE559 /* RxDetailViewController.swift in Sources */,
+				403221DE1D4A99B20090FB68 /* Medication.swift in Sources */,
 				5A53CC211C81070900CFE559 /* MDLine.swift in Sources */,
 				7B5823F21D245F0B00577A46 /* ExSettingViewController.swift in Sources */,
 				5A89CDB01C8A16EB0006082E /* MDRuleView.swift in Sources */,
@@ -975,6 +1001,7 @@
 				7B7878E31D469AA90010F7B9 /* GlobalData.swift in Sources */,
 				5A89CDB21C8A34F50006082E /* FeelingTodayViewController.swift in Sources */,
 				7BFB470D1D2EE47800981AEF /* FaceCell.swift in Sources */,
+				4032230E1D4F89D00090FB68 /* MedicationsTableViewController.swift in Sources */,
 				5AAC00D81C7F9B5800E6C38D /* MDScrollView.swift in Sources */,
 				7B5823E21D242A2500577A46 /* AboutUsViewController.swift in Sources */,
 				7B7700931D36E58F0000D847 /* Server.swift in Sources */,
@@ -986,6 +1013,7 @@
 				7B4D37CD1D357B0C00A10954 /* LinkRow.swift in Sources */,
 				5A4534901C98B57F0072518B /* ScheduleViewController.swift in Sources */,
 				7B4D37C31D34178300A10954 /* MDThread.swift in Sources */,
+				403221DC1D4A98320090FB68 /* MedicationListCell.swift in Sources */,
 				7B4DA5451D3029960034382B /* Message.swift in Sources */,
 				7BDF9BD01D490A6A00138689 /* Account.swift in Sources */,
 				5AAC00C91C7F994600E6C38D /* RecordViewController.swift in Sources */,

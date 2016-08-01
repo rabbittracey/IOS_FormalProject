@@ -58,15 +58,12 @@ class Immunization : MDObject , MDMappable {
         administrator_affiliation<-map["administrator_affiliation"]
         reminder <- map["reminder"]
     }
-    override static func primaryKey() -> String? {
-        return "id"
-    }
     
     class func instance(value:[String:Any?]) -> ModelResult<Immunization> {
         let immunization = Immunization()
         
         //need to fix it, how to set the id of the immunization
-        immunization.id = getID()
+        immunization.id = globalData().getUUID()
         guard let name = value["name"] as? String else {
             return .Error(field:"name", message: " The name of immunization can not be blank")
         }

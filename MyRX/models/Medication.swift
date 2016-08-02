@@ -47,17 +47,13 @@ class Medication : MDObject , MDMappable {
 		ndc<-map["ndc"]
 		side_effects<-map["side_effects"]
    }
-	
 	class func instance(value:[String:Any?]) -> ModelResult<Medication> {
 		let medication = Medication()
-		
 		//need to fix it, how to set the id of the medication
 		medication.id = getID()
 		guard let name = value["name"] as? String else {
 			return .Error(field:"name", message: " The name of medication can not be blank")
 		}
-		
-		
 		medication.drug_name=name
 		medication.fda_status=value["fda_status"] as? String
 		medication.ttddrugid=value["ttddrugid"] as? String
@@ -72,14 +68,10 @@ class Medication : MDObject , MDMappable {
 		medication.superdrug_cas=value["superdrug_cas"] as? String
 		medication.ndc=value["ndc"] as? String
 		medication.side_effects=value["side_effects"] as? String
-
-		
-		
 		return .Ok(medication)
 	}
 	func copyfrom(let medication:Medication) {
 		
-	
 		if self.drug_name != medication.drug_name{
 			self.drug_name = medication.drug_name
 		}
@@ -119,16 +111,10 @@ class Medication : MDObject , MDMappable {
 		if self.ndc != medication.ndc{
 			self.ndc = medication.ndc
 		}
-		
 		if self.side_effects != medication.side_effects{
 			self.side_effects = medication.side_effects
 		}
-		
-		
-		
-		
 	}
-	
 }
 
 
@@ -315,7 +301,6 @@ class Medication_Reminder : MDObject , MDMappable {
 			return .Error(field:"name", message: " The name of medication reminder can not be blank")
 		}
 		
-		
 		medication_reminder.name=name
 		medication_reminder.reminder_time=value["reminder_time"] as? NSDate
 		medication_reminder.recurrence=value["recurrence"] as? String
@@ -379,6 +364,8 @@ class Medication_Add_Fill : MDObject , MDMappable {
 		medication_add_fill.id = getID()
 		medication_add_fill.date_filled=(value["date_filled"] as? NSDate)!
 //		medication_add_fill.next_refill_date=value["next_refill_date"] as? NSDate
+		medication_add_fill.date_filled=value["date_filled"] as! NSDate
+		medication_add_fill.next_refilled_date=value["next_refill_date"] as? NSDate
 		medication_add_fill.days_supply=value["days_supply"] as? String
 		medication_add_fill.refills_left=value["refills_left"] as? String
 		medication_add_fill.pharmacy_name=value["pharmacy_name"] as? String

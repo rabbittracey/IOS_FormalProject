@@ -1,8 +1,8 @@
 //
-//  medicationsTableViewController.swift
+//  ReminderViewController.swift
 //  MyRX
 //
-//  Created by Ji Wang on 8/1/16.
+//  Created by Ji Wang on 8/2/16.
 //  Copyright © 2016 EagleForce. All rights reserved.
 //
 
@@ -12,29 +12,12 @@ import ObjectMapper
 import Realm
 import RealmSwift
 import Alamofire
+import Foundation
 
-class MedicationTableViewController: BaseTableViewController {
-	var token : RLMNotificationToken? = nil
-	var results : Results<Patient_Medication>!
-	
-	@IBAction func onAddNew(sender: AnyObject) {
-		self.performSegueWithIdentifier("MedicationDetailSegue", sender: nil)
-	}
+class ReminderViewController: BaseTableViewController {
+	var patient_medication :Patient_Medication!
 	override func viewDidLoad() {
 		super.viewDidLoad()
-		
-		// Do any additional setup after loading the view.
-		results = currentRealm().objects(Patient_Medication.self).filter("is_archived==false")
-		token = results.addNotificationBlock({ [ weak self ] in
-			switch $0 {
-			case .Initial,.Update:
-				self?.tableView.reloadData()
-				break
-			case .Error:
-				print("Error")
-				break
-			}
-			})
 	}
 	
 	override func didReceiveMemoryWarning() {
@@ -43,7 +26,7 @@ class MedicationTableViewController: BaseTableViewController {
 	}
 	
 	override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-		return self.results?.count ?? 0
+		return self.patient_medication.reminders
 	}
 	override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
 		let cell = tableView.dequeueReusableCellWithIdentifier("MedicationListCell",forIndexPath: indexPath) as! MedicationListCell
@@ -61,18 +44,12 @@ class MedicationTableViewController: BaseTableViewController {
 	
 	// In a storyboard-based application, you will often want to do a little preparation before navigation
 	override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-<<<<<<< HEAD
 		
 		let patient_medication = (sender as? Patient_Medication) ?? Patient_Medication()
 		if let destine = segue.destinationViewController as? MedicationDetailViewController {
 		 destine.patient_medication = patient_medication
 		}
 	}
-=======
-        let patient_medication = (sender as? Patient_Medication) ?? Patient_Medication()
-        if let destine = segue.destinationViewController as? MedicationDetailViewController {
-            destine.patient_medication = patient_medication
-        }
-    }
->>>>>>> 2a6c1b46ff9c085f25b290f50c3436da186de136
+	
+	
 }

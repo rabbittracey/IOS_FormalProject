@@ -20,7 +20,7 @@ let 👦🏼 = "👦🏼", 🍐 = "🍐", 💁🏻 = "💁🏻", 🐗 = "🐗", 
 
 
 class ImmunizationDetailViewController: BaseFormViewController {
-	var immunization:Immunization!
+	var immunization:Patient_Immunization!
 	var isEdit : Bool!
 	override func viewDidLoad() {
 		super.viewDidLoad()
@@ -297,7 +297,7 @@ class ImmunizationDetailViewController: BaseFormViewController {
 	private func updateImmunizations() {
 		let values = form.values()
 		
-		switch Immunization.instance(values) {
+		switch Patient_Immunization.instance(values) {
 		case .Error(let field,let message):
 			notification_top.showNotification(field, body: message, onTap: { (Void) in
 				

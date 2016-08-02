@@ -13,7 +13,7 @@ import ObjectMapper
 import Eureka
 
 
-class Immunization : MDObject , MDMappable {
+class Patient_Immunization : MDObject , MDMappable {
     dynamic var name = ""
     dynamic var date_administered = NSDate()
     dynamic var reImmunization_due_date:NSDate?
@@ -59,8 +59,8 @@ class Immunization : MDObject , MDMappable {
         reminder <- map["reminder"]
     }
     
-    class func instance(value:[String:Any?]) -> ModelResult<Immunization> {
-        let immunization = Immunization()
+    class func instance(value:[String:Any?]) -> ModelResult<Patient_Immunization> {
+        let immunization = Patient_Immunization()
         
         //need to fix it, how to set the id of the immunization
         immunization.id = globalData().getUUID()
@@ -95,7 +95,7 @@ class Immunization : MDObject , MDMappable {
         
         return .Ok(immunization)
     }
-    func copyfrom(let immunization:Immunization) {
+    func copyfrom(let immunization:Patient_Immunization) {
         if self.name != immunization.name{
             self.name = immunization.name
         }
@@ -155,10 +155,11 @@ class Immunization : MDObject , MDMappable {
 }
 class ImmunizationReminder : MDObject , MDMappable {
     dynamic var reminder_date:NSDate?
-    
+	dynamic var immunization_id: String?
     dynamic var notes:String?
     dynamic var email:String?
-    dynamic var immunization:Immunization?
+    dynamic var immunization:Patient_Immunization?
+	
     
     required convenience init?(_ map: Map) {
         self.init()
@@ -167,6 +168,7 @@ class ImmunizationReminder : MDObject , MDMappable {
         reminder_date<-(map["reminder_date"],DateFormatterTransform(dateFormatter:DATEFORMAT))
         notes<-map["notes"]
         email<-map["email"]
+		immunization_id<-map["immunization_id"]
         
     }
    
@@ -175,7 +177,7 @@ class ImmunizationReminder : MDObject , MDMappable {
 class PackImmunization :  Mappable {
 //    dynamic var version:NSNumber = 0
     dynamic var isContinue = false
-    dynamic var immunizations:[Immunization]?
+    dynamic var immunizations:[Patient_Immunization]?
     
     required convenience init?(_ map: Map) {
         self.init()

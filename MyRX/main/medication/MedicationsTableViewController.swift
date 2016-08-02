@@ -15,7 +15,7 @@ import Alamofire
 
 class MedicationTableViewController: BaseTableViewController {
 	var token : RLMNotificationToken? = nil
-	var results : Results<Medication>!
+	var results : Results<Patient_Medication>!
 	
 	@IBAction func onAddNew(sender: AnyObject) {
 		self.performSegueWithIdentifier("MedicationDetailSegue", sender: self)
@@ -24,7 +24,7 @@ class MedicationTableViewController: BaseTableViewController {
 		super.viewDidLoad()
 		
 		// Do any additional setup after loading the view.
-		results = currentRealm().objects(Medication.self).filter("is_archived==false")
+		results = currentRealm().objects(Patient_Medication.self).filter("is_archived==false")
 		token = results.addNotificationBlock({ [ weak self ] in
 			switch $0 {
 			case .Initial,.Update:
@@ -46,7 +46,7 @@ class MedicationTableViewController: BaseTableViewController {
 		return self.results?.count ?? 0
 	}
 	override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-		let cell = tableView.dequeueReusableCellWithIdentifier("ImmunizationListCell",forIndexPath: indexPath) as! MedicationListCell
+		let cell = tableView.dequeueReusableCellWithIdentifier("MedicationListCell",forIndexPath: indexPath) as! MedicationListCell
 		cell.updateUI(self.results[indexPath.row])
 		//        cell.textLabel?.text = self.results[indexPath.row].name
 		return cell
@@ -61,12 +61,11 @@ class MedicationTableViewController: BaseTableViewController {
 	
 	// In a storyboard-based application, you will often want to do a little preparation before navigation
 	override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-		// Get the new view controller using segue.destinationViewController.
-		// Pass the selected object to the new view controller.
-		let medication = (sender as? Medication) ?? Medication()
+		
+	let patient_medication = (sender as? Patient_Medication) ?? Patient_Medication()
 		if let destine = segue.destinationViewController as? MedicationDetailViewController {
-			destine.medication = medication
-		}
+		destine.patient_medication = patient_medication
+	}
 	}
 	
 }

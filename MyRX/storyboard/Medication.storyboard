@@ -23,20 +23,20 @@
             </objects>
             <point key="canvasLocation" x="938" y="268"/>
         </scene>
-        <!--Medications Table View Controller-->
+        <!--Medication Table View Controller-->
         <scene sceneID="KZd-2G-3B3">
             <objects>
-                <tableViewController storyboardIdentifier="MedicationScene" id="wDK-NP-XnU" customClass="MedicationsTableViewController" customModule="MyRX" customModuleProvider="target" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="107" sectionHeaderHeight="28" sectionFooterHeight="28" id="bLH-1w-z5I">
+                <tableViewController storyboardIdentifier="MedicationScene" id="wDK-NP-XnU" customClass="MedicationTableViewController" customModule="MyRX" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="120" sectionHeaderHeight="28" sectionFooterHeight="28" id="bLH-1w-z5I">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="MedicationListCell" rowHeight="107" id="Mlq-Qb-TvF" customClass="MedicationListCell" customModule="MyRX" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="28" width="600" height="107"/>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="MedicationListCell" rowHeight="100" id="Mlq-Qb-TvF" customClass="MedicationListCell" customModule="MyRX" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="28" width="600" height="100"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Mlq-Qb-TvF" id="p9H-so-veh">
-                                    <rect key="frame" x="0.0" y="0.0" width="600" height="106"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="600" height="99"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hIO-vI-1Ms">
@@ -56,7 +56,7 @@
                                 </tableViewCellContentView>
                                 <connections>
                                     <outlet property="nameLabel" destination="hIO-vI-1Ms" id="l1U-Zy-u80"/>
-                                    <segue destination="Ujd-dL-wCe" kind="show" identifier="MedicationDetailSegue" id="O8h-gm-gEh"/>
+                                    <segue destination="Ujd-dL-wCe" kind="show" identifier="MedicationDetailSegue" customClass="MDSegue01" customModule="MyRX" customModuleProvider="target" id="O8h-gm-gEh"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -65,12 +65,18 @@
                             <outlet property="delegate" destination="wDK-NP-XnU" id="fFd-gS-6bC"/>
                         </connections>
                     </tableView>
+                    <connections>
+                        <outlet property="rightBarButton" destination="ZKk-YN-l4L" id="MhY-dw-fcX"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XIL-oT-Qvb" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="ZKk-YN-l4L">
                     <rect key="frame" x="0.0" y="0.0" width="46" height="30"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                    <state key="normal" title="Button"/>
+                    <state key="normal" title="Add"/>
+                    <connections>
+                        <action selector="onAddNew:" destination="wDK-NP-XnU" eventType="touchUpInside" id="A6E-Vd-LgG"/>
+                    </connections>
                 </button>
             </objects>
             <point key="canvasLocation" x="82" y="268"/>

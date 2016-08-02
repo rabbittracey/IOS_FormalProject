@@ -76,7 +76,7 @@ let TASKS = [
         guard account.islogin else {
             return
         }
-        let maxversion = ( currentRealm().objects(Immunization.self).max("version") as NSNumber? )?.longLongValue ?? -1
+        let maxversion = ( currentRealm().objects(Patient_Immunization.self).max("version") as NSNumber? )?.longLongValue ?? -1
         
         getImmunization(maxversion + 1).responseObject { (response:Response<PackImmunization, NSError>) in
             switch(response.result) {

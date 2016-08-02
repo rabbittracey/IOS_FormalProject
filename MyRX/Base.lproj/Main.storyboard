@@ -65,7 +65,7 @@
         <!--MedicationScene-->
         <scene sceneID="lM3-XY-5Cs">
             <objects>
-                <viewControllerPlaceholder storyboardName="medication" referencedIdentifier="MedicationScene" id="A1H-JX-j8d" sceneMemberID="viewController">
+                <viewControllerPlaceholder storyboardName="Medication" referencedIdentifier="MedicationScene" id="A1H-JX-j8d" sceneMemberID="viewController">
                     <navigationItem key="navigationItem" id="zTs-Ph-Lfw"/>
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3vG-IW-cOk" userLabel="First Responder" sceneMemberID="firstResponder"/>

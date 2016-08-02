@@ -28,7 +28,6 @@ class Medication : MDObject , MDMappable {
 	dynamic var superdrug_cas:String?
 	dynamic var ndc:String?
 	dynamic var side_effects:String?
-    
 	required convenience init?(_ map: Map) {
 		self.init()
 	}
@@ -155,6 +154,8 @@ class Patient_Medication : MDObject , MDMappable {
 	dynamic var patient_id = " "
 	dynamic var ndc: String?
 	
+    let reminders = List<Medication_Reminder>()
+    let fills = List<Medication_Add_Fill>()
 
 	required convenience init?(_ map: Map) {
 		self.init()
@@ -286,14 +287,13 @@ class Patient_Medication : MDObject , MDMappable {
 	}
 }
 
-class Medication_Reminders : MDObject , MDMappable {
+class Medication_Reminder : MDObject , MDMappable {
 	
 	dynamic var name = " "
 	dynamic var reminder_time:NSDate?
 	dynamic var recurrence:String?
 	dynamic var send_reminders_to:String?
 	dynamic var send_text_message:String?
-	dynamic var medication:Medication?
 	
 	required convenience init?(_ map: Map) {
 		self.init()
@@ -304,11 +304,10 @@ class Medication_Reminders : MDObject , MDMappable {
 		recurrence<-map["recurrence"]
 		send_reminders_to<-map["send_reminders_to"]
 		send_text_message<-map["send_text_message"]
-		medication<-map["Medication"]
 	}
 	
-	class func instance(value:[String:Any?]) -> ModelResult<Medication_Reminders> {
-		let medication_reminder = Medication_Reminders()
+    class func instance(value:[String:Any?]) -> ModelResult<Medication_Reminder> {
+		let medication_reminder = Medication_Reminder()
 		
 		//need to fix it, how to set the id of the medication
 		medication_reminder.id = getID()
@@ -322,13 +321,9 @@ class Medication_Reminders : MDObject , MDMappable {
 		medication_reminder.recurrence=value["recurrence"] as? String
 		medication_reminder.send_reminders_to=value["send_reminders_to"] as? String
 		medication_reminder.send_text_message=value["send_text_message"] as? String
-		medication_reminder.medication=value["medication"] as? Medication
-		
-		
-		
 		return .Ok(medication_reminder)
 	}
-	func copyfrom(let medication_reminder:Medication_Reminders) {
+	func copyfrom(let medication_reminder:Medication_Reminder) {
 		
 		if self.name != medication_reminder.name{
 			self.name = medication_reminder.name
@@ -345,13 +340,10 @@ class Medication_Reminders : MDObject , MDMappable {
 		if self.send_text_message != medication_reminder.send_text_message{
 			self.send_text_message = medication_reminder.send_text_message
 		}
-		if self.medication != medication_reminder.medication{
-			self.medication = medication_reminder.medication
-		}
 	}
 }
 
-class Medication_Add_Fills : MDObject , MDMappable {
+class Medication_Add_Fill : MDObject , MDMappable {
 	
 	dynamic var date_filled = NSDate()
 	dynamic var next_refilled_date:NSDate?
@@ -363,7 +355,6 @@ class Medication_Add_Fills : MDObject , MDMappable {
 	dynamic var lot_number:String?
 	dynamic var source: String?
 	dynamic var notes: String?
-	dynamic var medicaiton: Medication
 	
 	required convenience init?(_ map: Map) {
 		self.init()
@@ -379,18 +370,15 @@ class Medication_Add_Fills : MDObject , MDMappable {
 		lot_number<-map["lot_number"]
 		source<-map["source"]
 		notes<-map["notes"]
-		medicaiton<-map["medication"]
 	}
 	
-	class func instance(value:[String:Any?]) -> ModelResult<Medication_Add_Fills> {
-		let medication_add_fill = Medication_Add_Fills()
+	class func instance(value:[String:Any?]) -> ModelResult<Medication_Add_Fill> {
+		let medication_add_fill = Medication_Add_Fill()
 		
 		//need to fix it, how to set the id of the medication
 		medication_add_fill.id = getID()
-		
-		
-		medication_add_fill.date_filled=value["date_filled"] as? NSDate
-		medication_add_fill.next_refill_date=value["next_refill_date"] as? NSDate
+		medication_add_fill.date_filled=(value["date_filled"] as? NSDate)!
+//		medication_add_fill.next_refill_date=value["next_refill_date"] as? NSDate
 		medication_add_fill.days_supply=value["days_supply"] as? String
 		medication_add_fill.refills_left=value["refills_left"] as? String
 		medication_add_fill.pharmacy_name=value["pharmacy_name"] as? String
@@ -399,13 +387,9 @@ class Medication_Add_Fills : MDObject , MDMappable {
 		medication_add_fill.lot_number=value["lot_number"] as? String
 		medication_add_fill.source=value["source"] as? String
 		medication_add_fill.notes=value["notes"] as? String
-		medication_add_fill.medication=value["medication"] as? Medication
-		
-		
-		
 		return .Ok(medication_add_fill)
 	}
-	func copyfrom(let medication_add_fill:Medication_Add_Fills) {
+	func copyfrom(let medication_add_fill:Medication_Add_Fill) {
 		
 		if self.date_filled != medication_add_fill.date_filled{
 			self.date_filled = medication_add_fill.date_filled
@@ -437,11 +421,6 @@ class Medication_Add_Fills : MDObject , MDMappable {
 		if self.notes != medication_add_fill.notes{
 			self.notes = medication_add_fill.notes
 		}
-		if self.medicaiton != medication_add_fill.medicaiton{
-			self.medicaiton = medication_add_fill.medicaiton
-		}
-
-		
 	}
 }
 

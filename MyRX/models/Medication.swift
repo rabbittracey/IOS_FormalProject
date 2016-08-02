@@ -12,7 +12,6 @@ import RealmSwift
 import ObjectMapper
 import Eureka
 
-
 class Medication : MDObject , MDMappable {
 	
 	dynamic var drug_name = " "
@@ -29,7 +28,7 @@ class Medication : MDObject , MDMappable {
 	dynamic var superdrug_cas:String?
 	dynamic var ndc:String?
 	dynamic var side_effects:String?
-	
+    
 	required convenience init?(_ map: Map) {
 		self.init()
 	}

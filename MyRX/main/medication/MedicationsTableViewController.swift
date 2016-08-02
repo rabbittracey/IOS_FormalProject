@@ -61,10 +61,18 @@ class MedicationTableViewController: BaseTableViewController {
 	
 	// In a storyboard-based application, you will often want to do a little preparation before navigation
 	override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+<<<<<<< HEAD
 		
 		let patient_medication = (sender as? Patient_Medication) ?? Patient_Medication()
 		if let destine = segue.destinationViewController as? MedicationDetailViewController {
 		 destine.patient_medication = patient_medication
 		}
 	}
+=======
+        let patient_medication = (sender as? Patient_Medication) ?? Patient_Medication()
+        if let destine = segue.destinationViewController as? MedicationDetailViewController {
+            destine.patient_medication = patient_medication
+        }
+    }
+>>>>>>> 2a6c1b46ff9c085f25b290f50c3436da186de136
 }

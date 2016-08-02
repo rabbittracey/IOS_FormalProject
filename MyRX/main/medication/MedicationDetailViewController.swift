@@ -168,20 +168,31 @@ class MedicationDetailViewController: BaseFormViewController{
 				$0.disabled = "$segments = 'Edit'"
 		}
 		
-			+++ Section()
+		+++ Section()
 			<<< ButtonRow("submit") {
 				$0.title="Submit"
-				}.onCellSelection({ [weak self] (row,cell) in
-					self!.updateMedications()
-					})
-			
+			}.onCellSelection({ [weak self] (row,cell) in
+				self!.updateMedications()
+			})
 			<<< ButtonRow("delete") {
 				$0.title="Delete"
-				}.onCellSelection({ [weak self] (row,cell) in
-					self!.deleteMedications()
-					})
+			}.onCellSelection({ [weak self] (row,cell) in
+				self?.deleteMedications()
+			})
+		+++ Section()
+			<<< ButtonRow() { (row: ButtonRow) -> Void in
+				row.title = "View Reminder"
+			}.onCellSelection({  [weak self]  (cell, row) in
+				self?.performSegueWithIdentifier("ReminderSegue", sender: nil)
+			})
+	       <<< ButtonRow() { (row: ButtonRow) -> Void in
+	                row.title = "View Fills"
+	           }  .onCellSelection({  [weak self]  (cell, row) in
+					self?.performSegueWithIdentifier("FillSegue", sender: nil)
+	            })
 	}
-	
+
+
 	private func updateMedications() {
 		let values = form.values()
 		
@@ -225,4 +236,13 @@ class MedicationDetailViewController: BaseFormViewController{
 		super.didReceiveMemoryWarning()
 		// Dispose of any resources that can be recreated.
 	}
+	override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+		if let destine = segue.destinationViewController as? ReminderViewController{
+			destine.patient_medication = patient_medication
+		} else if let destine = segue.destinationViewController as? AddFillViewController {
+			destine.patient_medication = patient_medication
+		}
+	}
+	
+	
 }

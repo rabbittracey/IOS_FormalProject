@@ -1,8 +1,8 @@
 //
-//  medicationsTableViewController.swift
+//  ReminderViewController.swift
 //  MyRX
 //
-//  Created by Ji Wang on 8/1/16.
+//  Created by Ji Wang on 8/2/16.
 //  Copyright © 2016 EagleForce. All rights reserved.
 //
 
@@ -12,29 +12,12 @@ import ObjectMapper
 import Realm
 import RealmSwift
 import Alamofire
+import Foundation
 
-class MedicationTableViewController: BaseTableViewController {
-	var token : RLMNotificationToken? = nil
-	var results : Results<Patient_Medication>!
-	
-	@IBAction func onAddNew(sender: AnyObject) {
-		self.performSegueWithIdentifier("MedicationDetailSegue", sender: nil)
-	}
+class ReminderViewController: BaseTableViewController {
+	var patient_medication :Patient_Medication!
 	override func viewDidLoad() {
 		super.viewDidLoad()
-		
-		// Do any additional setup after loading the view.
-		results = currentRealm().objects(Patient_Medication.self).filter("is_archived==false")
-		token = results.addNotificationBlock({ [ weak self ] in
-			switch $0 {
-			case .Initial,.Update:
-				self?.tableView.reloadData()
-				break
-			case .Error:
-				print("Error")
-				break
-			}
-			})
 	}
 	
 	override func didReceiveMemoryWarning() {
@@ -43,7 +26,7 @@ class MedicationTableViewController: BaseTableViewController {
 	}
 	
 	override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-		return self.results?.count ?? 0
+		return self.patient_medication.reminders
 	}
 	override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
 		let cell = tableView.dequeueReusableCellWithIdentifier("MedicationListCell",forIndexPath: indexPath) as! MedicationListCell
@@ -67,4 +50,6 @@ class MedicationTableViewController: BaseTableViewController {
 		 destine.patient_medication = patient_medication
 		}
 	}
+	
+	
 }

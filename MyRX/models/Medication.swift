@@ -49,17 +49,13 @@ class Medication : MDObject , MDMappable {
 		ndc<-map["ndc"]
 		side_effects<-map["side_effects"]
    }
-	
 	class func instance(value:[String:Any?]) -> ModelResult<Medication> {
 		let medication = Medication()
-		
 		//need to fix it, how to set the id of the medication
 		medication.id = getID()
 		guard let name = value["name"] as? String else {
 			return .Error(field:"name", message: " The name of medication can not be blank")
 		}
-		
-		
 		medication.drug_name=name
 		medication.fda_status=value["fda_status"] as? String
 		medication.ttddrugid=value["ttddrugid"] as? String
@@ -74,14 +70,10 @@ class Medication : MDObject , MDMappable {
 		medication.superdrug_cas=value["superdrug_cas"] as? String
 		medication.ndc=value["ndc"] as? String
 		medication.side_effects=value["side_effects"] as? String
-
-		
-		
 		return .Ok(medication)
 	}
 	func copyfrom(let medication:Medication) {
 		
-	
 		if self.drug_name != medication.drug_name{
 			self.drug_name = medication.drug_name
 		}
@@ -121,16 +113,10 @@ class Medication : MDObject , MDMappable {
 		if self.ndc != medication.ndc{
 			self.ndc = medication.ndc
 		}
-		
 		if self.side_effects != medication.side_effects{
 			self.side_effects = medication.side_effects
 		}
-		
-		
-		
-		
 	}
-	
 }
 
 
@@ -155,7 +141,6 @@ class Patient_Medication : MDObject , MDMappable {
 	dynamic var notes: String?
 	dynamic var patient_id = " "
 	dynamic var ndc: String?
-	
 
 	required convenience init?(_ map: Map) {
 		self.init()
@@ -294,7 +279,7 @@ class Medication_Reminders : MDObject , MDMappable {
 	dynamic var recurrence:String?
 	dynamic var send_reminders_to:String?
 	dynamic var send_text_message:String?
-	dynamic var medication:Medication?
+	dynamic var medication:Medication!
 	
 	required convenience init?(_ map: Map) {
 		self.init()
@@ -305,7 +290,7 @@ class Medication_Reminders : MDObject , MDMappable {
 		recurrence<-map["recurrence"]
 		send_reminders_to<-map["send_reminders_to"]
 		send_text_message<-map["send_text_message"]
-		medication<-map["Medication"]
+		
 	}
 	
 	class func instance(value:[String:Any?]) -> ModelResult<Medication_Reminders> {
@@ -317,15 +302,11 @@ class Medication_Reminders : MDObject , MDMappable {
 			return .Error(field:"name", message: " The name of medication reminder can not be blank")
 		}
 		
-		
 		medication_reminder.name=name
 		medication_reminder.reminder_time=value["reminder_time"] as? NSDate
 		medication_reminder.recurrence=value["recurrence"] as? String
 		medication_reminder.send_reminders_to=value["send_reminders_to"] as? String
 		medication_reminder.send_text_message=value["send_text_message"] as? String
-		medication_reminder.medication=value["medication"] as? Medication
-		
-		
 		
 		return .Ok(medication_reminder)
 	}
@@ -346,9 +327,7 @@ class Medication_Reminders : MDObject , MDMappable {
 		if self.send_text_message != medication_reminder.send_text_message{
 			self.send_text_message = medication_reminder.send_text_message
 		}
-		if self.medication != medication_reminder.medication{
-			self.medication = medication_reminder.medication
-		}
+	
 	}
 }
 
@@ -364,7 +343,7 @@ class Medication_Add_Fills : MDObject , MDMappable {
 	dynamic var lot_number:String?
 	dynamic var source: String?
 	dynamic var notes: String?
-	dynamic var medicaiton: Medication
+	dynamic var medicaiton: Medication!	
 	
 	required convenience init?(_ map: Map) {
 		self.init()
@@ -380,7 +359,7 @@ class Medication_Add_Fills : MDObject , MDMappable {
 		lot_number<-map["lot_number"]
 		source<-map["source"]
 		notes<-map["notes"]
-		medicaiton<-map["medication"]
+		
 	}
 	
 	class func instance(value:[String:Any?]) -> ModelResult<Medication_Add_Fills> {
@@ -390,8 +369,8 @@ class Medication_Add_Fills : MDObject , MDMappable {
 		medication_add_fill.id = getID()
 		
 		
-		medication_add_fill.date_filled=value["date_filled"] as? NSDate
-		medication_add_fill.next_refill_date=value["next_refill_date"] as? NSDate
+		medication_add_fill.date_filled=value["date_filled"] as! NSDate
+		medication_add_fill.next_refilled_date=value["next_refill_date"] as? NSDate
 		medication_add_fill.days_supply=value["days_supply"] as? String
 		medication_add_fill.refills_left=value["refills_left"] as? String
 		medication_add_fill.pharmacy_name=value["pharmacy_name"] as? String
@@ -400,7 +379,7 @@ class Medication_Add_Fills : MDObject , MDMappable {
 		medication_add_fill.lot_number=value["lot_number"] as? String
 		medication_add_fill.source=value["source"] as? String
 		medication_add_fill.notes=value["notes"] as? String
-		medication_add_fill.medication=value["medication"] as? Medication
+//		medication_add_fill.medication = Medication
 		
 		
 		
@@ -438,9 +417,7 @@ class Medication_Add_Fills : MDObject , MDMappable {
 		if self.notes != medication_add_fill.notes{
 			self.notes = medication_add_fill.notes
 		}
-		if self.medicaiton != medication_add_fill.medicaiton{
-			self.medicaiton = medication_add_fill.medicaiton
-		}
+	
 
 		
 	}

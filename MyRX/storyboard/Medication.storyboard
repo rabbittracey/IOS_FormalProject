@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
@@ -23,10 +23,10 @@
             </objects>
             <point key="canvasLocation" x="938" y="268"/>
         </scene>
-        <!--Medications Table View Controller-->
+        <!--Medication Table View Controller-->
         <scene sceneID="KZd-2G-3B3">
             <objects>
-                <tableViewController storyboardIdentifier="MedicationScene" id="wDK-NP-XnU" customClass="MedicationsTableViewController" customModule="MyRX" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController storyboardIdentifier="MedicationScene" id="wDK-NP-XnU" customClass="MedicationTableViewController" customModule="MyRX" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="107" sectionHeaderHeight="28" sectionFooterHeight="28" id="bLH-1w-z5I">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -36,11 +36,11 @@
                                 <rect key="frame" x="0.0" y="28" width="600" height="107"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Mlq-Qb-TvF" id="p9H-so-veh">
-                                    <rect key="frame" x="0.0" y="0.0" width="600" height="106"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="600" height="106.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hIO-vI-1Ms">
-                                            <rect key="frame" x="72" y="26" width="368" height="21"/>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hIO-vI-1Ms">
+                                            <rect key="frame" x="72" y="23" width="368" height="21"/>
                                             <constraints>
                                                 <constraint firstAttribute="width" constant="368" id="Nwc-iU-kDt"/>
                                             </constraints>

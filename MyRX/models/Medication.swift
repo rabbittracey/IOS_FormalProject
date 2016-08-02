@@ -13,6 +13,25 @@ import ObjectMapper
 import Eureka
 
 
+class JSonArrayToListTransform<T:Object where T : MDMappable> : TransformType {
+    typealias Object = List<T>
+    typealias JSON = [T]
+    
+    func transformFromJSON(value: AnyObject?) -> Object? {
+        return nil
+    }
+    func transformToJSON(value: Object?) -> JSON? {
+        guard let value = value else {
+            return nil
+        }
+        var ret=[T]()
+        value.count.forEach { (index, total) in
+            ret.append(value[index])
+        }
+        return ret
+    }
+    
+}
 class Medication : MDObject , MDMappable {
 	
 	dynamic var drug_name = " "
@@ -29,7 +48,8 @@ class Medication : MDObject , MDMappable {
 	dynamic var superdrug_cas:String?
 	dynamic var ndc:String?
 	dynamic var side_effects:String?
-	
+    let reminders:List<Immunization> = List<Immunization>()
+    
 	required convenience init?(_ map: Map) {
 		self.init()
 	}

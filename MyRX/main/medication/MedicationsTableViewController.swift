@@ -63,10 +63,10 @@ class MedicationTableViewController: BaseTableViewController {
 	override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
 		// Get the new view controller using segue.destinationViewController.
 		// Pass the selected object to the new view controller.
-		let medication = (sender as? Medication) ?? Medication()
-		if let destine = segue.destinationViewController as? MedicationDetailViewController {
-			destine.medication = medication
-		}
+//		let medication = (sender as? Medication) ?? Medication()
+//		if let destine = segue.destinationViewController as? MedicationDetailViewController {
+////			destine.medication = medication
+//		}
 	}
 	
 }

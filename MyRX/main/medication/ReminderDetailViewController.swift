@@ -104,8 +104,8 @@ class ReminderDetailViewController: BaseFormViewController{
 	
 	private func deleteReminders() {
 		try! currentRealm().write({
-				self.patient_medication.is_archived = true
-			currentRealm().add(self.patient_medication, update: true)
+			patient_medication.reminders.delete(self.reminder!)
+			
 		})
 		self.navigationController?.popViewControllerAnimated(true)
 	}

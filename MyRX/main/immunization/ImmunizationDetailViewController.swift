@@ -39,7 +39,7 @@ class ImmunizationDetailViewController: BaseFormViewController {
 				$0.tag = "sport_s"
 				$0.hidden = "$seg != 'Required'" // .Predicate(NSPredicate(format: "$segments != 'Sport'"))
 			}
-			<<< PushRow<String>() {
+			<<< PushRow<String>("name") {
 				$0.title = "Immunization Name"
 				$0.selectorTitle = "Immunization Name"
 				$0.options = [

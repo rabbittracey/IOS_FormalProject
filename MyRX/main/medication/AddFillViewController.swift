@@ -16,12 +16,23 @@ import Foundation
 
 class  AddFillViewController: BaseTableViewController {
 	var patient_medication :Patient_Medication!
+	var token : RLMNotificationToken? = nil
 	@IBAction func onAddNew(sender:AnyObject){
 		self.performSegueWithIdentifier("FillDetailSegue",sender: nil)
 	}
 	
 	override func viewDidLoad() {
 		super.viewDidLoad()
+		token = patient_medication.fills.addNotificationBlock({ [ weak self ] in
+			switch $0 {
+			case .Initial,.Update:
+				self?.tableView.reloadData()
+				break
+			case .Error:
+				print("Error")
+				break
+			}
+			})
 	}
 	
 	override func didReceiveMemoryWarning() {

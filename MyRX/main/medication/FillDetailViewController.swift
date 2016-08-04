@@ -136,23 +136,20 @@ class FillDetailViewController: BaseFormViewController{
 			try! currentRealm().write({
 				self.fill!.copyfrom(fill)
 				currentRealm().add(self.fill!, update: true)
+				if (isNew) {
+					patient_medication.fills.append(self.fill!)
+				}
 			})
-			if (isNew) {
-				patient_medication.fills.append(self.fill!)
-			}
+			
 			self.navigationController?.popViewControllerAnimated(true)
 		}
 	}
 	private func deleteFills() {
 		try! currentRealm().write({
-			self.patient_medication.is_archived = true
-			currentRealm().add(self.patient_medication, update: true)
+			patient_medication.fills.delete(self.fill!)
 		})
-		
 		self.navigationController?.popViewControllerAnimated(true)
-		
 	}
-	
 	override func didReceiveMemoryWarning() {
 		super.didReceiveMemoryWarning()
 			}

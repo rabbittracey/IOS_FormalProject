@@ -94,7 +94,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" restorationIdentifier="ReminderListCell" selectionStyle="default" indentationWidth="10" rowHeight="93" id="gWB-9w-sn0" customClass="ReminderListCell" customModule="MyRX" customModuleProvider="target">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" restorationIdentifier="ReminderListCell" selectionStyle="default" indentationWidth="10" reuseIdentifier="ReminderListCell" rowHeight="93" id="gWB-9w-sn0" customClass="ReminderListCell" customModule="MyRX" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="28" width="600" height="93"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="gWB-9w-sn0" id="y16-54-e9J">
@@ -102,19 +102,18 @@
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9cd-nU-ejS">
-                                            <rect key="frame" x="52" y="35" width="435" height="21"/>
-                                            <constraints>
-                                                <constraint firstAttribute="width" constant="435" id="DA4-cC-Sbd"/>
-                                            </constraints>
+                                            <rect key="frame" x="8" y="35" width="584" height="21"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                     </subviews>
                                     <constraints>
+                                        <constraint firstItem="9cd-nU-ejS" firstAttribute="leading" secondItem="y16-54-e9J" secondAttribute="leadingMargin" id="1gY-ZK-v6g"/>
+                                        <constraint firstItem="9cd-nU-ejS" firstAttribute="trailing" secondItem="y16-54-e9J" secondAttribute="trailingMargin" id="3jk-iE-yPa"/>
                                         <constraint firstItem="9cd-nU-ejS" firstAttribute="top" secondItem="y16-54-e9J" secondAttribute="topMargin" constant="27" id="7ZP-a3-KJG"/>
-                                        <constraint firstItem="9cd-nU-ejS" firstAttribute="leading" secondItem="y16-54-e9J" secondAttribute="leadingMargin" constant="44" id="EhP-yM-dvn"/>
-                                        <constraint firstAttribute="trailingMargin" secondItem="9cd-nU-ejS" secondAttribute="trailing" constant="105" id="ox6-mF-jbB"/>
+                                        <constraint firstItem="9cd-nU-ejS" firstAttribute="leading" secondItem="y16-54-e9J" secondAttribute="leadingMargin" id="Y8U-ue-1Hm"/>
+                                        <constraint firstAttribute="bottomMargin" secondItem="9cd-nU-ejS" secondAttribute="bottom" constant="28" id="vm5-CZ-ESw"/>
                                     </constraints>
                                 </tableViewCellContentView>
                                 <connections>
@@ -171,7 +170,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="102" id="e4J-N4-dbL" customClass="AddFillListCell" customModule="MyRX" customModuleProvider="target">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="AddFillListCell" rowHeight="102" id="e4J-N4-dbL" customClass="AddFillListCell" customModule="MyRX" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="28" width="600" height="102"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="e4J-N4-dbL" id="cpn-DO-JCm">
@@ -179,19 +178,18 @@
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" restorationIdentifier="AddFillListCell" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XAb-Cq-lEc">
-                                            <rect key="frame" x="48" y="40" width="448" height="21"/>
-                                            <constraints>
-                                                <constraint firstAttribute="width" constant="448" id="drd-Re-8RV"/>
-                                            </constraints>
+                                            <rect key="frame" x="16" y="23" width="576" height="38"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                     </subviews>
                                     <constraints>
-                                        <constraint firstItem="XAb-Cq-lEc" firstAttribute="top" secondItem="cpn-DO-JCm" secondAttribute="topMargin" constant="32" id="DUj-EP-a4z"/>
-                                        <constraint firstAttribute="bottomMargin" secondItem="XAb-Cq-lEc" secondAttribute="bottom" constant="32" id="ogm-f8-RN2"/>
-                                        <constraint firstItem="XAb-Cq-lEc" firstAttribute="leading" secondItem="cpn-DO-JCm" secondAttribute="leadingMargin" constant="40" id="pAQ-T7-Pzm"/>
+                                        <constraint firstAttribute="bottomMargin" secondItem="XAb-Cq-lEc" secondAttribute="bottom" constant="32" id="1tF-vY-8Re"/>
+                                        <constraint firstItem="XAb-Cq-lEc" firstAttribute="leading" secondItem="cpn-DO-JCm" secondAttribute="leadingMargin" constant="8" id="mIB-Ju-ULv"/>
+                                        <constraint firstItem="XAb-Cq-lEc" firstAttribute="trailing" secondItem="cpn-DO-JCm" secondAttribute="trailingMargin" id="nmi-dO-FHn"/>
+                                        <constraint firstAttribute="bottomMargin" secondItem="XAb-Cq-lEc" secondAttribute="bottom" constant="32" id="uG7-8y-vta"/>
+                                        <constraint firstItem="XAb-Cq-lEc" firstAttribute="top" secondItem="cpn-DO-JCm" secondAttribute="topMargin" constant="15" id="vde-AB-IQz"/>
                                     </constraints>
                                 </tableViewCellContentView>
                                 <connections>

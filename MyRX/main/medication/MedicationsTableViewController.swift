@@ -36,7 +36,9 @@ class MedicationTableViewController: BaseTableViewController {
 			}
 			})
 	}
-	
+//	override func view() {
+//		super.viewDidLoad()
+//	}
 	override func didReceiveMemoryWarning() {
 		super.didReceiveMemoryWarning()
 	}

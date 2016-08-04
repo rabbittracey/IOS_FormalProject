@@ -180,7 +180,10 @@ class Patient_Medication : MDObject , MDMappable {
 		
 		
 		patient_medication.name=name
-		patient_medication.date_started = (value["date_started"] as? NSDate)!
+		guard let date_started = value["date_started"] as? NSDate else {
+			return .Error(field: "Date started", message: "The started date can not be blank")
+		}
+		patient_medication.date_started = date_started
 		patient_medication.strength=value["strength"] as? String
 		patient_medication.strength_unit = (value["strength_unit"] as? String)!
 		patient_medication.dosage=value["dosage"] as? String

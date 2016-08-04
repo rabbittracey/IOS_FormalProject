@@ -18,7 +18,7 @@ class AddFillListCell: UITableViewCell {
 		formatter.dateStyle = NSDateFormatterStyle.ShortStyle
 		formatter.timeStyle = .ShortStyle		
 		let dateString = formatter.stringFromDate(medication_add_fill.date_filled)
-		nameLabel.text = "Date Filled "+dateString
+		nameLabel.text = "Date Filled: "+dateString
 		
 	}
 	

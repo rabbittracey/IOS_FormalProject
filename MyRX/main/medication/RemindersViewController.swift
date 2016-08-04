@@ -60,7 +60,7 @@ class RemindersViewController: BaseTableViewController {
 	// In a storyboard-based application, you will often want to do a little preparation before navigation
 	override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
 		
-		
+
 		if let destine = segue.destinationViewController as? ReminderDetailViewController {
 		 destine.patient_medication = patient_medication
 		 destine.reminder = sender as? Medication_Reminder

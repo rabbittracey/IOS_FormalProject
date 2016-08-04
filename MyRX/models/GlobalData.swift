@@ -18,9 +18,13 @@ class GlobalData : Object {
     func getUUID() -> Int64 {
         objc_sync_enter(GlobalData)
         defer { objc_sync_exit(GlobalData) }
-        try! self.realm?.write{
-            uuids += 1
-        }
+		if (  self.realm?.inWriteTransaction == true ) {
+			uuids += 1
+		} else {
+			try! self.realm?.write{
+				uuids += 1
+			}
+		}
         return uuids
     }
 }

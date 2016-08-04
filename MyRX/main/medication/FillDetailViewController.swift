@@ -35,56 +35,45 @@ class FillDetailViewController: BaseFormViewController{
 				<<< SegmentedRow<String>("segments"){
 					$0.options=["View"]
 					$0.value="View"
+					$0.hidden = true
 			}
 			isNew=true
 			isEdit = true
 			fill = Medication_Add_Fill()
+			fill!.id = globalData().getUUID()
 		}
 		
-			
-		form +++ Section()
-			
+		 form +++ Section()
 			<<< DateRow( "date_filled") {
 				$0.title =  "Date Filled"
 				$0.value = self.fill!.date_filled
 				$0.disabled = "$segments = 'Edit'"
 			}
-			
-			
 			<<< DateRow("next_refilled_date") {
 				$0.value = self.fill!.next_refilled_date
 				$0.title = "Next Refilled Date"
 				$0.disabled = "$segments = 'Edit'"
-				
 			}
-		
-		
-			
 			<<< TextFloatLabelRow("days_supply") {
 				$0.title =  "Days Supply"
 				$0.value = self.fill!.days_supply
 				$0.disabled = "$segments = 'Edit'"
 			}
-			
 			<<< TextFloatLabelRow("refills_left") {
 				$0.title =  "Refills Left"
 				$0.value = self.fill!.refills_left
 				$0.disabled = "$segments = 'Edit'"
 			}
-			
-			
 			<<< TextFloatLabelRow("pharmacy_name") {
 				$0.title =  "Pharmacy Name"
 				$0.value = self.fill!.pharmacy_name
 				$0.disabled = "$segments = 'Edit'"
 			}
-			
 			<<< TextFloatLabelRow("pharmacy_phone_number") {
 				$0.title =  "Pharmacy Phone Number"
 				$0.value = self.fill!.pharmacy_phone_number
 				$0.disabled = "$segments = 'Edit'"
-			}
-			
+			}			
 			<<< TextFloatLabelRow("prescription_number") {
 				$0.title = "Prescription Number"
 				$0.value = self.fill!.prescription_number

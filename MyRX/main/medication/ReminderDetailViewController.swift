@@ -35,10 +35,12 @@ class ReminderDetailViewController: BaseFormViewController{
 				<<< SegmentedRow<String>("segments"){
 					$0.options = ["View"]
 					$0.value = "View"
+					$0.hidden = true
 			}
 			isNew = true
 			isEdit = true
 			reminder = Medication_Reminder()
+			reminder!.id = globalData().getUUID()
 		}
 		
 		form +++ Section()

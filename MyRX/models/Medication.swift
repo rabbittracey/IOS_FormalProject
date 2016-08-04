@@ -173,7 +173,7 @@ class Patient_Medication : MDObject , MDMappable {
 		let patient_medication = Patient_Medication()
 		
 		//need to fix it, how to set the id of the medication
-		patient_medication.id = getID()
+//		patient_medication.id = globalData().getUUID()
 		guard let name = value["name"] as? String else {
 			return .Error(field:"name", message: " The name of medication can not be blank")
 		}
@@ -205,8 +205,6 @@ class Patient_Medication : MDObject , MDMappable {
 	    return .Ok(patient_medication)
 	}
 	func copyfrom(let patient_medication:Patient_Medication) {
-		
-		
 		if self.name != patient_medication.name{
 			self.name = patient_medication.name
 		}

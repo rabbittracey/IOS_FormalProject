@@ -33,7 +33,7 @@ class ImmunizationDetailViewController: BaseFormViewController {
 		   +++ Section("What do you want to talk about:")
 			<<< SegmentedRow<String>("seg"){
 				$0.options = ["Required", "Basic", "Insurance"]
-				$0.value = "Films"
+				$0.value = "Required"
 			}
 			+++ Section(){
 				$0.tag = "sport_s"

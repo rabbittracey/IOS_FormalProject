@@ -1,5 +1,5 @@
 //
-//  MedicationListViewController.swift
+//  MedicationDetailViewController.swift
 //  MyRX
 //
 //  Created by Ji Wang on 7/28/16.
@@ -34,7 +34,7 @@ class MedicationDetailViewController: BaseFormViewController{
 				$0.tag = "sport_s"
 				$0.hidden = "$seg != 'Required'" // .Predicate(NSPredicate(format: "$segments != 'Sport'"))
 			}
-			<<< PushRow<String>() {
+			<<< PushRow<String>("name") {
 				$0.title = "Medication Name"
 				$0.selectorTitle = "Medication Name"
 				var options:[String] = []
@@ -237,7 +237,7 @@ class MedicationDetailViewController: BaseFormViewController{
 		// Dispose of any resources that can be recreated.
 	}
 	override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-		if let destine = segue.destinationViewController as? ReminderViewController{
+		if let destine = segue.destinationViewController as? RemindersViewController{
 			destine.patient_medication = patient_medication
 		} else if let destine = segue.destinationViewController as? AddFillViewController {
 			destine.patient_medication = patient_medication

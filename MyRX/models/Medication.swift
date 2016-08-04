@@ -297,8 +297,8 @@ class Medication_Reminder : MDObject , MDMappable {
 		
 		//need to fix it, how to set the id of the medication
 		medication_reminder.id = getID()
-		guard let name = value["name"] as? String else {
-			return .Error(field:"name", message: " The name of medication reminder can not be blank")
+		guard let name = value["reminder_name"] as? String else {
+			return .Error(field:"reminder name", message: " The name of medication reminder can not be blank")
 		}
 		
 		medication_reminder.name=name

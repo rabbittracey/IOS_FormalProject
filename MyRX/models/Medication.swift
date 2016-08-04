@@ -281,7 +281,8 @@ class Medication_Reminder : MDObject , MDMappable {
 	dynamic var recurrence:String?
 	dynamic var send_reminders_to:String?
 	dynamic var send_text_message:String?
-	
+	let patient_medication = LinkingObjects(fromType: Patient_Medication.self, property: "reminders")
+    
 	required convenience init?(_ map: Map) {
 		self.init()
 	}
@@ -341,7 +342,8 @@ class Medication_Add_Fill : MDObject , MDMappable {
 	dynamic var lot_number:String?
 	dynamic var source: String?
 	dynamic var notes: String?
-	
+	let patient_medication = LinkingObjects(fromType: Patient_Medication.self, property: "fills")
+    
 	required convenience init?(_ map: Map) {
 		self.init()
 	}

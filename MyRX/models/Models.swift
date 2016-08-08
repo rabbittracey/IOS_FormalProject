@@ -154,6 +154,7 @@ class MDObject : Object {
 
     dynamic var version: Int64 = 0
     dynamic var is_archived: Bool = false
+    dynamic var batch_id: Int = 0
     
     override class func primaryKey() -> String? {
         return "id"

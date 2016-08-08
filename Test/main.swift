@@ -7,3 +7,19 @@
 //
 
 import Foundation
+
+
+class A {
+    
+}
+
+
+class B : A {
+    
+}
+
+
+let models = [A.self,B.self]
+
+
+print(models)

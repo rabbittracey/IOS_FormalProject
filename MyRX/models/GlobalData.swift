@@ -14,7 +14,7 @@ import Alamofire
 
 class GlobalData : Object {
     dynamic var uuids:Int64 = 0x1000000000
-    
+    dynamic var batch_no:Int = 0
     func getUUID() -> Int64 {
         objc_sync_enter(GlobalData)
         defer { objc_sync_exit(GlobalData) }
@@ -26,6 +26,18 @@ class GlobalData : Object {
 			}
 		}
         return uuids
+    }
+    func getBatchNo() -> Int {
+        objc_sync_enter(GlobalData)
+        defer { objc_sync_exit(GlobalData) }
+        if (  self.realm?.inWriteTransaction == true ) {
+            batch_no += 1
+        } else {
+            try! self.realm?.write{
+                batch_no += 1
+            }
+        }
+        return batch_no
     }
 }
 

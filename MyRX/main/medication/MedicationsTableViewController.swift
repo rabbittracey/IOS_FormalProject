@@ -36,9 +36,6 @@ class MedicationTableViewController: BaseTableViewController {
 			}
 			})
 	}
-//	override func view() {
-//		super.viewDidLoad()
-//	}
 	override func didReceiveMemoryWarning() {
 		super.didReceiveMemoryWarning()
 	}
@@ -49,7 +46,6 @@ class MedicationTableViewController: BaseTableViewController {
 	override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
 		let cell = tableView.dequeueReusableCellWithIdentifier("MedicationListCell",forIndexPath: indexPath) as! MedicationListCell
 		cell.updateUI(self.results[indexPath.row])
-		//        cell.textLabel?.text = self.results[indexPath.row].name
 		return cell
 	}
 	override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {

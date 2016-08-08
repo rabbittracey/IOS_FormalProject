@@ -15,8 +15,7 @@ import AlamofireObjectMapper
 public func request(
     method: Alamofire.Method,
     _ apiurl: String,
-      _ parameters: [String: AnyObject] = [:],
-        encoding : ParameterEncoding? = nil, headers: [String: String]? = nil)
+      _ parameters: [String: AnyObject] = [:])
     -> Request
 {
     switch method {
@@ -25,16 +24,14 @@ public func request(
             method,
             SERVERURL + apiurl,
             parameters: parameters + ["token" : parameters["token"] as? String ?? currentAccount().token],
-            encoding: .URL,
-            headers: headers
+            encoding: .URL
         ).validate()
     default:
         return Manager.sharedInstance.request(
             method,
             SERVERURL + apiurl,
             parameters: parameters + ["token" : parameters["token"] as? String ?? currentAccount().token],
-            encoding: .JSON,
-            headers: headers
+            encoding: .JSON
         ).validate()
     }
 }
@@ -48,6 +45,18 @@ public func request<T:Mappable>(
     let data = Mapper<T>().toJSON(object)
     return request(method, apiurl,[key : (data+attack)!])
 }
+
+public func request<T:Mappable>(
+    method: Alamofire.Method,
+    _ apiurl: String,
+      objects: [T],key:String,attack:[String:AnyObject]?=nil)
+    -> Request
+{
+    let data = Mapper<T>().toJSONArray(objects)
+    return request(method, apiurl,([key : data] + attack)!)
+}
+
+
 //public func request<
 func login(email:String,password:String) -> Request {
     return request(.POST, "/api/sessions",[
@@ -72,6 +81,11 @@ func logout() -> Request {
 
 func getImmunization(version:Int64 = 0) -> Request {
     return request(.GET,"/api/patient_immunizations",["version":NSNumber(longLong:version)])
+}
+
+func getDatas<T:MDObject where T : MDMappable>(updates:[T],version:Int64 = 0 ) -> Request {
+    return request(.POST,"/api/" + T.self.className(),objects:updates,key:"datas",attack : ["version":NSNumber(longLong:version)])
+//    return request(.POST,)
 }
 
 func applyIDs(table:String,count:Int = 50) -> Request {

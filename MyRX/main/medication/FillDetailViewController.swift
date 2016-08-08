@@ -135,7 +135,7 @@ class FillDetailViewController: BaseFormViewController{
 	}
 	private func deleteFills() {
 		try! currentRealm().write({
-			patient_medication.fills.delete(self.fill!)
+			currentRealm().delete(self.fill!)
 		})
 		self.navigationController?.popViewControllerAnimated(true)
 	}

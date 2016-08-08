@@ -69,5 +69,14 @@ class ImmunizationsTableViewController: BaseTableViewController {
             destine.immunization = immunization
         }
     }
+	
+	override func tableView(tableView: UITableView, commitEditingStyle editingStyle: UITableViewCellEditingStyle, forRowAtIndexPath indexPath: NSIndexPath) {
+		if editingStyle == UITableViewCellEditingStyle.Delete {
+			try! currentRealm().write {
+				self.results[indexPath.row].is_archived = true
+			}
+		}
+	}
+
 
 }

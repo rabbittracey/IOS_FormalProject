@@ -45,19 +45,16 @@ public func request<T:Mappable>(
     let data = Mapper<T>().toJSON(object)
     return request(method, apiurl,[key : (data+attack)!])
 }
-
 public func request<T:Mappable>(
-    method: Alamofire.Method,
-    _ apiurl: String,
-      objects: [T],key:String,attack:[String:AnyObject]?=nil)
-    -> Request
+	method: Alamofire.Method,
+	_ apiurl: String,
+	  objects: [T],key:String,attack:[String:AnyObject]?=nil)
+	-> Request
 {
-    let data = Mapper<T>().toJSONArray(objects)
-    return request(method, apiurl,([key : data] + attack)!)
+	let data = Mapper<T>().toJSONArray(objects)
+	return request(method, apiurl,([key : data]+attack)!)
 }
 
-
-//public func request<
 func login(email:String,password:String) -> Request {
     return request(.POST, "/api/sessions",[
         "email":email,

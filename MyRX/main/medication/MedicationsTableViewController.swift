@@ -61,4 +61,12 @@ class MedicationTableViewController: BaseTableViewController {
 			destine.patient_medication = sender as? Patient_Medication
         }
     }
+	override func tableView(tableView: UITableView, commitEditingStyle editingStyle: UITableViewCellEditingStyle, forRowAtIndexPath indexPath: NSIndexPath) {
+		if editingStyle == UITableViewCellEditingStyle.Delete {
+			try! currentRealm().write {
+				self.results[indexPath.row].is_archived = true
+			}
+		}
+	}
+	
 }

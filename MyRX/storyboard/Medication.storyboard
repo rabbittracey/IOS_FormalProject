@@ -70,6 +70,7 @@
                     </tableView>
                     <connections>
                         <outlet property="rightBarButton" destination="ZKk-YN-l4L" id="MhY-dw-fcX"/>
+                        <segue destination="Ujd-dL-wCe" kind="show" identifier="MedicationDetailSegue" customClass="MDSegue01" customModule="MyRX" customModuleProvider="target" id="Grk-Hu-OTX"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XIL-oT-Qvb" userLabel="First Responder" sceneMemberID="firstResponder"/>

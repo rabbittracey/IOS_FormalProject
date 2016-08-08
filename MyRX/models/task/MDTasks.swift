@@ -41,7 +41,7 @@ class GlobalTaskQueue {
     var timer : NSTimer?
     var last:NSDate
     
-    init(tasks : [MDTask],interval:NSTimeInterval = 5 ) {
+    init(tasks : [MDTask],interval:NSTimeInterval = 5.seconds ) {
         self.interval = interval
         self.last = NSDate() //.timeIntervalSince1970
     }
@@ -106,7 +106,6 @@ class SynModel<T:MDObject where T : MDMappable> {
         loadData()
     }
 }
-
 let TASKS = [
     // syncrony immunization for server
     MDTask(10.seconds) { (task) in

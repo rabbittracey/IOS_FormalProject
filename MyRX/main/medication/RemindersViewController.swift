@@ -67,5 +67,14 @@ class RemindersViewController: BaseTableViewController {
 		}
 	}
 	
+	override func tableView(tableView: UITableView, commitEditingStyle editingStyle: UITableViewCellEditingStyle, forRowAtIndexPath indexPath: NSIndexPath) {
+		if editingStyle == UITableViewCellEditingStyle.Delete {
+			try! currentRealm().write {
+				  currentRealm().delete(patient_medication.reminders[indexPath.row])
+			}
+		}
+	}
+
+	
 	
 }

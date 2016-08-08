@@ -192,19 +192,3 @@ class PackImmunization :  Mappable {
     }
     
 }
-
-class PackMDObject<T:MDObject where T : MDMappable> : Mappable {
-    var isContinue = false
-    var objects : [T]?
-    required convenience init?(_ map: Map) {
-        self.init()
-    }
-    static func valid(map: Map) throws {
-        
-    }
-    func mapping(map:Map) {
-        isContinue <- map["continue"]
-        objects <- map["datas"]
-    }
-    
-}

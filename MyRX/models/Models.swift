@@ -187,3 +187,19 @@ enum ModelResult<T:Object where T : MDMappable> {
     case Ok(T)
     case Error(field:String,message:String)
 }
+
+class PackDatas<T:MDObject where T : MDMappable> : Mappable {
+	var isContinue = false
+	var datas : [T]?
+	required convenience init?(_ map: Map) {
+		self.init()
+	}
+	static func valid(map: Map) throws {
+		
+	}
+	func mapping(map:Map) {
+		isContinue <- map["continue"]
+		datas <- map["datas"]
+	}
+}
+

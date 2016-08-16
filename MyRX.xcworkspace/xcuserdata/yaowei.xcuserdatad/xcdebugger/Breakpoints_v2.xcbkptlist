@@ -9,14 +9,14 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "MyRX/main/medication/MedicationsTableViewController.swift"
-            timestampString = "492036792.196433"
+            filePath = "MyRX/models/Server.swift"
+            timestampString = "493068632.946228"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "56"
-            endingLineNumber = "56"
-            landmarkName = "tableView(_:didSelectRowAtIndexPath:)"
-            landmarkType = "5">
+            startingLineNumber = "47"
+            endingLineNumber = "47"
+            landmarkName = "request(_:_:object:key:attack:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

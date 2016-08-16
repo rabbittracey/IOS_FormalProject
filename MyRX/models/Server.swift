@@ -27,6 +27,7 @@ public func request(
             encoding: .URL
         ).validate()
     default:
+        print(parameters + ["token" : parameters["token"] as? String ?? currentAccount().token])
         return Manager.sharedInstance.request(
             method,
             SERVERURL + apiurl,

@@ -198,7 +198,14 @@ extension MDMappable where Self : MDObject {
 			if opened {
 				map.mappingType == .FromJSON ? try! self.realm?.commitWrite() : self.realm?.cancelWrite()
 			} }
-		id <- map["id"] //,Int64Transform())
+        if map.mappingType == .ToJSON {
+            var id = self.id
+            id <- (map["id"],MDObjectIDTransform())
+        }
+        else {
+            id <- (map["id"],MDObjectIDTransform())
+        }
+        //id <- map["id"] //,Int64Transform())
 		version <- (map["version"],Int64Transform())
         is_archived <- map["is_archived"]
         pending = false

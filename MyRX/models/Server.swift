@@ -55,10 +55,9 @@ public func request<T:Mappable>(
 	return request(method, apiurl,([key : data]+attack)!)
 }
 
+
 func login(email:String,password:String) -> Request {
-    return request(.POST, "/api/sessions",[
-        "email":email,
-        "password":password])
+    return request(.POST, "/api/sessions",["email":email,"password":password])
 }
 func updateAccount() -> Request {
     let account = currentAccount()
@@ -68,21 +67,16 @@ func signup(account:Account,password:String) ->Request {
     return request(.POST,"/api/users",object: account,key:"user",attack:["password":password])
 }
 func changePassword(password:String) -> Request {
-    return request(.PATCH, "/api/users/update_password", ["user":[
-            "password":password
-        ]])
+    return request(.PATCH, "/api/users/update_password", ["user":["password":password]])
 }
 func logout() -> Request {
     return request(.DELETE,"/api/sessions/destroy",[:])
 }
-
 func getImmunization(version:Int64 = 0) -> Request {
     return request(.GET,"/api/patient_immunizations",["version":NSNumber(longLong:version)])
 }
-
 func getDatas<T:MDObject where T : MDMappable>(updates:[T],version:Int64 = 0 ) -> Request {
     return request(.POST,"/api/" + T.self.className(),objects:updates,key:"datas",attack : ["version":NSNumber(longLong:version)])
-//    return request(.POST,)
 }
 
 func applyIDs(table:String,count:Int = 50) -> Request {

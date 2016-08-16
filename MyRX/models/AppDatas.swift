@@ -61,3 +61,5 @@ let DATEFORMAT = "yyyy-MM-dd".dateFormatter()
 let DATETIMEFORMAT = "yyyy-MM-dd HH:mm:ss".dateFormatter()
 let TIMEFORMAT = "HH:mm:ss".dateFormatter()
 
+
+let ID_THRESHOLD:Int64 = 0x1000000000

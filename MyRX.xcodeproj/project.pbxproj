@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4019BE6E1D62053100E3A306 /* rrr.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4019BE6D1D62053100E3A306 /* rrr.storyboard */; };
 		403221941D4802940090FB68 /* ImmunizationListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403221931D4802940090FB68 /* ImmunizationListCell.swift */; };
 		403221D71D4A96120090FB68 /* Medication.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 403221D61D4A96120090FB68 /* Medication.storyboard */; };
 		403221DA1D4A972F0090FB68 /* MedicationDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403221D91D4A972F0090FB68 /* MedicationDetailViewController.swift */; };
@@ -212,6 +213,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		4019BE6D1D62053100E3A306 /* rrr.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = rrr.storyboard; path = MyRX/test/rrr.storyboard; sourceTree = SOURCE_ROOT; };
 		403221931D4802940090FB68 /* ImmunizationListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImmunizationListCell.swift; sourceTree = "<group>"; };
 		403221D61D4A96120090FB68 /* Medication.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Medication.storyboard; sourceTree = "<group>"; };
 		403221D91D4A972F0090FB68 /* MedicationDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MedicationDetailViewController.swift; sourceTree = "<group>"; };
@@ -642,6 +644,7 @@
 				7B5823FD1D2EA74200577A46 /* Setting.storyboard */,
 				7BDAF34D1D3FE481007B5C1E /* Immunization.storyboard */,
 				403221D61D4A96120090FB68 /* Medication.storyboard */,
+				4019BE6D1D62053100E3A306 /* rrr.storyboard */,
 			);
 			path = storyboard;
 			sourceTree = "<group>";
@@ -849,6 +852,7 @@
 				7BDAF34E1D3FE481007B5C1E /* Immunization.storyboard in Resources */,
 				7B5823ED1D24578100577A46 /* corporateResponsibility.html in Resources */,
 				5AAC007E1C7F989A00E6C38D /* Main.storyboard in Resources */,
+				4019BE6E1D62053100E3A306 /* rrr.storyboard in Resources */,
 				4041522E1D416C9D0019914F /* ImmunizationListView.xib in Resources */,
 				5A53CC171C80EF3500CFE559 /* drugNames.txt in Resources */,
 				7B5564E91D22DB17001F5135 /* WeekDaysCell.xib in Resources */,

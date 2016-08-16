@@ -148,6 +148,26 @@ public class Int64Transform : TransformType {
     }
     
 }
+
+public class MDObjectIDTransform : TransformType {
+	public typealias Object = Int64
+	public typealias JSON = NSNumber
+	
+	public func transformFromJSON(value: AnyObject?) -> Object? {
+		return (value as? JSON)?.longLongValue
+	}
+	public func transformToJSON(value: Object?) -> JSON? {
+		guard let value = value else {
+			return nil
+		}
+		if ( value > 0x100000000 ) {
+			return NSNumber(longLong: -1)
+		}
+		return NSNumber(longLong: value)
+	}
+	
+}
+
 class MDObject : Object {
     dynamic var id:Int64 = 0
     dynamic var pending = true
@@ -174,9 +194,12 @@ extension MDMappable where Self : MDObject {
             realm.beginWrite()
             opened = true
         }
-        defer { if opened { map.mappingType == .FromJSON ? try! self.realm?.commitWrite() : self.realm?.cancelWrite() } }
-        id <- (map["id"],Int64Transform())
-        version <- (map["version"],Int64Transform())
+        defer {
+			if opened {
+				map.mappingType == .FromJSON ? try! self.realm?.commitWrite() : self.realm?.cancelWrite()
+			} }
+		id <- map["id"] //,Int64Transform())
+		version <- (map["version"],Int64Transform())
         is_archived <- map["is_archived"]
         pending = false
         self.mdmap(map)

@@ -71,7 +71,7 @@ class GlobalTaskQueue {
 extension NSNumber : MinMaxType {}
 
 class SynModel<T:MDObject where T : MDMappable> {
-    var updates : [T]!
+    var updates : [T] = []
     let batch_no : Int
     
     init() {
@@ -79,7 +79,12 @@ class SynModel<T:MDObject where T : MDMappable> {
     }
     func loadUpdates() {
         // load update date
-        
+		let results : Results<T> = currentRealm().objects(T).filter(" pending = True OR id > 0x1000000000 ")
+		print(results.count,results[0].id)
+		results.forEach {
+			
+			updates.append($0)
+		}
         // update this data batch no
         if updates.count > 0 {
             try! currentRealm().write({
@@ -91,11 +96,21 @@ class SynModel<T:MDObject where T : MDMappable> {
     }
     func loadData() {
         let maxversion = ( currentRealm().objects(T).max("version") as NSNumber? )?.longLongValue ?? -1
-        getDatas(updates,version:maxversion+1).responseObject { (response : Response<T, NSError>) in
+		print(updates[0].id)
+        getDatas(updates,version:maxversion+1).responseObject { (response : Response<PackDatas<T>, NSError>) in
             switch(response.result) {
             case .Success(let value):
-                print(value)
-            case .Failure(let error):
+				
+				//insert the received data to the database
+				value.datas!.forEach{(data) in
+					try! currentRealm().write({currentRealm().add(data, update: true)})
+				}
+				//delete the new data inserted from client
+				let data : Results<T> = currentRealm().objects(T).filter(" id > \(ID_THRESHOLD) AND batch_id = \(self.batch_no)" )
+				data.forEach{(d) in
+					try! currentRealm().write({currentRealm().delete(d)})
+				}
+             case .Failure(let error):
                 print(error)
             }
         }
@@ -107,37 +122,21 @@ class SynModel<T:MDObject where T : MDMappable> {
     }
 }
 let TASKS = [
-    // syncrony immunization for server
+    // syncrony immunization and medication data for server
     MDTask(10.seconds) { (task) in
         let account = currentAccount()
         guard account.islogin else {
             return
         }
         // Patient_Medication
-        SynModel<Patient_Medication>().start()
-//        let tables = [Patient_Medication.self,Medication_reminder.self]
-//        
-//        tables.foreach {
-//            getDatas<$0>.responseObject { ( response:Response<Pack<$0>,NSError> ) in
-//                
-//            }
-//        }
-//        let maxversion = ( currentRealm().objects(Patient_Immunization.self).max("version") as NSNumber? )?.longLongValue ?? -1
-//        
-//        getImmunization(maxversion + 1).responseObject { (response:Response<PackImmunization, NSError>) in
-//            switch(response.result) {
-//            case .Success(let value):
-//                try! currentRealm().write {
-//                    value.immunizations?.forEach{
-//                        currentRealm().add($0,update:true)
-//                    }
-//                }
-//                break
-//            case .Failure(let error):
-//                print(error)
-//            }
-//        }
-        
+//        SynModel<Patient_Medication>().start()
+//		SynModel<Medication_Reminder>().start()
+//		SynModel<Medication_Add_Fill>().start()
+//		//Patient_Immunization
+//		SynModel<Patient_Immunization>().start()
+//        SynModel<ImmunizationReminder>().start()
+		
+		
     },
 ]
 

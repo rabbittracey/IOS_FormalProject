@@ -31,6 +31,7 @@ class Medication : MDObject , MDMappable {
 	required convenience init?(_ map: Map) {
 		self.init()
 	}
+	
 	func mdmap(map:Map) {
 		drug_name<-map["drug_name"]
 		fda_status<-map["fda_status"]
@@ -167,6 +168,32 @@ class Patient_Medication : MDObject , MDMappable {
 		notes<-map["notes"]
 		patient_id<-map["patient_id"]
 		ndc<-map["ndc"]
+		var _reminders:[Medication_Reminder]!
+		if ( map.mappingType == .ToJSON ) {
+			_reminders = [Medication_Reminder]()
+			reminders.forEach({
+				_reminders.append($0)
+			})
+		}
+		_reminders<-map["reminder"]
+		if ( map.mappingType == .FromJSON ) {
+			_reminders.forEach({
+				reminders.append($0)
+			})
+		}
+		var _fills:[Medication_Add_Fill]!
+		if ( map.mappingType == .ToJSON ) {
+			_fills = [Medication_Add_Fill]()
+			fills.forEach({
+				_fills.append($0)
+			})
+		}
+		_fills<-map["fills"]
+		if ( map.mappingType == .FromJSON ) {
+			_fills.forEach({
+				fills.append($0)
+			})
+		}
 	}
 	
 	class func instance(value:[String:Any?]) -> ModelResult<Patient_Medication> {

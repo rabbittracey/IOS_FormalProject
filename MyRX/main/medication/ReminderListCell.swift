@@ -12,7 +12,7 @@ class ReminderListCell: UITableViewCell {
 	
 	@IBOutlet weak var nameLabel: UILabel!
 	
-	func updateUI(medication_reminder:Medication_Reminder) {
+	func updateUI(medication_reminder:Medication_Reminders) {
 		nameLabel.text = "Reminder Name: "+medication_reminder.name
 		
 	}

@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>MyRX-T.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>16</integer>
+		</dict>
 		<key>MyRX-Test.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -28,6 +33,21 @@
 			<true/>
 		</dict>
 		<key>7B5824041D2ED32700577A46</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>7B71A2DB1D64DD29005E3845</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>7B71A2EE1D64DD2A005E3845</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>7B71A2F91D64DD2A005E3845</key>
 		<dict>
 			<key>primary</key>
 			<true/>

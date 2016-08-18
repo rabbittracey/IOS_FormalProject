@@ -17,8 +17,8 @@ import Foundation
 
 
 class ReminderDetailViewController: BaseFormViewController{
-	var patient_medication :Patient_Medication!
-	var reminder : Medication_Reminder?
+	var patient_medication :Patient_Medications!
+	var reminder : Medication_Reminders?
 	var isNew : Bool = false
 	var isEdit : Bool!
 	override func viewDidLoad() {
@@ -39,7 +39,7 @@ class ReminderDetailViewController: BaseFormViewController{
 			}
 			isNew = true
 			isEdit = true
-			reminder = Medication_Reminder()
+			reminder = Medication_Reminders()
 			reminder!.id = globalData().getUUID()
 		}
 		
@@ -88,7 +88,7 @@ class ReminderDetailViewController: BaseFormViewController{
 	private func updateReminders() {
 		let values = form.values()
 		
-		switch Medication_Reminder.instance(values) {
+		switch Medication_Reminders.instance(values) {
 		case .Error(let field,let message):
 			notification_top.showNotification(field, body: message, onTap: { (Void) in
 			})

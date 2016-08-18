@@ -75,6 +75,7 @@
 		5AC2C7F61CA4834B00F0B726 /* MDSwipeImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AC2C7F51CA4834B00F0B726 /* MDSwipeImageView.swift */; };
 		5AF96F071C84D23A00334E45 /* test.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AF96F061C84D23A00334E45 /* test.storyboard */; };
 		5AF96F091C84DCEE00334E45 /* MDTopAlignedLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF96F081C84DCEE00334E45 /* MDTopAlignedLabel.swift */; };
+		7111208872B9D83A3A9DBD57 /* Pods_MyRX_T.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE2ADB114BF90281DD645D80 /* Pods_MyRX_T.framework */; };
 		71D4B1481E6587EB5F2AE435 /* Pods_MyRX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEBB95D8B8DFE48ABC52B21D /* Pods_MyRX.framework */; };
 		7B21A5DA1D42AEF000422666 /* ImmunizationsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B21A5D91D42AEF000422666 /* ImmunizationsTableViewController.swift */; };
 		7B4826911D2EFA030069AE55 /* ActivationCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B4826901D2EFA030069AE55 /* ActivationCodeViewController.swift */; };
@@ -181,6 +182,12 @@
 		7B58246B1D2ED3D100577A46 /* TestFormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B58246A1D2ED3D100577A46 /* TestFormViewController.swift */; };
 		7B58246D1D2EDA1E00577A46 /* TestView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7B58246C1D2EDA1E00577A46 /* TestView.xib */; };
 		7B5824711D2EDCA400577A46 /* FaceCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7B5824701D2EDCA400577A46 /* FaceCell.xib */; };
+		7B71A2DF1D64DD2A005E3845 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B71A2DE1D64DD2A005E3845 /* AppDelegate.swift */; };
+		7B71A2E11D64DD2A005E3845 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B71A2E01D64DD2A005E3845 /* ViewController.swift */; };
+		7B71A2E41D64DD2A005E3845 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B71A2E21D64DD2A005E3845 /* Main.storyboard */; };
+		7B71A2E61D64DD2A005E3845 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B71A2E51D64DD2A005E3845 /* Assets.xcassets */; };
+		7B71A2E91D64DD2A005E3845 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B71A2E71D64DD2A005E3845 /* LaunchScreen.storyboard */; };
+		7B71A30B1D64DD6D005E3845 /* models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B71A30A1D64DD6D005E3845 /* models.swift */; };
 		7B7700911D36DE0C0000D847 /* MDError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B7700901D36DE0C0000D847 /* MDError.swift */; };
 		7B7700931D36E58F0000D847 /* Server.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B7700921D36E58F0000D847 /* Server.swift */; };
 		7B7700951D3818AE0000D847 /* MDUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B7700941D3818AE0000D847 /* MDUtils.swift */; };
@@ -213,6 +220,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		02C0B3BB3CD5A3A77D2B129D /* Pods_MyRX_Test.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyRX_Test.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D509406D0AFAB700EC7A8D4 /* Pods-MyRX-T.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyRX-T.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyRX-T/Pods-MyRX-T.debug.xcconfig"; sourceTree = "<group>"; };
 		4019BE6D1D62053100E3A306 /* rrr.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = rrr.storyboard; path = MyRX/test/rrr.storyboard; sourceTree = SOURCE_ROOT; };
 		403221931D4802940090FB68 /* ImmunizationListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImmunizationListCell.swift; sourceTree = "<group>"; };
 		403221D61D4A96120090FB68 /* Medication.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Medication.storyboard; sourceTree = "<group>"; };
@@ -319,6 +328,14 @@
 		7B58246A1D2ED3D100577A46 /* TestFormViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TestFormViewController.swift; path = test/TestFormViewController.swift; sourceTree = "<group>"; };
 		7B58246C1D2EDA1E00577A46 /* TestView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TestView.xib; path = ../TestView.xib; sourceTree = "<group>"; };
 		7B5824701D2EDCA400577A46 /* FaceCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FaceCell.xib; sourceTree = "<group>"; };
+		7B71A2DC1D64DD29005E3845 /* MyRX-T.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MyRX-T.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B71A2DE1D64DD2A005E3845 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7B71A2E01D64DD2A005E3845 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7B71A2E31D64DD2A005E3845 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7B71A2E51D64DD2A005E3845 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7B71A2E81D64DD2A005E3845 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7B71A2EA1D64DD2A005E3845 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B71A30A1D64DD6D005E3845 /* models.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = models.swift; sourceTree = "<group>"; };
 		7B7700901D36DE0C0000D847 /* MDError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MDError.swift; sourceTree = "<group>"; };
 		7B7700921D36E58F0000D847 /* Server.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Server.swift; sourceTree = "<group>"; };
 		7B7700941D3818AE0000D847 /* MDUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MDUtils.swift; path = UI/MDUtils.swift; sourceTree = "<group>"; };
@@ -341,6 +358,8 @@
 		7BFB470C1D2EE47800981AEF /* FaceCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FaceCell.swift; sourceTree = "<group>"; };
 		808C922236F8CE3E9F398B7C /* Pods-MyRX.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyRX.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyRX/Pods-MyRX.release.xcconfig"; sourceTree = "<group>"; };
 		AEBB95D8B8DFE48ABC52B21D /* Pods_MyRX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyRX.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BABAE3AA24C48365E3700CFB /* Pods-MyRX-T.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyRX-T.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyRX-T/Pods-MyRX-T.release.xcconfig"; sourceTree = "<group>"; };
+		EE2ADB114BF90281DD645D80 /* Pods_MyRX_T.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyRX_T.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFDEA63B92331A515170348A /* Pods-MyRX.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyRX.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyRX/Pods-MyRX.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -357,6 +376,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B71A2D91D64DD29005E3845 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7111208872B9D83A3A9DBD57 /* Pods_MyRX_T.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -379,6 +406,8 @@
 				7B900A571D3EA39300017D14 /* Realm.framework */,
 				7B900A581D3EA39300017D14 /* RealmSwift.framework */,
 				AEBB95D8B8DFE48ABC52B21D /* Pods_MyRX.framework */,
+				02C0B3BB3CD5A3A77D2B129D /* Pods_MyRX_Test.framework */,
+				EE2ADB114BF90281DD645D80 /* Pods_MyRX_T.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -419,6 +448,7 @@
 			children = (
 				5AAC00771C7F989A00E6C38D /* MyRX */,
 				7B900A501D3EA2F500017D14 /* Test */,
+				7B71A2DD1D64DD29005E3845 /* MyRX-T */,
 				5AAC00761C7F989A00E6C38D /* Products */,
 				CFBE1A25B18BE44DE5BFD934 /* Pods */,
 				0F66BECDCFBC537FC81D7235 /* Frameworks */,
@@ -432,6 +462,7 @@
 				5AAC00751C7F989A00E6C38D /* MyRX.app */,
 				7B5824681D2ED32700577A46 /* MyRX-Test.app */,
 				7B900A4F1D3EA2F500017D14 /* Test */,
+				7B71A2DC1D64DD29005E3845 /* MyRX-T.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -667,6 +698,20 @@
 			path = items;
 			sourceTree = "<group>";
 		};
+		7B71A2DD1D64DD29005E3845 /* MyRX-T */ = {
+			isa = PBXGroup;
+			children = (
+				7B71A2DE1D64DD2A005E3845 /* AppDelegate.swift */,
+				7B71A2E01D64DD2A005E3845 /* ViewController.swift */,
+				7B71A2E21D64DD2A005E3845 /* Main.storyboard */,
+				7B71A2E51D64DD2A005E3845 /* Assets.xcassets */,
+				7B71A2E71D64DD2A005E3845 /* LaunchScreen.storyboard */,
+				7B71A2EA1D64DD2A005E3845 /* Info.plist */,
+				7B71A30A1D64DD6D005E3845 /* models.swift */,
+			);
+			path = "MyRX-T";
+			sourceTree = "<group>";
+		};
 		7B7878DE1D42C37D0010F7B9 /* task */ = {
 			isa = PBXGroup;
 			children = (
@@ -717,6 +762,8 @@
 			children = (
 				EFDEA63B92331A515170348A /* Pods-MyRX.debug.xcconfig */,
 				808C922236F8CE3E9F398B7C /* Pods-MyRX.release.xcconfig */,
+				0D509406D0AFAB700EC7A8D4 /* Pods-MyRX-T.debug.xcconfig */,
+				BABAE3AA24C48365E3700CFB /* Pods-MyRX-T.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -764,6 +811,26 @@
 			productReference = 7B5824681D2ED32700577A46 /* MyRX-Test.app */;
 			productType = "com.apple.product-type.application";
 		};
+		7B71A2DB1D64DD29005E3845 /* MyRX-T */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B71A3071D64DD2B005E3845 /* Build configuration list for PBXNativeTarget "MyRX-T" */;
+			buildPhases = (
+				D34526E0B5A8A1FD2F847301 /* [CP] Check Pods Manifest.lock */,
+				7B71A2D81D64DD29005E3845 /* Sources */,
+				7B71A2D91D64DD29005E3845 /* Frameworks */,
+				7B71A2DA1D64DD29005E3845 /* Resources */,
+				4EC3DE88E3E29668E0A08F7F /* [CP] Embed Pods Frameworks */,
+				58623F72F2D8AB6FD485B62B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MyRX-T";
+			productName = "MyRX-T";
+			productReference = 7B71A2DC1D64DD29005E3845 /* MyRX-T.app */;
+			productType = "com.apple.product-type.application";
+		};
 		7B900A4E1D3EA2F500017D14 /* Test */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7B900A531D3EA2F500017D14 /* Build configuration list for PBXNativeTarget "Test" */;
@@ -800,6 +867,9 @@
 							};
 						};
 					};
+					7B71A2DB1D64DD29005E3845 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
 					7B900A4E1D3EA2F500017D14 = {
 						CreatedOnToolsVersion = 7.3.1;
 					};
@@ -821,6 +891,7 @@
 				5AAC00741C7F989900E6C38D /* MyRX */,
 				7B5824041D2ED32700577A46 /* MyRX-Test */,
 				7B900A4E1D3EA2F500017D14 /* Test */,
+				7B71A2DB1D64DD29005E3845 /* MyRX-T */,
 			);
 		};
 /* End PBXProject section */
@@ -889,6 +960,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		7B71A2DA1D64DD29005E3845 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B71A2E91D64DD2A005E3845 /* LaunchScreen.storyboard in Resources */,
+				7B71A2E61D64DD2A005E3845 /* Assets.xcassets in Resources */,
+				7B71A2E41D64DD2A005E3845 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
@@ -922,6 +1003,36 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
+		4EC3DE88E3E29668E0A08F7F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MyRX-T/Pods-MyRX-T-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		58623F72F2D8AB6FD485B62B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MyRX-T/Pods-MyRX-T-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		7B5824051D2ED32700577A46 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -949,7 +1060,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MyRX/Pods-MyRX-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MyRX-Test/Pods-MyRX-Test-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		7B5824641D2ED32700577A46 /* [CP] Copy Pods Resources */ = {
@@ -964,7 +1075,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MyRX/Pods-MyRX-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MyRX-Test/Pods-MyRX-Test-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D34526E0B5A8A1FD2F847301 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		F8B82B0FB8D5C1AD171A89BB /* [CP] Copy Pods Resources */ = {
@@ -1139,6 +1265,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		7B71A2D81D64DD29005E3845 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B71A2E11D64DD2A005E3845 /* ViewController.swift in Sources */,
+				7B71A30B1D64DD6D005E3845 /* models.swift in Sources */,
+				7B71A2DF1D64DD2A005E3845 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7B900A4B1D3EA2F500017D14 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1163,6 +1299,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				5AAC00851C7F989A00E6C38D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		7B71A2E21D64DD2A005E3845 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7B71A2E31D64DD2A005E3845 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7B71A2E71D64DD2A005E3845 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7B71A2E81D64DD2A005E3845 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -1313,6 +1465,36 @@
 			};
 			name = Release;
 		};
+		7B71A3011D64DD2B005E3845 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D509406D0AFAB700EC7A8D4 /* Pods-MyRX-T.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				INFOPLIST_FILE = "MyRX-T/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.EagleForce.MyRX-T";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7B71A3021D64DD2B005E3845 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BABAE3AA24C48365E3700CFB /* Pods-MyRX-T.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				INFOPLIST_FILE = "MyRX-T/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.EagleForce.MyRX-T";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		7B900A541D3EA2F500017D14 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1361,6 +1543,15 @@
 			buildConfigurations = (
 				7B5824661D2ED32700577A46 /* Debug */,
 				7B5824671D2ED32700577A46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7B71A3071D64DD2B005E3845 /* Build configuration list for PBXNativeTarget "MyRX-T" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B71A3011D64DD2B005E3845 /* Debug */,
+				7B71A3021D64DD2B005E3845 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

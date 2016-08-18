@@ -116,7 +116,7 @@ class SettingViewController: BaseFormViewController {
                     cell.imageView?.image = UIImage(named:"icon_aboutus")
                 }).onCellSelection({ (cell,row) in
 //                    applyIDs("patient_immunizations",count:50)
-					        SynModel<Patient_Medication>().start()
+					        SynModel<Patient_Medications>().start()
 
                 })
         

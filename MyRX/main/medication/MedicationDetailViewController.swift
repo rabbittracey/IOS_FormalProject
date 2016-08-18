@@ -15,7 +15,7 @@ import Alamofire
 import Foundation
 
 class MedicationDetailViewController: BaseFormViewController{
-	var patient_medication :Patient_Medication?
+	var patient_medication :Patient_Medications?
 	var isEdit : Bool!
 	var isNew :Bool = false
 	override func viewDidLoad() {
@@ -35,7 +35,7 @@ class MedicationDetailViewController: BaseFormViewController{
 			}
 			isNew=true
 			isEdit = true
-			patient_medication = Patient_Medication()
+			patient_medication = Patient_Medications()
 			patient_medication!.id = globalData().getUUID()
 		}
 		
@@ -212,7 +212,7 @@ class MedicationDetailViewController: BaseFormViewController{
 	private func updateMedications() {
 		let values = form.values()
 		
-		switch Patient_Medication.instance(values) {
+		switch Patient_Medications.instance(values) {
 		case .Error(let field,let message):
 			notification_top.showNotification(field, body: message, onTap: { (Void) in
 				

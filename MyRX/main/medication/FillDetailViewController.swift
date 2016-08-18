@@ -18,8 +18,8 @@ import Foundation
 
 
 class FillDetailViewController: BaseFormViewController{
-	var patient_medication :Patient_Medication!
-	var fill: Medication_Add_Fill?
+	var patient_medication :Patient_Medications!
+	var fill: Medication_Add_Fills?
 	var isNew :Bool = false
 	var isEdit : Bool!
 	override func viewDidLoad() {
@@ -39,7 +39,7 @@ class FillDetailViewController: BaseFormViewController{
 			}
 			isNew=true
 			isEdit = true
-			fill = Medication_Add_Fill()
+			fill = Medication_Add_Fills()
 			fill!.id = globalData().getUUID()
 		}
 		
@@ -116,7 +116,7 @@ class FillDetailViewController: BaseFormViewController{
 	private func updateFills() {
 		let values = form.values()
 		
-		switch Medication_Add_Fill.instance(values) {
+		switch Medication_Add_Fills.instance(values) {
 		case .Error(let field,let message):
 			notification_top.showNotification(field, body: message, onTap: { (Void) in
 				

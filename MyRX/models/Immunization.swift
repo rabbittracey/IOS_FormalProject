@@ -13,10 +13,10 @@ import ObjectMapper
 import Eureka
 
 
-class Patient_Immunization : MDObject , MDMappable {
+class Patient_Immunizations : MDObject , MDMappable {
     dynamic var name = ""
     dynamic var date_administered = NSDate()
-    dynamic var reImmunization_due_date:NSDate?
+    dynamic var reimmunization_due_date:NSDate?
     dynamic var administrator:String?
     dynamic var notes:String?
     dynamic var source:String?
@@ -32,7 +32,7 @@ class Patient_Immunization : MDObject , MDMappable {
     dynamic var clinic_name:String?
     dynamic var clinic_address:String?
     dynamic var administrator_affiliation:String?
-    dynamic var reminder:ImmunizationReminder?
+    dynamic var immunization_reminders:Immunization_Reminders?
     
     required convenience init?(_ map: Map) {
         self.init()
@@ -40,7 +40,7 @@ class Patient_Immunization : MDObject , MDMappable {
     func mdmap(map:Map) {
         name <- map[ "name"]
         date_administered<-(map["date_administered"],DateFormatterTransform(dateFormatter: DATEFORMAT))
-        reImmunization_due_date<-(map["reimmunization_due_date"],DateFormatterTransform(dateFormatter:DATEFORMAT))
+        reimmunization_due_date<-(map["reimmunization_due_date"],DateFormatterTransform(dateFormatter:DATEFORMAT))
         administrator<-map["administrator"]
         notes<-map["notes"]
         source<-map["source"]
@@ -56,11 +56,12 @@ class Patient_Immunization : MDObject , MDMappable {
         clinic_name<-map["clinic_name"]
         clinic_address<-map["clinic_address"]
         administrator_affiliation<-map["administrator_affiliation"]
-        reminder <- map["reminder"]
+        mapping(map["immunization_reminders"], &immunization_reminders)
+//        immunization_reminders <- map["immunization_reminders"]
     }
     
-    class func instance(value:[String:Any?]) -> ModelResult<Patient_Immunization> {
-        let immunization = Patient_Immunization()
+    class func instance(value:[String:Any?]) -> ModelResult<Patient_Immunizations> {
+        let immunization = Patient_Immunizations()
         
         //need to fix it, how to set the id of the immunization
         immunization.id = globalData().getUUID()
@@ -73,7 +74,7 @@ class Patient_Immunization : MDObject , MDMappable {
         immunization.name=name
         immunization.date_administered=date_administered
         
-        immunization.reImmunization_due_date=value["reImmunization_due_date"] as? NSDate
+        immunization.reimmunization_due_date=value["reImmunization_due_date"] as? NSDate
         immunization.administrator=value["administrator"] as? String
         immunization.notes = value["notes"] as? String
         immunization.source=value["source"] as? String
@@ -90,12 +91,12 @@ class Patient_Immunization : MDObject , MDMappable {
         immunization.clinic_address=value["clinic_address"] as? String
         immunization.funding_source=value["funding_source"]as? String
         immunization.administrator_affiliation=value["administrator_affiliation"] as?  String
-        immunization.reminder=nil
+        immunization.immunization_reminders=nil
         
         
         return .Ok(immunization)
     }
-    func copyfrom(let immunization:Patient_Immunization) {
+    func copyfrom(let immunization:Patient_Immunizations) {
         if self.name != immunization.name{
             self.name = immunization.name
         }
@@ -153,12 +154,12 @@ class Patient_Immunization : MDObject , MDMappable {
     }
 
 }
-class ImmunizationReminder : MDObject , MDMappable {
+class Immunization_Reminders : MDObject , MDMappable {
     dynamic var reminder_date:NSDate?
 	dynamic var immunization_id: String?
     dynamic var notes:String?
     dynamic var email:String?
-    dynamic var immunization:Patient_Immunization?
+    dynamic var patient_immunization:Patient_Immunizations?
 	
     
     required convenience init?(_ map: Map) {
@@ -168,7 +169,7 @@ class ImmunizationReminder : MDObject , MDMappable {
         reminder_date<-(map["reminder_date"],DateFormatterTransform(dateFormatter:DATEFORMAT))
         notes<-map["notes"]
         email<-map["email"]
-		immunization_id<-map["immunization_id"]
+        mapping(map["patient_immunization"], &patient_immunization)
         
     }
    
@@ -177,7 +178,7 @@ class ImmunizationReminder : MDObject , MDMappable {
 class PackImmunization :  Mappable {
 //    dynamic var version:NSNumber = 0
     dynamic var isContinue = false
-    dynamic var immunizations:[Patient_Immunization]?
+    dynamic var immunizations:[Patient_Immunizations]?
     
     required convenience init?(_ map: Map) {
         self.init()

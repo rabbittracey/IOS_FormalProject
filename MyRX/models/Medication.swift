@@ -119,7 +119,7 @@ class Medication : MDObject , MDMappable {
 }
 
 
-class Patient_Medication : MDObject , MDMappable {
+class Patient_Medications : MDObject , MDMappable {
 	dynamic var name = " "
 	dynamic var date_started = NSDate()
 	dynamic var strength: String?
@@ -169,7 +169,7 @@ class Patient_Medication : MDObject , MDMappable {
 		patient_id<-map["patient_id"]
 		ndc<-map["ndc"]
 		var _reminders:[Medication_Reminder]!
-		if ( map.mappingType == .ToJSON ) {
+		if ( map.mappingType == .ToJSON && id > ID_THRESHOLD ) {
 			_reminders = [Medication_Reminder]()
 			reminders.forEach({
 				_reminders.append($0)
@@ -182,7 +182,7 @@ class Patient_Medication : MDObject , MDMappable {
 			})
 		}
 		var _fills:[Medication_Add_Fill]!
-		if ( map.mappingType == .ToJSON ) {
+		if ( map.mappingType == .ToJSON && id > ID_THRESHOLD ) {
 			_fills = [Medication_Add_Fill]()
 			fills.forEach({
 				_fills.append($0)

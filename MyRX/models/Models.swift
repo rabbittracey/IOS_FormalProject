@@ -160,7 +160,7 @@ public class MDObjectIDTransform : TransformType {
 		guard let value = value else {
 			return nil
 		}
-		if ( value > 0x100000000 ) {
+		if ( value > ID_THRESHOLD ) {
 			return NSNumber(longLong: -1)
 		}
 		return NSNumber(longLong: value)

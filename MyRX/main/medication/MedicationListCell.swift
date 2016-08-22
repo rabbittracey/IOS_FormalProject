@@ -12,7 +12,7 @@ class MedicationListCell: UITableViewCell {
 
 	@IBOutlet var nameLabel : UILabel!
 	
-	func updateUI(patient_medication:Patient_Medication) {
+	func updateUI(patient_medication:Patient_Medications) {
 	nameLabel.text = "Name: "+patient_medication.name
 		
 	}

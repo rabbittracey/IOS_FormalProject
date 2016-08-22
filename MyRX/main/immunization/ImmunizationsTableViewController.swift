@@ -15,7 +15,7 @@ import Alamofire
 
 class ImmunizationsTableViewController: BaseTableViewController {
     var token : RLMNotificationToken? = nil
-    var results : Results<Patient_Immunization>!
+    var results : Results<Patient_Immunizations>!
     
 	
 	@IBAction func onAddNew(sender: AnyObject) {
@@ -25,7 +25,7 @@ class ImmunizationsTableViewController: BaseTableViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        results = currentRealm().objects(Patient_Immunization.self).filter("is_archived==false")
+        results = currentRealm().objects(Patient_Immunizations.self).filter("is_archived==false")
         token = results.addNotificationBlock({ [ weak self ] in
             switch $0 {
             case .Initial,.Update:
@@ -64,7 +64,7 @@ class ImmunizationsTableViewController: BaseTableViewController {
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         // Get the new view controller using segue.destinationViewController.
         // Pass the selected object to the new view controller.
-        let immunization = (sender as? Patient_Immunization) ?? Patient_Immunization()
+        let immunization = (sender as? Patient_Immunizations) ?? Patient_Immunizations()
         if let destine = segue.destinationViewController as? ImmunizationDetailViewController {
             destine.immunization = immunization
         }

@@ -12,7 +12,7 @@ import RealmSwift
 import ObjectMapper
 import Eureka
 
-class Medication : MDObject , MDMappable {
+class Medications : MDObject , MDMappable {
 	
 	dynamic var drug_name = " "
 	dynamic var fda_status:String?
@@ -48,8 +48,8 @@ class Medication : MDObject , MDMappable {
 		ndc<-map["ndc"]
 		side_effects<-map["side_effects"]
    }
-	class func instance(value:[String:Any?]) -> ModelResult<Medication> {
-		let medication = Medication()
+	class func instance(value:[String:Any?]) -> ModelResult<Medications> {
+		let medication = Medications()
 		//need to fix it, how to set the id of the medication
 		medication.id = getID()
 		guard let name = value["name"] as? String else {
@@ -71,7 +71,7 @@ class Medication : MDObject , MDMappable {
 		medication.side_effects=value["side_effects"] as? String
 		return .Ok(medication)
 	}
-	func copyfrom(let medication:Medication) {
+	func copyfrom(let medication:Medications) {
 		
 		if self.drug_name != medication.drug_name{
 			self.drug_name = medication.drug_name
@@ -141,8 +141,8 @@ class Patient_Medications : MDObject , MDMappable {
 	dynamic var patient_id = " "
 	dynamic var ndc: String?
 	
-    let reminders = List<Medication_Reminder>()
-    let fills = List<Medication_Add_Fill>()
+    let reminders = List<Medication_Reminders>()
+    let fills = List<Medication_Add_Fills>()
 
 	required convenience init?(_ map: Map) {
 		self.init()
@@ -168,9 +168,9 @@ class Patient_Medications : MDObject , MDMappable {
 		notes<-map["notes"]
 		patient_id<-map["patient_id"]
 		ndc<-map["ndc"]
-		var _reminders:[Medication_Reminder]!
+		var _reminders:[Medication_Reminders]!
 		if ( map.mappingType == .ToJSON && id > ID_THRESHOLD ) {
-			_reminders = [Medication_Reminder]()
+			_reminders = [Medication_Reminders]()
 			reminders.forEach({
 				_reminders.append($0)
 			})
@@ -181,9 +181,9 @@ class Patient_Medications : MDObject , MDMappable {
 				reminders.append($0)
 			})
 		}
-		var _fills:[Medication_Add_Fill]!
-		if ( map.mappingType == .ToJSON && id > ID_THRESHOLD ) {
-			_fills = [Medication_Add_Fill]()
+		var _fills:[Medication_Add_Fills]!
+		if ( map.mappingType == .ToJSON ) {
+			_fills = [Medication_Add_Fills]()
 			fills.forEach({
 				_fills.append($0)
 			})
@@ -196,8 +196,8 @@ class Patient_Medications : MDObject , MDMappable {
 		}
 	}
 	
-	class func instance(value:[String:Any?]) -> ModelResult<Patient_Medication> {
-		let patient_medication = Patient_Medication()
+	class func instance(value:[String:Any?]) -> ModelResult<Patient_Medications> {
+		let patient_medication = Patient_Medications()
 		
 		//need to fix it, how to set the id of the medication
 //		patient_medication.id = globalData().getUUID()
@@ -231,7 +231,7 @@ class Patient_Medications : MDObject , MDMappable {
 		patient_medication.ndc=value["fda_status"] as? String
 	    return .Ok(patient_medication)
 	}
-	func copyfrom(let patient_medication:Patient_Medication) {
+	func copyfrom(let patient_medication:Patient_Medications) {
 		if self.name != patient_medication.name{
 			self.name = patient_medication.name
 		}
@@ -301,19 +301,27 @@ class Patient_Medications : MDObject , MDMappable {
 	}
 }
 
-class Medication_Reminder : MDObject , MDMappable {
+class Medication_Reminders : MDObject , MDMappable {
 	
 	dynamic var name = " "
 	dynamic var reminder_time:NSDate?
 	dynamic var recurrence:String?
 	dynamic var send_reminders_to:String?
 	dynamic var send_text_message:String?
-	let patient_medication = LinkingObjects(fromType: Patient_Medication.self, property: "reminders")
+	let patient_medication = LinkingObjects(fromType: Patient_Medications.self, property: "reminders")
     
 	required convenience init?(_ map: Map) {
 		self.init()
 	}
 	func mdmap(map:Map) {
+        if ( map.mappingType == .ToJSON ) {
+            var pid = patient_medication.first?.id
+            pid<-map["patient_medication"]
+        } else {
+            var pid : Int64!
+            pid<-map["patient_medication"]
+//            patient_medication = currentRealm().objectForPrimaryKey(Patient_Medications.self, key: NSNumber(longLong:pid))
+        }
 		name<-map["name"]
 		reminder_time<-map["reminder_time"]
 		recurrence<-map["recurrence"]
@@ -321,8 +329,8 @@ class Medication_Reminder : MDObject , MDMappable {
 		send_text_message<-map["send_text_message"]
 	}
 	
-    class func instance(value:[String:Any?]) -> ModelResult<Medication_Reminder> {
-		let medication_reminder = Medication_Reminder()
+    class func instance(value:[String:Any?]) -> ModelResult<Medication_Reminders> {
+		let medication_reminder = Medication_Reminders()
 		
 		//need to fix it, how to set the id of the medication
 		medication_reminder.id = getID()
@@ -337,7 +345,7 @@ class Medication_Reminder : MDObject , MDMappable {
 		medication_reminder.send_text_message=value["send_text_message"] as? String
 		return .Ok(medication_reminder)
 	}
-	func copyfrom(let medication_reminder:Medication_Reminder) {
+	func copyfrom(let medication_reminder:Medication_Reminders) {
 		
 		if self.name != medication_reminder.name{
 			self.name = medication_reminder.name
@@ -357,7 +365,7 @@ class Medication_Reminder : MDObject , MDMappable {
 	}
 }
 
-class Medication_Add_Fill : MDObject , MDMappable {
+class Medication_Add_Fills : MDObject , MDMappable {
 	
 	dynamic var date_filled = NSDate()
 	dynamic var next_refilled_date:NSDate?
@@ -369,7 +377,7 @@ class Medication_Add_Fill : MDObject , MDMappable {
 	dynamic var lot_number:String?
 	dynamic var source: String?
 	dynamic var notes: String?
-	let patient_medication = LinkingObjects(fromType: Patient_Medication.self, property: "fills")
+	let patient_medication = LinkingObjects(fromType: Patient_Medications.self, property: "fills")
     
 	required convenience init?(_ map: Map) {
 		self.init()
@@ -387,8 +395,8 @@ class Medication_Add_Fill : MDObject , MDMappable {
 		notes<-map["notes"]
 	}
 	
-	class func instance(value:[String:Any?]) -> ModelResult<Medication_Add_Fill> {
-		let medication_add_fill = Medication_Add_Fill()
+	class func instance(value:[String:Any?]) -> ModelResult<Medication_Add_Fills> {
+		let medication_add_fill = Medication_Add_Fills()
 		
 		//need to fix it, how to set the id of the medication
 		medication_add_fill.id = getID()
@@ -406,7 +414,7 @@ class Medication_Add_Fill : MDObject , MDMappable {
 		medication_add_fill.notes=value["notes"] as? String
 		return .Ok(medication_add_fill)
 	}
-	func copyfrom(let medication_add_fill:Medication_Add_Fill) {
+	func copyfrom(let medication_add_fill:Medication_Add_Fills) {
 		
 		if self.date_filled != medication_add_fill.date_filled{
 			self.date_filled = medication_add_fill.date_filled

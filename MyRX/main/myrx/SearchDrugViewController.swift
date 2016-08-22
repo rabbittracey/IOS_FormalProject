@@ -120,7 +120,11 @@ class SearchDrugViewController: UIViewController , UITextFieldDelegate , NSURLCo
             parent.drugName = tipNames![indexPath.row]
             nameTextField.resignFirstResponder()
             self.dismissViewControllerFromParentController()
-        }
+		} else if let parent = self.parentViewController as? MedicationDetailViewController {
+//			parent.patient_medication?.name = tipNames![indexPath.row]
+			parent.updateMedicationName( tipNames![indexPath.row])
+			self.dismissViewControllerFromParentController()
+		}
     }
 
 }

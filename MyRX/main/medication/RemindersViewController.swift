@@ -15,7 +15,7 @@ import Alamofire
 import Foundation
 
 class RemindersViewController: BaseTableViewController {
-	var patient_medication :Patient_Medication!
+	var patient_medication :Patient_Medications!
 	var token : RLMNotificationToken? = nil
 	
 	@IBAction func onAddNew(sender: AnyObject){
@@ -63,7 +63,7 @@ class RemindersViewController: BaseTableViewController {
 
 		if let destine = segue.destinationViewController as? ReminderDetailViewController {
 		 destine.patient_medication = patient_medication
-		 destine.reminder = sender as? Medication_Reminder
+		 destine.reminder = sender as? Medication_Reminders
 		}
 	}
 	

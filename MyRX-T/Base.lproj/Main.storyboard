@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="MyRX_T" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PGe-Te-Fs7">
+                                <rect key="frame" x="277" y="285" width="46" height="30"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="onClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="sgA-uD-YFA"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="7kj-0L-jAp">
+                                <rect key="frame" x="238" y="168" width="124" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="124" id="V6Z-34-Qyl"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ys5-bx-0Uk">
+                                <rect key="frame" x="251" y="227" width="98" height="30"/>
+                                <state key="normal" title="Create Person"/>
+                                <connections>
+                                    <action selector="onCreate:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vRb-8Q-cLc"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gtg-EX-FLH">
+                                <rect key="frame" x="274" y="333" width="52" height="30"/>
+                                <state key="normal" title="Click03"/>
+                                <connections>
+                                    <action selector="onClick03:" destination="BYZ-38-t0r" eventType="touchUpInside" id="GPP-7p-TBa"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LY4-h7-HRn">
+                                <rect key="frame" x="277" y="380" width="46" height="30"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="onClick04:" destination="BYZ-38-t0r" eventType="touchUpInside" id="omK-0l-23z"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="LY4-h7-HRn" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="0Jg-J5-3kf"/>
+                            <constraint firstItem="Ys5-bx-0Uk" firstAttribute="top" secondItem="7kj-0L-jAp" secondAttribute="bottom" constant="29" id="4MD-I2-y0h"/>
+                            <constraint firstItem="LY4-h7-HRn" firstAttribute="top" secondItem="gtg-EX-FLH" secondAttribute="bottom" constant="17" id="FSo-Un-hIL"/>
+                            <constraint firstItem="PGe-Te-Fs7" firstAttribute="top" secondItem="Ys5-bx-0Uk" secondAttribute="bottom" constant="28" id="H0W-A2-FtU"/>
+                            <constraint firstItem="Ys5-bx-0Uk" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Np4-CX-i1E"/>
+                            <constraint firstItem="gtg-EX-FLH" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="TGv-eN-4lA"/>
+                            <constraint firstItem="PGe-Te-Fs7" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="bhQ-hH-e9w"/>
+                            <constraint firstItem="gtg-EX-FLH" firstAttribute="top" secondItem="PGe-Te-Fs7" secondAttribute="bottom" constant="18" id="c1U-0c-Mc5"/>
+                            <constraint firstItem="PGe-Te-Fs7" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="jSy-SX-gyg"/>
+                            <constraint firstItem="7kj-0L-jAp" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="rDM-cZ-ETV"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="text" destination="7kj-0L-jAp" id="GcX-x7-PvO"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="269" y="183"/>
+        </scene>
+    </scenes>
+</document>

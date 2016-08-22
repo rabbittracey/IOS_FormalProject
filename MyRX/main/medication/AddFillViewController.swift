@@ -15,7 +15,7 @@ import Alamofire
 import Foundation
 
 class  AddFillViewController: BaseTableViewController {
-	var patient_medication :Patient_Medication!
+	var patient_medication :Patient_Medications!
 	var token : RLMNotificationToken? = nil
 	@IBAction func onAddNew(sender:AnyObject){
 		self.performSegueWithIdentifier("FillDetailSegue",sender: nil)
@@ -59,7 +59,7 @@ class  AddFillViewController: BaseTableViewController {
 	
 		if let destine = segue.destinationViewController as? FillDetailViewController {
 		 destine.patient_medication = patient_medication
-		 destine.fill = sender as? Medication_Add_Fill
+		 destine.fill = sender as? Medication_Add_Fills
 		}
 	}
 	override func tableView(tableView: UITableView, commitEditingStyle editingStyle: UITableViewCellEditingStyle, forRowAtIndexPath indexPath: NSIndexPath) {

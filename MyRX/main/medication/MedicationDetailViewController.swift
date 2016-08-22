@@ -15,7 +15,7 @@ import Alamofire
 import Foundation
 
 class MedicationDetailViewController: BaseFormViewController{
-	var patient_medication :Patient_Medication?
+	var patient_medication :Patient_Medications?
 	var isEdit : Bool!
 	var isNew :Bool = false
 	override func viewDidLoad() {
@@ -35,10 +35,10 @@ class MedicationDetailViewController: BaseFormViewController{
 			}
 			isNew=true
 			isEdit = true
-			patient_medication = Patient_Medication()
+			patient_medication = Patient_Medications()
 			patient_medication!.id = globalData().getUUID()
 		}
-		
+			patient_medication?.name="adsfadf"
 			form +++ Section()
 			<<< SegmentedRow<String>("seg"){
 				$0.options = ["Required", "Basic"]
@@ -48,17 +48,20 @@ class MedicationDetailViewController: BaseFormViewController{
 				$0.tag = "sport_s"
 				$0.hidden = "$seg != 'Required'" // .Predicate(NSPredicate(format: "$segments != 'Sport'"))
 			}
-			<<< PushRow<String>("name") {
+			<<< LabelRow("name") {
 				$0.title = "Medication Name"
-				$0.selectorTitle = "Medication Name"
-				var options:[String] = []
-				10.forEach({  (index, total) in
-					options.append("\(index)/\(total)")
-				})
-				$0.options = options
+//				$0.selectorTitle = "Medication Name"
+//				var options:[String] = []
+//				10.forEach({  (index, total) in
+//					options.append("\(index)/\(total)")
+//				})
+//				$0.options = options
 				$0.value = self.patient_medication!.name
 				$0.disabled = "$segments = 'Edit'"
-			}
+			}.onCellSelection({ (cell, row) in
+				self.insertViewControllerWithId("SearchDrug", inView: self.view,storyboard: UIStoryboard(name: "Main", bundle: nil))
+
+			})
 				
 			<<< TextFloatLabelRow( "strength_unit") {
 				$0.title =  "Strength Unit"
@@ -208,11 +211,17 @@ class MedicationDetailViewController: BaseFormViewController{
 		     }
 	}
 
+	func updateMedicationName(name:String) {
+		patient_medication!.name = name
+		let nameRow = (form.rowByTag("name") as? LabelRow)
+		nameRow?.value = name
+		nameRow?.updateCell()
+	}
 
 	private func updateMedications() {
 		let values = form.values()
 		
-		switch Patient_Medication.instance(values) {
+		switch Patient_Medications.instance(values) {
 		case .Error(let field,let message):
 			notification_top.showNotification(field, body: message, onTap: { (Void) in
 				

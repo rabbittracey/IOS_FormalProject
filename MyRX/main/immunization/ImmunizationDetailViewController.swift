@@ -20,7 +20,7 @@ let 👦🏼 = "👦🏼", 🍐 = "🍐", 💁🏻 = "💁🏻", 🐗 = "🐗", 
 
 
 class ImmunizationDetailViewController: BaseFormViewController {
-	var immunization:Patient_Immunization!
+	var immunization:Patient_Immunizations!
 	var isEdit : Bool!
 	override func viewDidLoad() {
 		super.viewDidLoad()
@@ -177,7 +177,7 @@ class ImmunizationDetailViewController: BaseFormViewController {
 			}
 			
 			<<< DateRow("reImmunization_due_date") {
-				$0.value = self.immunization.reImmunization_due_date
+				$0.value = self.immunization.reimmunization_due_date
 				$0.title = "Reimmunization Due Date"
 				$0.disabled = "$segments = 'Edit'"
 				
@@ -297,7 +297,7 @@ class ImmunizationDetailViewController: BaseFormViewController {
 	private func updateImmunizations() {
 		let values = form.values()
 		
-		switch Patient_Immunization.instance(values) {
+		switch Patient_Immunizations.instance(values) {
 		case .Error(let field,let message):
 			notification_top.showNotification(field, body: message, onTap: { (Void) in
 				

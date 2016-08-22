@@ -186,11 +186,12 @@ extension UIColor {
 }
 
 extension UIViewController {
-    func insertViewControllerWithId(sd_id:String , inView parentView:UIView) ->UIViewController? {
-        return self.insertViewControllerWithId(sd_id, inView: parentView, atFrame: CGRect(origin: CGPointZero, size: parentView.frame.size))
+	func insertViewControllerWithId(sd_id:String , inView parentView:UIView,storyboard:UIStoryboard?=nil) ->UIViewController? {
+		return self.insertViewControllerWithId(sd_id, inView: parentView, atFrame: CGRect(origin: CGPointZero, size: parentView.frame.size),storyboard:storyboard)
     }
-    func insertViewControllerWithId(sd_id:String , inView parentView:UIView , atFrame frame: CGRect) ->UIViewController? {
-        if let storyboard = self.storyboard {
+    func insertViewControllerWithId(sd_id:String , inView parentView:UIView , atFrame frame: CGRect,storyboard:UIStoryboard?=nil) ->UIViewController? {
+//		let storyboard = storyboard ?? self.storyboard
+        if let storyboard = storyboard ?? self.storyboard {
             let uvc = storyboard.instantiateViewControllerWithIdentifier(sd_id)
             addChildViewController(uvc)
             uvc.view.frame = CGRect(origin: CGPointMake(parentView.frame.size.width,frame.origin.y), size: frame.size)

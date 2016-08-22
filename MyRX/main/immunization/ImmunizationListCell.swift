@@ -16,7 +16,7 @@ class ImmunizationListCell: UITableViewCell {
     required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
     }
-    func updateUI(immunization:Patient_Immunization) {
+    func updateUI(immunization:Patient_Immunizations) {
 		Name.text = "Name: "+immunization.name
 		let formatter = NSDateFormatter()
 		formatter.dateStyle = NSDateFormatterStyle.ShortStyle

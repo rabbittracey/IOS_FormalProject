@@ -13,7 +13,7 @@ class AddFillListCell: UITableViewCell {
 	
 	
 	@IBOutlet weak var nameLabel: UILabel!
-	func updateUI(medication_add_fill:Medication_Add_Fill) {
+	func updateUI(medication_add_fill:Medication_Add_Fills) {
 		let formatter = NSDateFormatter()
 		formatter.dateStyle = NSDateFormatterStyle.ShortStyle
 		formatter.timeStyle = .ShortStyle		

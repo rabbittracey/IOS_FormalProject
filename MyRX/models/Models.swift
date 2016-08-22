@@ -185,19 +185,23 @@ class MDObject : Object {
 }
 
 protocol MDMappable : Mappable {
+    func exclude() -> [String]?
     func mdmap(map:Map)
 }
 extension MDMappable where Self : MDObject {
     final func mapping(map:Map) {
+        //-----------------------------
         var opened = false
         if let realm = self.realm where !realm.inWriteTransaction {
             realm.beginWrite()
             opened = true
         }
         defer {
-			if opened {
-				map.mappingType == .FromJSON ? try! self.realm?.commitWrite() : self.realm?.cancelWrite()
-			} }
+            if opened {
+                map.mappingType == .FromJSON ? try! self.realm?.commitWrite() : self.realm?.cancelWrite()
+            }
+        }
+        //-----------------------------
         if map.mappingType == .ToJSON {
             var id = self.id
             id <- (map["id"],MDObjectIDTransform())
@@ -206,10 +210,63 @@ extension MDMappable where Self : MDObject {
             id <- (map["id"],MDObjectIDTransform())
         }
         //id <- map["id"] //,Int64Transform())
-		version <- (map["version"],Int64Transform())
+        version <- (map["version"],Int64Transform())
         is_archived <- map["is_archived"]
         pending = false
+        
+        let bases = ["id","version","is_archived","pending"]
+        let dateFormatter = DateFormatterTransform(dateFormatter: DATEFORMAT)
+        //        let properties = self.objectSchema.properties.map { $0.name }
+        //        let context : MDContext? = map.context as? MDContext
+        self.objectSchema.properties.forEach { (prop) in
+            if bases.contains(prop.name) {
+                return
+            }
+            guard let exc = exclude() where exc.contains(prop.name) else {
+                return
+            }
+            
+            if self[prop.name] is NSDate? || self[prop.name] is NSDate {
+                if map.mappingType == .ToJSON {
+                    var date = self[prop.name] as? NSDate
+                    date <- (map[prop.name],dateFormatter)
+                }
+                else {
+                    var date:NSDate?
+                    date <- (map[prop.name],dateFormatter)
+                    if let date = date {
+                        setValue(date, forKey: prop.name)
+                    } else if self[prop.name] is NSDate? {
+                        setValue(nil,forKey: prop.name)
+                    }
+                }
+            } else if let _ = self[prop.name] as? Object {
+                
+            } else if let _ = self[prop.name] as? ListBase {
+                
+            }
+            else {
+                self[prop.name] <- map[prop.name]
+            }
+        }
         self.mdmap(map)
+    }
+    func exclude() -> [String]? {
+        return nil
+    }
+    final func mapping<T:MDObject where T : MDMappable>(map:Map,inout _ left: T?) {
+        if ( map.mappingType == .ToJSON ) {
+            if ( self.id > ID_THRESHOLD ) {
+                var data = left
+                data <- map
+            }
+        } else {
+            var data:Int64?
+            data <- map
+            if let data = data {
+                currentRealm().objectForPrimaryKey(T.self, key: NSNumber(longLong: data))
+            }
+        }
     }
 }
 
